@@ -6,6 +6,8 @@
     "packages/gita-content/scripts/**/*.ts",
     "packages/gita-content/src/**/*.ts",
     "packages/core/src/**/*.ts",
-    "packages/core/test/**/*.ts"
+    "packages/core/test/**/*.ts",
+    "packages/audio/src/**/*.ts",
+    "packages/audio/test/**/*.ts"
   ]
 }

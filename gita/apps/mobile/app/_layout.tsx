@@ -5,6 +5,7 @@ import { StatusBar } from "expo-status-bar";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { useTheme } from "../src/theme/theme";
 import { useUserStore } from "../src/state/user";
+import { deviceTts } from "../src/audio/registry";
 
 export default function RootLayout() {
   const { colors, isDark } = useTheme();
@@ -13,6 +14,7 @@ export default function RootLayout() {
 
   useEffect(() => {
     void init();
+    void deviceTts.loadVoices();
   }, [init]);
 
   // Avoid a flash of empty/unpersisted state before storage loads.

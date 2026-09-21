@@ -12,7 +12,10 @@ import {
   type HighlightColor,
   type SourcedBlock,
 } from "@gita/core";
+import type { LanguageCode } from "@gita/contracts";
+import { SPEED_OPTIONS, type Speed } from "@gita/audio";
 import { getRepository } from "../../../src/data/content";
+import { speech } from "../../../src/audio/registry";
 import { useUserStore } from "../../../src/state/user";
 import { useTheme } from "../../../src/theme/theme";
 import { Screen, Card, Body, Muted, SectionLabel, AiBadge } from "../../../src/components/ui";
@@ -94,6 +97,17 @@ export default function VerseScreen() {
   const t = createTranslator(language.uiLang);
 
   const [draftNote, setDraftNote] = useState("");
+  const [speed, setSpeed] = useState<Speed>(1);
+
+  const readAloud = (text: string | undefined, lang: LanguageCode | string | undefined) => {
+    if (!text) return;
+    // Device TTS handles English/Telugu narration only; never Sanskrit (spec §8).
+    const l: LanguageCode = lang === "te" ? "te" : "en";
+    speech.speak(text, { lang: l, rate: speed });
+  };
+
+  // Stop any speech when leaving the verse.
+  useEffect(() => () => speech.stop(), []);
 
   const verse = repo.getVerse({ chapterNumber, verseNumber });
 
@@ -145,6 +159,37 @@ export default function VerseScreen() {
           <Muted>{t("verse.noTranslationYet")}</Muted>
         </Card>
       )}
+
+      {/* Audio (spec §12) — device-native narration for EN/TE; Sanskrit recitation is a
+          dedicated provider added in Phase 10, so it is not spoken by the English voice here. */}
+      <Card>
+        <SectionLabel>Audio</SectionLabel>
+        <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.sm }}>
+          {vm.translation && (
+            <Chip label="▶ Read translation" active={false} onPress={() => readAloud(vm.translation!.text, vm.translation!.lang)} />
+          )}
+          {vm.simpleMeaning && (
+            <Chip label="▶ Read meaning" active={false} onPress={() => readAloud(vm.simpleMeaning!.text, vm.simpleMeaning!.lang)} />
+          )}
+          <Chip label="■ Stop" active={false} onPress={() => speech.stop()} />
+        </View>
+
+        <View style={{ marginTop: spacing.md }}>
+          <Muted>Speed</Muted>
+          <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.sm, marginTop: spacing.sm }}>
+            {SPEED_OPTIONS.map((sp) => (
+              <Chip key={sp} label={`${sp}x`} active={speed === sp} onPress={() => setSpeed(sp)} />
+            ))}
+          </View>
+        </View>
+
+        <View style={{ marginTop: spacing.md }}>
+          <Muted>
+            Sanskrit recitation uses a dedicated voice (Phase 10) — it is not read by the English
+            device voice, to avoid mispronunciation.
+          </Muted>
+        </View>
+      </Card>
 
       {/* AI-derived sections — populated at runtime in Phase 6; shown as pending until then. */}
       {vm.simpleMeaning ? (

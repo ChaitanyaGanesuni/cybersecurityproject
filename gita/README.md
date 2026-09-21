@@ -15,7 +15,9 @@ gita/
 ├─ packages/
 │  ├─ contracts/     @gita/contracts — zod content model (single source of truth)
 │  ├─ gita-content/  @gita/content   — verified public-domain source ingestion + validation
-│  └─ core/          @gita/core      — framework-agnostic theme, repository, view-models, i18n
+│  ├─ core/          @gita/core      — framework-agnostic theme, repository, view-models, i18n
+│  └─ audio/         @gita/audio     — TTS provider interface, segmentation, chunking, hash cache,
+│                                      synthesis pipeline, playback/resume reducer, provider router
 ├─ apps/
 │  └─ mobile/        @gita/mobile    — Expo / React Native shell (expo-router)
 └─ (services/ — added in later phases; see ARCHITECTURE.md §16)
@@ -36,7 +38,16 @@ gita/
   a `SearchEngine` interface (SQLite FTS5 is the documented scale path; semantic search is Phase 7);
   a `StatePersistence` port with an AsyncStorage adapter so bookmarks/notes/progress survive
   restart. 54 core assertions pass; packages + app typecheck clean.
-- Phases 5–10: not started.
+- **Phase 5 — Audio system:** **in progress (this commit).** `@gita/audio`: `AudioProvider`
+  interface + capability model (data-producing vs. direct-speak), language-aware sentence
+  segmentation (incl. Devanagari danda), sentence-boundary chunking, deterministic `audioHash`
+  cache key, a synthesis pipeline that generates each chunk once and reuses thereafter, a pure
+  play/pause/seek/skip/speed **playback reducer with resume snapshots**, Sanskrit recitation
+  controls (repeat / 3× / slow), and a capability+cost provider router. 47 audio assertions pass.
+  App: device-native TTS adapter (expo-speech) implementing the port, provider registry, and
+  Read/Stop/speed controls in the Verse Reader (Sanskrit deliberately not spoken by the English
+  voice). Self-hosted Kokoro/Indic-TTS/Sanskrit providers register in Phase 10 with no UI change.
+- Phases 6–10: not started.
 
 ### A note on the search decision
 
