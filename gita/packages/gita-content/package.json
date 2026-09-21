@@ -1,0 +1,17 @@
+{
+  "name": "@gita/content",
+  "version": "0.0.0",
+  "description": "Bhagavad Gita content: verified public-domain source ingestion + validation.",
+  "type": "module",
+  "scripts": {
+    "ingest": "tsx scripts/ingest.ts",
+    "validate": "tsx scripts/validate.ts"
+  },
+  "dependencies": {
+    "@gita/contracts": "*",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

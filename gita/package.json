@@ -1,0 +1,22 @@
+{
+  "name": "gita-learning-companion",
+  "private": true,
+  "version": "0.0.0",
+  "description": "AI-powered Bhagavad Gita learning companion — monorepo root",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "ingest": "npm run ingest -w @gita/content",
+    "validate": "npm run validate -w @gita/content",
+    "test": "npm run validate"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

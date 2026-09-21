@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": { "noEmit": true, "types": ["node"] },
+  "include": [
+    "packages/contracts/src/**/*.ts",
+    "packages/gita-content/scripts/**/*.ts"
+  ]
+}

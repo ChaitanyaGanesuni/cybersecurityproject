@@ -1,0 +1,1657 @@
+{
+  "chapter": {
+    "chapterNumber": 3,
+    "nameTransliterated": "Karm Yog",
+    "nameSanskrit": {
+      "text": "कर्मयोग",
+      "lang": "sa",
+      "contentType": "sanskrit",
+      "sourceId": "sanskrit-classical"
+    },
+    "nameTranslation": "Karma Yoga",
+    "summary": {
+      "text": "The third chapter of the Bhagavad Gita is \"Karma Yoga\" or the \"Path of Selfless Service\". Here Lord Krishna emphasizes the importance of karma in life. He reveals that it is important for every human being to engage in some sort of activity in this material world. Further, he describes the kinds of actions that lead to bondage and the kinds that lead to liberation. Those persons who continue to perform their respective duties externally for the pleasure of the Supreme, without attachment to its rewards get liberation at the end.",
+      "lang": "en",
+      "contentType": "explanation",
+      "sourceId": "gita-gita-editorial"
+    },
+    "theme": null,
+    "versesCount": 43
+  },
+  "verses": [
+    {
+      "chapterNumber": 3,
+      "verseNumber": 1,
+      "sanskrit": {
+        "text": "अर्जुन उवाच\n\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन।\n\nतत्किं कर्मणि घोरे मां नियोजयसि केशव।।3.1।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "arjuna uvācha\njyāyasī chet karmaṇas te matā buddhir janārdana\ntat kiṁ karmaṇi ghore māṁ niyojayasi keśhava",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "arjunaḥ uvācha—Arjun said; jyāyasī—superior; chet—if; karmaṇaḥ—than fruitive action; te—by you; matā—is considered; buddhiḥ—intellect; janārdana—he who looks after the public, Krishna; tat—then; kim—why; karmaṇi—action; ghore—terrible; mām—me; niyojayasi—do you engage; keśhava—Krishna, the killer of the demon named Keshi;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Arjuna questioned: My Lord! If wisdom is superior to action, why do you advise me to engage in this terrible fight?",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 2,
+      "sanskrit": {
+        "text": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे।\n\nतदेकं वद निश्िचत्य येन श्रेयोऽहमाप्नुयाम्।।3.2।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "vyāmiśhreṇeva vākyena buddhiṁ mohayasīva me\ntad ekaṁ vada niśhchitya yena śhreyo ’ham āpnuyām",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "vyāmiśhreṇa iva—by your apparently ambiguous; vākyena—words; buddhim—intellect; mohayasi—I am getting bewildered; iva—as it were; me—my; tat—therefore; ekam—one; vada—please tell; niśhchitya—decisively; yena—by which; śhreyaḥ—the highest good; aham—I; āpnuyām—may attain",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Your language confuses me and confounds my reason. Therefore, please tell me the only way by which I can, without doubt, secure my spiritual welfare.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 3,
+      "sanskrit": {
+        "text": "श्री भगवानुवाच\n\nलोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ।\n\nज्ञानयोगेन सांख्यानां कर्मयोगेन योगिनाम्।।3.3।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhrī bhagavān uvācha\nloke’smin dvi-vidhā niṣhṭhā purā proktā mayānagha\njñāna-yogena sāṅkhyānāṁ karma-yogena yoginām",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhrī-bhagavān uvācha—the Blessed Lord said; loke—in the world; asmin—this; dvi-vidhā—two kinds of; niṣhṭhā—faith; purā—previously; proktā—explained; mayā—by me (Shree Krishna); anagha—sinless; jñāna-yogena—through the path of knowledge; sānkhyānām—for those inclined toward contemplation; karma-yogena—through the path of action; yoginām—of the yogis",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna replied: In this world, as I have said, there is a twofold path, O sinless one! There is the path of wisdom for those who meditate, and the path of action for those who work.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 4,
+      "sanskrit": {
+        "text": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते।\n\nन च संन्यसनादेव सिद्धिं समधिगच्छति।।3.4।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "na karmaṇām anārambhān naiṣhkarmyaṁ puruṣho ’śhnute\nna cha sannyasanād eva siddhiṁ samadhigachchhati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—not; karmaṇām—of actions; anārambhāt—by abstaining from; naiṣhkarmyam—freedom from karmic reactions; puruṣhaḥ—a person; aśhnute—attains; na—not; cha—and; sannyasanāt—by renunciation; eva—only; siddhim—perfection; samadhigachchhati—attains",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "No one can attain freedom from action by abstaining from action, nor can they reach perfection by simply not acting.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 5,
+      "sanskrit": {
+        "text": "न हि कश्िचत्क्षणमपि जातु तिष्ठत्यकर्मकृत्।\n\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः।।3.5।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "na hi kaśhchit kṣhaṇam api jātu tiṣhṭhatyakarma-kṛit\nkāryate hyavaśhaḥ karma sarvaḥ prakṛiti-jair guṇaiḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—not; hi—certainly; kaśhchit—anyone; kṣhaṇam—a moment; api—even; jātu—ever; tiṣhṭhati—can remain; akarma-kṛit—without action; kāryate—are performed; hi—certainly; avaśhaḥ—helpless; karma—work; sarvaḥ—all; prakṛiti-jaiḥ—born of material nature; guṇaiḥ—by the qualities",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "He cannot remain inactive even for a moment, for the qualities of Nature will compel him to act, whether he wills it or not.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 6,
+      "sanskrit": {
+        "text": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन्।\n\nइन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते।।3.6।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "karmendriyāṇi sanyamya ya āste manasā smaran\nindriyārthān vimūḍhātmā mithyāchāraḥ sa uchyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "karma-indriyāṇi—the organs of action; sanyamya—restrain; yaḥ—who; āste—remain; manasā—in the mind; smaran—to remember; indriya-arthān—sense objects; vimūḍha-ātmā—the deluded; mithyā-āchāraḥ—hypocrite; saḥ—they; uchyate—are called",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "He who remains motionless, refusing to act, yet brooding over sensuous objects, is that deluded soul simply a hypocrite.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 7,
+      "sanskrit": {
+        "text": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन।\n\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते।।3.7।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yas tvindriyāṇi manasā niyamyārabhate ’rjuna\nkarmendriyaiḥ karma-yogam asaktaḥ sa viśhiṣhyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yaḥ—who; tu—but; indriyāṇi—the senses; manasā—by the mind; niyamya—control; ārabhate—begins; arjuna—Arjun; karma-indriyaiḥ—by the working senses; karma-yogam—karm yog; asaktaḥ—without attachment; saḥ—they; viśhiṣhyate—are superior",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But, O Arjuna! All honor to him whose mind controls his senses, for he is thereby beginning to practice Karma-Yoga, the Path of Right Action, keeping himself always unattached.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 8,
+      "sanskrit": {
+        "text": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः।\n\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः।।3.8।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "niyataṁ kuru karma tvaṁ karma jyāyo hyakarmaṇaḥ\nśharīra-yātrāpi cha te na prasiddhyed akarmaṇaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "niyatam—constantly; kuru—perform; karma—Vedic duties; tvam—you; karma—action; jyāyaḥ—superior; hi—certainly; akarmaṇaḥ—than inaction; śharīra—bodily; yātrā—maintenance; api—even; cha—and; te—your; na prasiddhyet—would not be possible; akarmaṇaḥ—inaction",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Do your duty as prescribed, for action for duty's sake is superior to inaction. Even the maintenance of the body would be impossible if one remained inactive.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 9,
+      "sanskrit": {
+        "text": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः।\n\nतदर्थं कर्म कौन्तेय मुक्तसंगः समाचर।।3.9।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yajñārthāt karmaṇo ’nyatra loko ’yaṁ karma-bandhanaḥ\ntad-arthaṁ karma kaunteya mukta-saṅgaḥ samāchara",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yajña-arthāt—for the sake of sacrifice; karmaṇaḥ—than action; anyatra—else; lokaḥ—material world; ayam—this; karma-bandhanaḥ—bondage through one’s work; tat—that; artham—for the sake of; karma—action; kaunteya—Arjun, the son of Kunti; mukta-saṅgaḥ—free from attachment; samāchara—perform properly",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "In this world, people are fettered by their actions, unless they are performed as a sacrifice. Therefore, O Arjuna, let your actions be done without attachment, as a sacrifice only.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 10,
+      "sanskrit": {
+        "text": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः।\n\nअनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक्।।3.10।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "saha-yajñāḥ prajāḥ sṛiṣhṭvā purovācha prajāpatiḥ\nanena prasaviṣhyadhvam eṣha vo ’stviṣhṭa-kāma-dhuk",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "saha—along with; yajñāḥ—sacrifices; prajāḥ—humankind; sṛiṣhṭvā—created; purā—in beginning; uvācha—said; prajā-patiḥ—Brahma; anena—by this; prasaviṣhyadhvam—increase prosperity; eṣhaḥ—these; vaḥ—your; astu—shall be; iṣhṭa-kāma-dhuk—bestower of all wishes",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "In the beginning, when God created all beings through the sacrifice of Himself, He said to them: \"You can procreate through sacrifice, and it shall satisfy all your desires.\"",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 11,
+      "sanskrit": {
+        "text": "देवान्भावयतानेन ते देवा भावयन्तु वः।\n\nपरस्परं भावयन्तः श्रेयः परमवाप्स्यथ।।3.11।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "devān bhāvayatānena te devā bhāvayantu vaḥ\nparasparaṁ bhāvayantaḥ śhreyaḥ param avāpsyatha",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "devān—celestial gods; bhāvayatā—will be pleased; anena—by these (sacrifices); te—those; devāḥ—celestial gods; bhāvayantu—will be pleased; vaḥ—you; parasparam—one another; bhāvayantaḥ—pleasing one another; śhreyaḥ—prosperity; param—the supreme; avāpsyatha—shall achieve",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Worship the powers of Nature, and let them nourish you in return; thus, supporting each other, you shall attain your highest welfare.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 12,
+      "sanskrit": {
+        "text": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः।\n\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः।।3.12।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "iṣhṭān bhogān hi vo devā dāsyante yajña-bhāvitāḥ\ntair dattān apradāyaibhyo yo bhuṅkte stena eva saḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "iṣhṭān—desired; bhogān—necessities of life; hi—certainly; vaḥ—unto you; devāḥ—the celestial gods; dāsyante—will grant; yajña-bhāvitāḥ—satisfied by sacrifice; taiḥ—by them; dattān—things granted; apradāya—without offering; ebhyaḥ—to them; yaḥ—who; bhuṅkte—enjoys; stenaḥ—thieves; eva—verily; saḥ—they",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "For, fed by sacrifice, nature will give you all the enjoyment you desire. But he who enjoys what she gives without returning is, indeed, a thief.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 13,
+      "sanskrit": {
+        "text": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः।\n\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात्।।3.13।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yajña-śhiṣhṭāśhinaḥ santo muchyante sarva-kilbiṣhaiḥ\nbhuñjate te tvaghaṁ pāpā ye pachantyātma-kāraṇāt",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yajña-śhiṣhṭa—of remnants of food offered in sacrifice; aśhinaḥ—eaters; santaḥ—saintly persons; muchyante—are released; sarva—all kinds of; kilbiṣhaiḥ—from sins; bhuñjate—enjoy; te—they; tu—but; agham—sins; pāpāḥ—sinners; ye—who; pachanti—cook (food); ātma-kāraṇāt—for their own sake",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The sages who enjoy the food that remains after the sacrifice is made are freed from all sins; whereas, the selfish who spread their feast only for themselves feed on sin alone.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 14,
+      "sanskrit": {
+        "text": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः।\n\nयज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः।।3.14।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "annād bhavanti bhūtāni parjanyād anna-sambhavaḥ\nyajñād bhavati parjanyo yajñaḥ karma-samudbhavaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "annāt—from food; bhavanti—subsist; bhūtāni—living beings; parjanyāt—from rains; anna—of food grains; sambhavaḥ—production; yajñāt—from the performance of sacrifice; bhavati—becomes possible; parjanyaḥ—rain; yajñaḥ—performance of sacrifice; karma—prescribed duties; samudbhavaḥ—born of",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "All creatures are the product of food; food is the product of rain; rain comes from sacrifice, and sacrifice is the noblest form of action.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 15,
+      "sanskrit": {
+        "text": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम्।\n\nतस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्।।3.15।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "karma brahmodbhavaṁ viddhi brahmākṣhara-samudbhavam\ntasmāt sarva-gataṁ brahma nityaṁ yajñe pratiṣhṭhitam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "karma—duties; brahma—in the Vedas; udbhavam—manifested; viddhi—you should know; brahma—The Vedas; akṣhara—from the Imperishable (God); samudbhavam—directly manifested; tasmāt—therefore; sarva-gatam—all-pervading; brahma—The Lord; nityam—eternally; yajñe—in sacrifice; pratiṣhṭhitam—established",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "All actions originate from the Supreme Spirit, which is Imperishable, and in sacrificial actions, the all-pervasive Spirit is consciously present.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 16,
+      "sanskrit": {
+        "text": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः।\n\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति।।3.16।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "evaṁ pravartitaṁ chakraṁ nānuvartayatīha yaḥ\naghāyur indriyārāmo moghaṁ pārtha sa jīvati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "evam—thus; pravartitam—set into motion; chakram—cycle; na—not; anuvartayati—follow; iha—in this life; yaḥ—who; agha-āyuḥ—sinful living; indriya-ārāmaḥ—for the delight of their senses; mogham—vainly; pārtha—Arjun, the son of Pritha; saḥ—they; jīvati—live",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Thus, he who does not help the revolving wheel of sacrifice, but instead leads a sinful life, rejoicing in the gratification of his senses, O Arjuna, is breathing in vain.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 17,
+      "sanskrit": {
+        "text": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः।\n\nआत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते।।3.17।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yas tvātma-ratir eva syād ātma-tṛiptaśh cha mānavaḥ\nātmanyeva cha santuṣhṭas tasya kāryaṁ na vidyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yaḥ—who; tu—but; ātma-ratiḥ—rejoice in the self; eva—certainly; syāt—is; ātma-tṛiptaḥ—self-satisfied; cha—and; mānavaḥ—human being; ātmani—in the self; eva—certainly; cha—and; santuṣhṭaḥ—satisfied; tasya—his; kāryam—duty; na—not; vidyate—exist",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "On the other hand, the soul who meditates on the Self is content to serve the Self and rests satisfied in the Self; there is nothing more for them to accomplish.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 18,
+      "sanskrit": {
+        "text": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन।\n\nन चास्य सर्वभूतेषु कश्िचदर्थव्यपाश्रयः।।3.18।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "naiva tasya kṛitenārtho nākṛiteneha kaśhchana\nna chāsya sarva-bhūteṣhu kaśhchid artha-vyapāśhrayaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—not; eva—indeed; tasya—his; kṛitena—by discharge of duty; arthaḥ—gain; na—not; akṛitena—without discharge of duty; iha—here; kaśhchana—whatsoever; na—never; cha—and; asya—of that person; sarva-bhūteṣhu—among all living beings; kaśhchit—any; artha—necessity; vyapāśhrayaḥ—to depend upon",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "He has nothing to gain from the performance or non-performance of action; his welfare does not depend on any contribution that an earthly creature can make.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 19,
+      "sanskrit": {
+        "text": "तस्मादसक्तः सततं कार्यं कर्म समाचर।\n\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः।।3.19।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tasmād asaktaḥ satataṁ kāryaṁ karma samāchara\nasakto hyācharan karma param āpnoti pūruṣhaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tasmāt—therefore; asaktaḥ—without attachment; satatam—constantly; kāryam—duty; karma—action; samāchara—perform; asaktaḥ—unattached; hi—certainly; ācharan—performing; karma—work; param—the Supreme; āpnoti—attains; pūruṣhaḥ—a person",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Therefore, do your duty perfectly, without worrying about the results, for he who does his duty without attachment attains the Supreme.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 20,
+      "sanskrit": {
+        "text": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः।\n\nलोकसंग्रहमेवापि संपश्यन्कर्तुमर्हसि।।3.20।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "karmaṇaiva hi sansiddhim āsthitā janakādayaḥ\nloka-saṅgraham evāpi sampaśhyan kartum arhasi",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "karmaṇā—by the performance of prescribed duties; eva—only; hi—certainly; sansiddhim—perfection; āsthitāḥ—attained; janaka-ādayaḥ—King Janak and other kings; loka-saṅgraham—for the welfare of the masses; eva api—only; sampaśhyan—considering; kartum—to perform; arhasi—you should;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "King Janaka and others attained perfection through action alone. Even for the sake of enlightening the world, it is your duty to act.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 21,
+      "sanskrit": {
+        "text": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः।\n\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते।।3.21।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yad yad ācharati śhreṣhṭhas tat tad evetaro janaḥ\nsa yat pramāṇaṁ kurute lokas tad anuvartate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yat yat—whatever; ācharati—does; śhreṣhṭhaḥ—the best; tat tat—that (alone); eva—certainly; itaraḥ—common; janaḥ—people; saḥ—they; yat—whichever; pramāṇam—standard; kurute—perform; lokaḥ—world; tat—that; anuvartate—pursues",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "For whatever a great man does, others imitate; people conform to the standard he has set.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 22,
+      "sanskrit": {
+        "text": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन।\n\nनानवाप्तमवाप्तव्यं वर्त एव च कर्मणि।।3.22।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "na me pārthāsti kartavyaṁ triṣhu lokeṣhu kiñchana\nnānavāptam avāptavyaṁ varta eva cha karmaṇi",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—not; me—mine; pārtha—Arjun; asti—is; kartavyam—duty; triṣhu—in the three; lokeṣhu—worlds; kiñchana—any; na—not; anavāptam—to be attained; avāptavyam—to be gained; varte—I am engaged; eva—yet; cha—also; karmaṇi—in prescribed duties",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "There is nothing in this universe, O Arjuna, that I am compelled to do, nor anything for me to attain; yet I persistently remain active.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 23,
+      "sanskrit": {
+        "text": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः।\n\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः।।3.23।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yadi hyahaṁ na varteyaṁ jātu karmaṇyatandritaḥ\nmama vartmānuvartante manuṣhyāḥ pārtha sarvaśhaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yadi—if; hi—certainly; aham—I; na—not; varteyam—thus engage; jātu—ever; karmaṇi—in the performance of prescribed duties; atandritaḥ—carefully; mama—my; vartma—path; anuvartante—follow; manuṣhyāḥ—all men; pārtha—Arjun, the son of Pritha; sarvaśhaḥ—in all respects",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Were I not to act without ceasing, O prince, people would be inclined to do the same.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 24,
+      "sanskrit": {
+        "text": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम्।\n\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः।।3.24।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "utsīdeyur ime lokā na kuryāṁ karma ched aham\nsankarasya cha kartā syām upahanyām imāḥ prajāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "utsīdeyuḥ—would perish; ime—all these; lokāḥ—worlds; na—not; kuryām—I perform; karma—prescribed duties; chet—if; aham—I; sankarasya—of uncultured population; cha—and; kartā—responsible; syām—would be; upahanyām—would destroy; imāḥ—all these; prajāḥ—living entities",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "And if I were to refrain from action, the human race would be ruined; I would lead the world to chaos, and destruction would follow.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 25,
+      "sanskrit": {
+        "text": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत।\n\nकुर्याद्विद्वांस्तथासक्तश्िचकीर्षुर्लोकसंग्रहम्।।3.25।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "saktāḥ karmaṇyavidvānso yathā kurvanti bhārata\nkuryād vidvāns tathāsaktaśh chikīrṣhur loka-saṅgraham",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "saktāḥ—attached; karmaṇi—duties; avidvānsaḥ—the ignorant; yathā—as much as; kurvanti—act; bhārata—scion of Bharat (Arjun); kuryāt—should do; vidvān—the wise; tathā—thus; asaktaḥ—unattached; chikīrṣhuḥ—wishing; loka-saṅgraham—welfare of the world",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "As the ignorant act, out of their fondness for action, so should the wise act without attachment, fixing their eyes, O Arjuna, only on the welfare of the world.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 26,
+      "sanskrit": {
+        "text": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम्।\n\nजोषयेत्सर्वकर्माणि विद्वान् युक्तः समाचरन्।।3.26।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "na buddhi-bhedaṁ janayed ajñānāṁ karma-saṅginām\njoṣhayet sarva-karmāṇi vidvān yuktaḥ samācharan",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—not; buddhi-bhedam—discord in the intellects; janayet—should create; ajñānām—of the ignorant; karma-saṅginām—who are attached to fruitive actions; joṣhayet—should inspire (them) to perform; sarva—all; karmāṇi—prescribed; vidvān—the wise; yuktaḥ—enlightened; samācharan—performing properly",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But a wise man should not disturb the minds of the ignorant, who are attached to action; let him perform his own actions in the right spirit, with concentration on Me, thus inspiring all others to do the same.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 27,
+      "sanskrit": {
+        "text": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः।\n\nअहङ्कारविमूढात्मा कर्ताऽहमिति मन्यते।।3.27।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "prakṛiteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśhaḥ\nahankāra-vimūḍhātmā kartāham iti manyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "prakṛiteḥ—of material nature; kriyamāṇāni—carried out; guṇaiḥ—by the three modes; karmāṇi—activities; sarvaśhaḥ—all kinds of; ahankāra-vimūḍha-ātmā—those who are bewildered by the ego and misidentify themselves with the body; kartā—the doer; aham—I; iti—thus; manyate—thinks",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Action is the product of the qualities inherent in nature. It is only the ignorant man who, misled by personal egotism, says, \"I am the doer.\"",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 28,
+      "sanskrit": {
+        "text": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः।\n\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्जते।।3.28।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tattva-vit tu mahā-bāho guṇa-karma-vibhāgayoḥ\nguṇā guṇeṣhu vartanta iti matvā na sajjate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tattva-vit—the knower of the Truth; tu—but; mahā-bāho—mighty-armed one; guṇa-karma—from guṇas and karma; vibhāgayoḥ—distinguish; guṇāḥ—modes of material nature in the shape of the senses, mind, etc; guṇeṣhu—modes of material nature in the shape of objects of perception; vartante—are engaged; iti—thus; matvā—knowing; na—never; sajjate—becomes attached",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But he, O Mighty One, who correctly understands the relationship between the Qualities and action, is not attached to the act, for he perceives that it is merely the action and reaction of the Qualities among themselves.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 29,
+      "sanskrit": {
+        "text": "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु।\n\nतानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत्।।3.29।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "prakṛiter guṇa-sammūḍhāḥ sajjante guṇa-karmasu\ntān akṛitsna-vido mandān kṛitsna-vin na vichālayet",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "prakṛiteḥ—of material nature; guṇa—by the modes of material nature; sammūḍhāḥ—deluded; sajjante—become attached; guṇa-karmasu—to results of actions; tān—those; akṛitsna-vidaḥ—persons without knowledge; mandān—the ignorant; kṛitsna-vit—persons with knowledge; na vichālayet—should not unsettle",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Those who do not understand the qualities are interested in the act; however, the wise man who knows the truth should not disturb the mind of those who do not.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 30,
+      "sanskrit": {
+        "text": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा।\n\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः।।3.30।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "mayi sarvāṇi karmāṇi sannyasyādhyātma-chetasā\nnirāśhīr nirmamo bhūtvā yudhyasva vigata-jvaraḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "mayi—unto me; sarvāṇi—all; karmāṇi—works; sannyasya—renouncing completely; adhyātma-chetasā—with the thoughts resting on God; nirāśhīḥ—free from hankering for the results of the actions; nirmamaḥ—without ownership; bhūtvā—so being; yudhyasva—fight; vigata-jvaraḥ—without mental fever",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Therefore, surrender your actions to Me, keep your thoughts focused on the Absolute, free from selfishness and without expecting a reward, with a mind free from excitement, begin to fight.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 31,
+      "sanskrit": {
+        "text": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः।\n\nश्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः।।3.31।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ye me matam idaṁ nityam anutiṣhṭhanti mānavāḥ\nśhraddhāvanto ’nasūyanto muchyante te ’pi karmabhiḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ye—who; me—my; matam—teachings; idam—these; nityam—constantly; anutiṣhṭhanti—abide by; mānavāḥ—human beings; śhraddhā-vantaḥ—with profound faith; anasūyantaḥ—free from cavilling; muchyante—become free; te—those; api—also; karmabhiḥ—from the bondage of karma",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Those who always act in accordance with My precepts, firmly in faith and without caviling, they too are freed from the bondage of action.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 32,
+      "sanskrit": {
+        "text": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम्।\n\nसर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः।।3.32।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ye tvetad abhyasūyanto nānutiṣhṭhanti me matam\nsarva-jñāna-vimūḍhāns tān viddhi naṣhṭān achetasaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ye—those; tu—but; etat—this; abhyasūyantaḥ—cavilling; na—not; anutiṣhṭhanti—follow; me—my; matam—teachings; sarva-jñāna—in all types of knowledge; vimūḍhān—deluded; tān—they are; viddhi—know; naṣhṭān—ruined; achetasaḥ—devoid of discrimination",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But they who ridicule My word and do not observe it, are ignorant, devoid of wisdom, and blind. They seek only their own destruction.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 33,
+      "sanskrit": {
+        "text": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि।\n\nप्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति।।3.33।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sadṛiśhaṁ cheṣhṭate svasyāḥ prakṛiter jñānavān api\nprakṛitiṁ yānti bhūtāni nigrahaḥ kiṁ kariṣhyati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sadṛiśham—accordingly; cheṣhṭate—act; svasyāḥ—by their own; prakṛiteḥ—modes of nature; jñāna-vān—the wise; api—even; prakṛitim—nature; yānti—follow; bhūtāni—all living beings; nigrahaḥ—repression; kim—what; kariṣhyati—will do",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Even the wise man acts in accordance with his nature; indeed, all creatures act according to their natures. What is the use of compulsion then?",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 34,
+      "sanskrit": {
+        "text": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ।\n\nतयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ।।3.34।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "indriyasyendriyasyārthe rāga-dveṣhau vyavasthitau\ntayor na vaśham āgachchhet tau hyasya paripanthinau",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "indriyasya—of the senses; indriyasya arthe—in the sense objects; rāga—attachment; dveṣhau—aversion; vyavasthitau—situated; tayoḥ—of them; na—never; vaśham—be controlled; āgachchhet—should become; tau—those; hi—certainly; asya—for him; paripanthinau—foes",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The love and hate that are aroused by the objects of sense arise from Nature; do not yield to them, as they only obstruct the path.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 35,
+      "sanskrit": {
+        "text": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\n\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः।।3.35।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhreyān swa-dharmo viguṇaḥ para-dharmāt sv-anuṣhṭhitāt\nswa-dharme nidhanaṁ śhreyaḥ para-dharmo bhayāvahaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhreyān—better; swa-dharmaḥ—personal duty; viguṇaḥ—tinged with faults; para-dharmāt—than another’s prescribed duties; su-anuṣhṭhitāt—perfectly done; swa-dharme—in one’s personal duties; nidhanam—death; śhreyaḥ—better; para-dharmaḥ—duties prescribed for others; bhaya-āvahaḥ—fraught with fear",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "It is better to do one's own duty, however lacking in merit, than to do that of another, even though efficiently. It is better to die doing one's own duty, for doing the duty of another is fraught with danger.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 36,
+      "sanskrit": {
+        "text": "अर्जुन उवाच\n\nअथ केन प्रयुक्तोऽयं पापं चरति पूरुषः।\n\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः।।3.36।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "arjuna uvācha\natha kena prayukto ’yaṁ pāpaṁ charati pūruṣhaḥ\nanichchhann api vārṣhṇeya balād iva niyojitaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "arjunaḥ uvācha—Arjun said; atha—then; kena—by what; prayuktaḥ—impelled; ayam—one; pāpam—sins; charati—commit; pūruṣhaḥ—a person; anichchhan—unwillingly; api—even; vārṣhṇeya—he who belongs to the Vrishni clan, Shree Krishna; balāt—by force; iva—as if; niyojitaḥ—engaged",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Arjuna asked, \"My Lord, what is it that drives a person to sin, even against their will and as if by compulsion?\"",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 37,
+      "sanskrit": {
+        "text": "श्री भगवानुवाच\n\nकाम एष क्रोध एष रजोगुणसमुद्भवः।\n\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम्।।3.37।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhrī bhagavān uvācha\nkāma eṣha krodha eṣha rajo-guṇa-samudbhavaḥ\nmahāśhano mahā-pāpmā viddhyenam iha vairiṇam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhri-bhagavān uvācha—the Supreme Lord said; kāmaḥ—desire; eṣhaḥ—this; krodhaḥ—wrath; eṣhaḥ—this; rajaḥ-guṇa—the mode of passion; samudbhavaḥ—born of; mahā-aśhanaḥ—all-devouring; mahā-pāpmā—greatly sinful; viddhi—know; enam—this; iha—in the material world; vairiṇam—the enemy",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna: It is desire, it is aversion, born of passion. Desire consumes and corrupts all things. It is the greatest enemy of man.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 38,
+      "sanskrit": {
+        "text": "धूमेनाव्रियते वह्निर्यथाऽऽदर्शो मलेन च।\n\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम्।।3.38।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "dhūmenāvriyate vahnir yathādarśho malena cha\nyatholbenāvṛito garbhas tathā tenedam āvṛitam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "dhūmena—by smoke; āvriyate—is covered; vahniḥ—fire; yathā—just as; ādarśhaḥ—mirror; malena—by dust; cha—also; yathā—just as; ulbena—by the womb; āvṛitaḥ—is covered; garbhaḥ—embryo; tathā—similarly; tena—by that (desire); idam—this; āvṛitam—is covered",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "As fire is shrouded by smoke, a mirror is covered by dust, and a child is enveloped by the womb, so is the universe enveloped in desire.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 39,
+      "sanskrit": {
+        "text": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा।\n\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च।।3.39।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "āvṛitaṁ jñānam etena jñānino nitya-vairiṇā\nkāma-rūpeṇa kaunteya duṣhpūreṇānalena cha",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "āvṛitam—covered; jñānam—knowledge; etena—by this; jñāninaḥ—of the wise; nitya-vairiṇā—by the perpetual enemy; kāma-rūpeṇa—in the form of desires; kaunteya—Arjun the son of Kunti; duṣhpūreṇa—insatiable; analena—like fire; cha—and",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "It is the wise man's constant enemy; it tarnishes the face of wisdom, being as insatiable as a flame of fire.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 40,
+      "sanskrit": {
+        "text": "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते।\n\nएतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम्।।3.40।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "indriyāṇi mano buddhir asyādhiṣhṭhānam uchyate\netair vimohayatyeṣha jñānam āvṛitya dehinam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "indriyāṇi—the senses; manaḥ—the mind; buddhiḥ—the intellect; asya—of this; adhiṣhṭhānam—dwelling place; uchyate—are said to be; etaiḥ—by these; vimohayati—deludes; eṣhaḥ—this; jñānam—knowledge; āvṛitya—clouds; dehinam—the embodied soul",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "It works through the senses, the mind, and the reason; and with their help, it destroys wisdom and confounds the soul.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 41,
+      "sanskrit": {
+        "text": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ।\n\nपाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम्।।3.41।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tasmāt tvam indriyāṇyādau niyamya bharatarṣhabha\npāpmānaṁ prajahi hyenaṁ jñāna-vijñāna-nāśhanam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tasmāt—therefore; tvam—you; indriyāṇi—senses; ādau—in the very beginning; niyamya—having controlled; bharata-ṛiṣhabha—Arjun, the best of the Bharatas; pāpmānam—the sinful; prajahi—slay; hi—certainly; enam—this; jñāna—knowledge; vijñāna—realization; nāśhanam—the destroyer",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Therefore, O Arjuna, first control your senses and then slay desire, for it is full of sin and is the destroyer of knowledge and wisdom.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 42,
+      "sanskrit": {
+        "text": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः।\n\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः।।3.42।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "indriyāṇi parāṇyāhur indriyebhyaḥ paraṁ manaḥ\nmanasas tu parā buddhir yo buddheḥ paratas tu saḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "indriyāṇi—senses; parāṇi—superior; āhuḥ—are said; indriyebhyaḥ—than the senses; param—superior; manaḥ—the mind; manasaḥ—than the mind; tu—but; parā—superior; buddhiḥ—intellect; yaḥ—who; buddheḥ—than the intellect; parataḥ—more superior; tu—but; saḥ—that (soul)",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "It is said that the senses are powerful; however, beyond the senses is the mind, beyond the mind is the intellect, and greater than the intellect is He.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 3,
+      "verseNumber": 43,
+      "sanskrit": {
+        "text": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना।\n\nजहि शत्रुं महाबाहो कामरूपं दुरासदम्।।3.43।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "evaṁ buddheḥ paraṁ buddhvā sanstabhyātmānam ātmanā\njahi śhatruṁ mahā-bāho kāma-rūpaṁ durāsadam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "evam—thus; buddheḥ—than the intellect; param—superior; buddhvā—knowing; sanstabhya—subdue; ātmānam—the lower self (senses, mind, and intellect); ātmanā—by higher self (soul); jahi—kill; śhatrum—the enemy; mahā-bāho—mighty-armed one; kāma-rūpam—in the form of desire; durāsadam—formidable",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Thus, O Mighty-Armed One, knowing Him to be beyond the intellect, and with His help, subdue your personal ego and kill your enemy, Desire, even though it is extremely difficult.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    }
+  ]
+}

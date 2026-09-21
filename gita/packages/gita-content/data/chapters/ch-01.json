@@ -1,0 +1,1809 @@
+{
+  "chapter": {
+    "chapterNumber": 1,
+    "nameTransliterated": "Arjun Viṣhād Yog",
+    "nameSanskrit": {
+      "text": "अर्जुनविषादयोग",
+      "lang": "sa",
+      "contentType": "sanskrit",
+      "sourceId": "sanskrit-classical"
+    },
+    "nameTranslation": "Arjuna Visada Yoga",
+    "summary": {
+      "text": "The first chapter of the Bhagavad Gita - \"Arjuna Vishada Yoga\" introduces the setup, the setting, the characters and the circumstances that led to the epic battle of Mahabharata, fought between the Pandavas and the Kauravas. It outlines the reasons that led to the revelation of the of Bhagavad Gita.\nAs both armies stand ready for the battle, the mighty warrior Arjuna, on observing the warriors on both sides becomes increasingly sad and depressed due to the fear of losing his relatives and friends and the consequent sins attributed to killing his own relatives. So, he surrenders to Lord Krishna, seeking a solution. Thus, follows the wisdom of the Bhagavad Gita.",
+      "lang": "en",
+      "contentType": "explanation",
+      "sourceId": "gita-gita-editorial"
+    },
+    "theme": null,
+    "versesCount": 47
+  },
+  "verses": [
+    {
+      "chapterNumber": 1,
+      "verseNumber": 1,
+      "sanskrit": {
+        "text": "धृतराष्ट्र उवाच\n\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।\n\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय।।1.1।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "dhṛitarāśhtra uvācha\ndharma-kṣhetre kuru-kṣhetre samavetā yuyutsavaḥ\nmāmakāḥ pāṇḍavāśhchaiva kimakurvata sañjaya",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "dhṛitarāśhtraḥ uvācha—Dhritarashtra said; dharma-kṣhetre—the land of dharma; kuru-kṣhetre—at Kurukshetra; samavetāḥ—having gathered; yuyutsavaḥ—desiring to fight; māmakāḥ—my sons; pāṇḍavāḥ—the sons of Pandu; cha—and; eva—certainly; kim—what; akurvata—did they do; sañjaya—Sanjay",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The King Dhritarashtra asked, \"O Sanjaya! What happened on the sacred battlefield of Kurukshetra when my people and the Pandavas gathered?\"",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 2,
+      "sanskrit": {
+        "text": "सञ्जय उवाच\n\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा।\n\nआचार्यमुपसङ्गम्य राजा वचनमब्रवीत्।।1.2।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sañjaya uvācha\ndṛiṣhṭvā tu pāṇḍavānīkaṁ vyūḍhaṁ duryodhanastadā\nāchāryamupasaṅgamya rājā vachanamabravīt",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sanjayaḥ uvācha—Sanjay said; dṛiṣhṭvā—on observing; tu—but; pāṇḍava-anīkam—the Pandava army; vyūḍham—standing in a military formation; duryodhanaḥ—King Duryodhan; tadā—then; āchāryam—teacher; upasaṅgamya—approached; rājā—the king; vachanam—words; abravīt—spoke",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Sanjaya replied: \"When Prince Duryodhana saw the Pandavas' army paraded, he approached his preceptor Guru Drona and spoke these words:",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 3,
+      "sanskrit": {
+        "text": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम्।\n\nव्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता।।1.3।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "paśhyaitāṁ pāṇḍu-putrāṇām āchārya mahatīṁ chamūm\nvyūḍhāṁ drupada-putreṇa tava śhiṣhyeṇa dhīmatā",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "paśhya—behold; etām—this; pāṇḍu-putrāṇām—of the sons of Pandu; āchārya—respected teacher; mahatīm—mighty; chamūm—army; vyūḍhām—arrayed in a military formation; drupada-putreṇa—son of Drupad, Dhrishtadyumna; tava—by your; śhiṣhyeṇa—disciple; dhī-matā—intelligent",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Revered Father! Behold this mighty host of the Pandavas, paraded by the son of King Drupada, your wise disciple.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 4,
+      "sanskrit": {
+        "text": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि।\n\nयुयुधानो विराटश्च द्रुपदश्च महारथः।।1.4।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "atra śhūrā maheṣhvāsā bhīmārjuna-samā yudhi\nyuyudhāno virāṭaśhcha drupadaśhcha mahā-rathaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "atra—here; śhūrāḥ—powerful warriors; mahā-iṣhu-āsāḥ—great bowmen; bhīma-arjuna-samāḥ—equal to Bheem and Arjun; yudhi—in military prowess; yuyudhānaḥ—Yuyudhan; virāṭaḥ—Virat; cha—and; drupadaḥ—Drupad; cha—also; mahā-rathaḥ—warriors who could single handedly match the strength of ten thousand ordinary warriors;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "In it are heroes and great bowmen; the equals in battle of Arjuna, Bheema, Yuyudhana, Virata, and Drupada—all great soldiers.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 5,
+      "sanskrit": {
+        "text": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान्।\n\nपुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः।।1.5।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "dhṛiṣhṭaketuśhchekitānaḥ kāśhirājaśhcha vīryavān\npurujit kuntibhojaśhcha śhaibyaśhcha nara-puṅgavaḥ\nyudhāmanyuśhcha vikrānta uttamaujāśhcha vīryavān",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "dhṛiṣhṭaketuḥ—Dhrishtaketu; chekitānaḥ—Chekitan; kāśhirājaḥ—Kashiraj; cha—and; vīrya-vān—heroic; purujit—Purujit; kuntibhojaḥ—Kuntibhoj; cha—and; śhaibyaḥ—Shaibya; cha—and; nara-puṅgavaḥ—best of men; yudhāmanyuḥ—Yudhamanyu; cha—and; vikrāntaḥ—courageous; uttamaujāḥ—Uttamauja; cha—and; vīrya-vān—gallant;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Dhrishtaketu, Chekitan, the valiant king of Benares, Purujit, Kuntibhoja, and Shaibya—a master of many.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 6,
+      "sanskrit": {
+        "text": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान्।\n\nसौभद्रो द्रौपदेयाश्च सर्व एव महारथाः।।1.6।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "saubhadro draupadeyāśhcha sarva eva mahā-rathāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "saubhadraḥ—the son of Subhadra; draupadeyāḥ—the sons of Draupadi; cha—and; sarve—all; eva—indeed; mahā-rathāḥ—warriors who could single handedly match the strength of ten thousand ordinary warriors",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Yudhamanyu, Uttamouja, Soubhadra, and the sons of Droupadi—all famous men.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 7,
+      "sanskrit": {
+        "text": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम।\n\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते।।1.7।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "asmākaṁ tu viśhiṣhṭā ye tānnibodha dwijottama\nnāyakā mama sainyasya sanjñārthaṁ tānbravīmi te",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "asmākam—ours; tu—but; viśhiṣhṭāḥ—special; ye—who; tān—them; nibodha—be informed; dwija-uttama—best of Brahmnis; nāyakāḥ—principal generals; mama—our; sainyasya—of army; sanjñā-artham—for information; tān—them; bravīmi—I recount; te—unto you",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "No changes needed.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 8,
+      "sanskrit": {
+        "text": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः।\n\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च।।1.8।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "bhavānbhīṣhmaśhcha karṇaśhcha kṛipaśhcha samitiñjayaḥ\naśhvatthāmā vikarṇaśhcha saumadattis tathaiva cha",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "bhavān—yourself; bhīṣhmaḥ—Bheeshma; cha—and; karṇaḥ—Karna; cha—and; kṛipaḥ—Kripa; cha—and; samitim-jayaḥ—victorious in battle; aśhvatthāmā—Ashvatthama; vikarṇaḥ—Vikarna; cha—and; saumadattiḥ—Bhurishrava; tathā—thus; eva—even; cha—also",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "You come first; then Bheeshma, Karna, Kripa, great warriors; Ashwaththama, Vikarna, and the son of Somadhatta;",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 9,
+      "sanskrit": {
+        "text": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः।\n\nनानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः।।1.9।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "anye cha bahavaḥ śhūrā madarthe tyaktajīvitāḥ\nnānā-śhastra-praharaṇāḥ sarve yuddha-viśhāradāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "anye—others; cha—also; bahavaḥ—many; śhūrāḥ—heroic warriors; mat-arthe—for my sake; tyakta-jīvitāḥ—prepared to lay down their lives; nānā-śhastra-praharaṇāḥ—equipped with various kinds of weapons; sarve—all; yuddha-viśhāradāḥ—skilled in the art of warfare",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "And many others, all ready to die for My sake; all armed, all skilled in warfare.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 10,
+      "sanskrit": {
+        "text": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम्।\n\nपर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम्।।1.10।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "aparyāptaṁ tadasmākaṁ balaṁ bhīṣhmābhirakṣhitam\nparyāptaṁ tvidameteṣhāṁ balaṁ bhīmābhirakṣhitam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aparyāptam—unlimited; tat—that; asmākam—ours; balam—strength; bhīṣhma—by Grandsire Bheeshma; abhirakṣhitam—safely marshalled; paryāptam—limited; tu—but; idam—this; eteṣhām—their; balam—strength; bhīma—Bheem; abhirakṣhitam—carefully marshalled",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Yet our army seems weaker, though commanded by Bhishma; their army seems stronger, though commanded by Bhima.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 11,
+      "sanskrit": {
+        "text": "अयनेषु च सर्वेषु यथाभागमवस्थिताः।\n\nभीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि।।1.11।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ayaneṣhu cha sarveṣhu yathā-bhāgamavasthitāḥ\nbhīṣhmamevābhirakṣhantu bhavantaḥ sarva eva hi",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ayaneṣhu—at the strategic points; cha—also; sarveṣhu—all; yathā-bhāgam—in respective position; avasthitāḥ—situated; bhīṣhmam—to Grandsire Bheeshma; eva—only; abhirakṣhantu—defend; bhavantaḥ—you; sarve—all; eva hi—even as",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Therefore, let the rank and file stand firm in their posts according to battalions, and all you generals around Bheeshma.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 12,
+      "sanskrit": {
+        "text": "तस्य संजनयन्हर्षं कुरुवृद्धः पितामहः।\n\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान्।।1.12।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tasya sañjanayan harṣhaṁ kuru-vṛiddhaḥ pitāmahaḥ\nsiṁha-nādaṁ vinadyochchaiḥ śhaṅkhaṁ dadhmau pratāpavān",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tasya—his; sañjanayan—causing; harṣham—joy; kuru-vṛiddhaḥ—the grand old man of the Kuru dynasty (Bheeshma); pitāmahaḥ—grandfather; sinha-nādam—lion’s roar; vinadya—sounding; uchchaiḥ—very loudly; śhaṅkham—conch shell; dadhmau—blew; pratāpa-vān—the glorious",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Then, to enliven his spirits, the brave Grandfather Bheeshma, the eldest of the Kuru clan, blew his conch, its sound resembling that of a lion's roar.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 13,
+      "sanskrit": {
+        "text": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः।\n\nसहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत्।।1.13।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tataḥ śhaṅkhāśhcha bheryaśhcha paṇavānaka-gomukhāḥ\nsahasaivābhyahanyanta sa śhabdastumulo ’bhavat",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tataḥ—thereafter; śhaṅkhāḥ—conches; cha—and; bheryaḥ—bugles; cha—and; paṇava-ānaka—drums and kettledrums; go-mukhāḥ—trumpets; sahasā—suddenly; eva—indeed; abhyahanyanta—blared forth; saḥ—that; śhabdaḥ—sound; tumulaḥ—overwhelming; abhavat—was",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "And immediately, all the conches, drums, trumpets, and horns blared forth in a tumultuous uproar.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 14,
+      "sanskrit": {
+        "text": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ।\n\nमाधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः।।1.14।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tataḥ śhvetairhayairyukte mahati syandane sthitau\nmādhavaḥ pāṇḍavaśhchaiva divyau śhaṅkhau pradadhmatuḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tataḥ—then; śhvetaiḥ—by white; hayaiḥ—horses; yukte—yoked; mahati—glorious; syandane—chariot; sthitau—seated; mādhavaḥ—Shree Krishna, the husband of the goddess of fortune, Lakshmi; pāṇḍavaḥ—Arjun; cha—and; eva—also; divyau—Divine; śhaṅkhau—conch shells; pradadhmatuḥ—blew",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Then, seated in their spacious war chariot, yoked with white horses, Lord Shri Krishna and Arjuna sounded their divine conch shells.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 15,
+      "sanskrit": {
+        "text": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनंजयः।\n\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः।।1.15।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "pāñchajanyaṁ hṛiṣhīkeśho devadattaṁ dhanañjayaḥ\npauṇḍraṁ dadhmau mahā-śhaṅkhaṁ bhīma-karmā vṛikodaraḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "pāñchajanyam—the conch shell named Panchajanya; hṛiṣhīka-īśhaḥ—Shree Krishna, the Lord of the mind and senses; devadattam—the conch shell named Devadutta; dhanam-jayaḥ—Arjun, the winner of wealth; pauṇḍram—the conch named Paundra; dadhmau—blew; mahā-śhaṅkham—mighty conch; bhīma-karmā—one who performs herculean tasks; vṛika-udaraḥ—Bheem, the voracious eater",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna blew his Panchajanya, and Arjuna blew his Devadatta; brave Bheema blew his renowned shell, Poundra.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 16,
+      "sanskrit": {
+        "text": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः।\n\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ।।1.16।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "anantavijayaṁ rājā kuntī-putro yudhiṣhṭhiraḥ\nnakulaḥ sahadevaśhcha sughoṣha-maṇipuṣhpakau",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ananta-vijayam—the conch named Anantavijay; rājā—king; kuntī-putraḥ—son of Kunti; yudhiṣhṭhiraḥ—Yudhishthir; nakulaḥ—Nakul; sahadevaḥ—Sahadev; cha—and; sughoṣha-maṇipuṣhpakau—the conche shells named Sughosh and Manipushpak;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The King Dharmaraja, the son of Kunti, blew the Anantavijaya, Nakula, and Sahadeva, the Sughosa and Manipushpaka, respectively.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 17,
+      "sanskrit": {
+        "text": "काश्यश्च परमेष्वासः शिखण्डी च महारथः।\n\nधृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः।।1.17।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "kāśhyaśhcha parameṣhvāsaḥ śhikhaṇḍī cha mahā-rathaḥ\ndhṛiṣhṭadyumno virāṭaśhcha sātyakiśh chāparājitaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "kāśhyaḥ—King of Kashi; cha—and; parama-iṣhu-āsaḥ—the excellent archer; śhikhaṇḍī—Shikhandi; cha—also; mahā-rathaḥ—warriors who could single handedly match the strength of ten thousand ordinary warriors; dhṛiṣhṭadyumnaḥ—Dhrishtadyumna; virāṭaḥ—Virat; cha—and; sātyakiḥ—Satyaki; cha—and; aparājitaḥ—invincible;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "And the Maharaja of Benares, the great archer, Shikhandi, the great soldier, Dhrishtayumna, Virata, and Satyaki, the invincible one,",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 18,
+      "sanskrit": {
+        "text": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते।\n\nसौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक्।।1.18।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "drupado draupadeyāśhcha sarvaśhaḥ pṛithivī-pate\nsaubhadraśhcha mahā-bāhuḥ śhaṅkhāndadhmuḥ pṛithak pṛithak",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "drupadaḥ—Drupad; draupadeyāḥ—the five sons of Draupadi; cha—and; sarvaśhaḥ—all; pṛithivī-pate—Ruler of the earth; saubhadraḥ—Abhimanyu, the son of Subhadra; cha—also; mahā-bāhuḥ—the mighty-armed; śhaṅkhān—conch shells; dadhmuḥ—blew; pṛithak pṛithak—individually",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "And, O King! Drupada's sons, Droupadi's sons, and the great soldier Soubhadra blew their conches.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 19,
+      "sanskrit": {
+        "text": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत्।\n\nनभश्च पृथिवीं चैव तुमुलो व्यनुनादयन्।।1.19।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sa ghoṣho dhārtarāṣhṭrāṇāṁ hṛidayāni vyadārayat\nnabhaśhcha pṛithivīṁ chaiva tumulo nunādayan",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "saḥ—that; ghoṣhaḥ—sound; dhārtarāṣhṭrāṇām—of Dhritarashtra’s sons; hṛidayāni—hearts; vyadārayat—shattered; nabhaḥ—the sky; cha—and; pṛithivīm—the earth; cha—and; eva—certainly; tumulaḥ—terrific sound; abhyanunādayan—thundering",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The tumult rent the hearts of the sons of Dhritarashtra, shaking heaven and earth with its echoing violence.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 20,
+      "sanskrit": {
+        "text": "अथ व्यवस्थितान् दृष्ट्वा धार्तराष्ट्रान्कपिध्वजः।\n\nप्रवृत्ते शस्त्रसंपाते धनुरुद्यम्य पाण्डवः।।1.20।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "atha vyavasthitān dṛiṣhṭvā dhārtarāṣhṭrān kapi-dhwajaḥ\npravṛitte śhastra-sampāte dhanurudyamya pāṇḍavaḥ\nhṛiṣhīkeśhaṁ tadā vākyam idam āha mahī-pate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "atha—thereupon; vyavasthitān—arrayed; dṛiṣhṭvā—seeing; dhārtarāṣhṭrān—Dhritarashtra’s sons; kapi-dwajaḥ—the Monkey Bannered; pravṛitte—about to commence; śhastra-sampāte—to use the weapons; dhanuḥ—bow; udyamya—taking up; pāṇḍavaḥ—Arjun, the son of Pandu; hṛiṣhīkeśham—to Shree Krishna; tadā—at that time; vākyam—words; idam—these; āha—said; mahī-pate—King",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Then, upon beholding the sons of Dhritarashtra, drawn up on the battlefield, ready to fight, Arjuna, whose flag bore the image of Hanuman,",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 21,
+      "sanskrit": {
+        "text": "अर्जुन उवाच\n\nहृषीकेशं तदा वाक्यमिदमाह महीपते।\n\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत।।1.21।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "arjuna uvācha\nsenayor ubhayor madhye rathaṁ sthāpaya me ’chyuta",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "arjunaḥ uvācha—Arjun said; senayoḥ—armies; ubhayoḥ—both; madhye—in the middle; ratham—chariot; sthāpaya—place; me—my; achyuta—Shree Krishna, the infallible One;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Raising his bow, he spoke this to the Lord Shri Krishna: O Infallible Lord of the earth! Please draw up my chariot between the two armies.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 22,
+      "sanskrit": {
+        "text": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान्।\n\nकैर्मया सह योद्धव्यमस्मिन्रणसमुद्यमे।।1.22।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yāvadetān nirīkṣhe ’haṁ yoddhu-kāmān avasthitān\nkairmayā saha yoddhavyam asmin raṇa-samudyame",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yāvat—as many as; etān—these; nirīkṣhe—look; aham—I; yoddhu-kāmān—for the battle; avasthitān—arrayed; kaiḥ—with whom; mayā—by me; saha—together; yoddhavyam—must fight; asmin—in this; raṇa-samudyame—great combat",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "So that I may observe those who must fight on my side and those who must fight against me.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 23,
+      "sanskrit": {
+        "text": "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः।\n\nधार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः।।1.23।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yotsyamānān avekṣhe ’haṁ ya ete ’tra samāgatāḥ\ndhārtarāṣhṭrasya durbuddher yuddhe priya-chikīrṣhavaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yotsyamānān—those who have come to fight; avekṣhe aham—I desire to see; ye—who; ete—those; atra—here; samāgatāḥ—assembled; dhārtarāṣhṭrasya—of Dhritarashtra’s son; durbuddheḥ—evil-minded; yuddhe—in the fight; priya-chikīrṣhavaḥ—wishing to please",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "And gaze upon this array of soldiers, eager to please the sons of Dhritarashtra who are sinful.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 24,
+      "sanskrit": {
+        "text": "संजय उवाच\n\nएवमुक्तो हृषीकेशो गुडाकेशेन भारत।\n\nसेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्।।1.24।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sañjaya uvācha\nevam ukto hṛiṣhīkeśho guḍākeśhena bhārata\nsenayor ubhayor madhye sthāpayitvā rathottamam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sañjayaḥ uvācha—Sanjay said; evam—thus; uktaḥ—addressed; hṛiṣhīkeśhaḥ—Shree Krishna, the Lord of the senses; guḍākeśhena—by Arjun, the conqueror of sleep; bhārata—descendant of Bharat; senayoḥ—armies; ubhayoḥ—the two; madhye—between; sthāpayitvā—having drawn; ratha-uttamam—magnificent chariot",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Sanjaya said: \"Having listened to Arjuna's request, Lord Shri Krishna drew up His bright chariot in the midst between the two armies.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 25,
+      "sanskrit": {
+        "text": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्।\n\nउवाच पार्थ पश्यैतान्समवेतान्कुरूनिति।।1.25।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "bhīṣhma-droṇa-pramukhataḥ sarveṣhāṁ cha mahī-kṣhitām\nuvācha pārtha paśhyaitān samavetān kurūn iti",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "bhīṣhma—Grandsire Bheeshma; droṇa—Dronacharya; pramukhataḥ—in the presence; sarveṣhām—all; cha—and; mahī-kṣhitām—other kings; uvācha—said; pārtha—Arjun, the son of Pritha; paśhya—behold; etān—these; samavetān—gathered; kurūn—descendants of Kuru; iti—thus",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Where Bheeshma and Drona had led all the rulers of the earth, they spoke thus: O Arjuna! Behold, these members of the family of Kuru are assembled.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 26,
+      "sanskrit": {
+        "text": "तत्रापश्यत्स्थितान्पार्थः पितृ़नथ पितामहान्।\n\nआचार्यान्मातुलान्भ्रातृ़न्पुत्रान्पौत्रान्सखींस्तथा।।1.26।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tatrāpaśhyat sthitān pārthaḥ pitṝīn atha pitāmahān\nāchāryān mātulān bhrātṝīn putrān pautrān sakhīṁs tathā\nśhvaśhurān suhṛidaśh chaiva senayor ubhayor api",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tatra—there; apaśhyat—saw; sthitān—stationed; pārthaḥ—Arjun; pitṝīn—fathers; atha—thereafter; pitāmahān—grandfathers; āchāryān—teachers; mātulān—maternal uncles; bhrātṝīn—brothers; putrān—sons; pautrān—grandsons; sakhīn—friends; tathā—also; śhvaśhurān—fathers-in-law; suhṛidaḥ—well-wishers; cha—and; eva—indeed; senayoḥ—armies; ubhayoḥ—in both armies; api—also",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "There, Arjuna noticed fathers, grandfathers, uncles, cousins, sons, grandsons, teachers, and friends.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 27,
+      "sanskrit": {
+        "text": "श्वशुरान्सुहृदश्चैव सेनयोरुभयोरपि।\n\nतान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान्।।1.27।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tān samīkṣhya sa kaunteyaḥ sarvān bandhūn avasthitān\nkṛipayā parayāviṣhṭo viṣhīdann idam abravīt",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tān—these; samīkṣhya—on seeing; saḥ—they; kaunteyaḥ—Arjun, the son of Kunti; sarvān—all; bandhūn—relatives; avasthitān—present; kṛipayā—by compassion; parayā—great; āviṣhṭaḥ—overwhelmed; viṣhīdan—deep sorrow; idam—this; abravīt—spoke",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Fathers-in-law and benefactors were arrayed on both sides, and Arjuna then gazed at all those kinsmen before him.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 28,
+      "sanskrit": {
+        "text": "अर्जुन उवाच\n\nकृपया परयाऽऽविष्टो विषीदन्निदमब्रवीत्।\n\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्।।1.28।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "arjuna uvācha\ndṛiṣhṭvemaṁ sva-janaṁ kṛiṣhṇa yuyutsuṁ samupasthitam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "arjunaḥ uvācha—Arjun said; dṛiṣhṭvā—on seeing; imam—these; sva-janam—kinsmen; kṛiṣhṇa—Krishna; yuyutsum—eager to fight; samupasthitam—present;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "And his heart melted with pity, and sadly he spoke: \"O my Lord! When I see all these, my own people, thirsting for battle,",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 29,
+      "sanskrit": {
+        "text": "सीदन्ति मम गात्राणि मुखं च परिशुष्यति।\n\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते।।1.29।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sīdanti mama gātrāṇi mukhaṁ cha pariśhuṣhyati\nvepathuśh cha śharīre me roma-harṣhaśh cha jāyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sīdanti—quivering; mama—my; gātrāṇi—limbs; mukham—mouth; cha—and; pariśhuṣhyati—is drying up\nvepathuḥ—shuddering; cha—and; śharīre—on the body; me—my; roma-harṣhaḥ—standing of bodily hair on end; cha—also; jāyate—is happening;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "My limbs are failing me, my throat is parched, my body is trembling, and my hair is standing on end.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 30,
+      "sanskrit": {
+        "text": "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते।\n\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः।।1.30।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "gāṇḍīvaṁ sraṁsate hastāt tvak chaiva paridahyate\nna cha śhaknomy avasthātuṁ bhramatīva cha me manaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "gāṇḍīvam—Arjun’s bow; sraṁsate—is slipping; hastāt—from (my) hand; tvak—skin; cha—and; eva—indeed; paridahyate—is burning all over; na—not; cha—and; śhaknomi—am able; avasthātum—remain steady; bhramati iva—whirling like; cha—and; me—my; manaḥ—mind;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The bow Gandiva slips from my hand, and my skin burns. I cannot remain still, for my mind is in tumult.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 31,
+      "sanskrit": {
+        "text": "निमित्तानि च पश्यामि विपरीतानि केशव।\n\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे।।1.31।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "nimittāni cha paśhyāmi viparītāni keśhava\nna cha śhreyo ’nupaśhyāmi hatvā sva-janam āhave",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "nimittāni—omens; cha—and; paśhyāmi—I see; viparītāni—misfortune; keśhava—Shree Krishna, killer of the Keshi demon; na—not; cha—also; śhreyaḥ—good; anupaśhyāmi—I foresee; hatvā—from killing; sva-janam—kinsmen; āhave—in battle",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The omens are unfavorable; what good can come from the slaughter of my people on this battlefield?",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 32,
+      "sanskrit": {
+        "text": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च।\n\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा।।1.32।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "na kāṅkṣhe vijayaṁ kṛiṣhṇa na cha rājyaṁ sukhāni cha\nkiṁ no rājyena govinda kiṁ bhogair jīvitena vā",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—nor; kāṅkṣhe—do I desire; vijayam—victory; kṛiṣhṇa—Krishna; na—nor; cha—as well; rājyam—kingdom; sukhāni—happiness; cha—also; kim—what; naḥ—to us; rājyena—by kingdom; govinda—Krishna, he who gives pleasure to the senses, he who is fond of cows; kim—what?; bhogaiḥ—pleasures; jīvitena—life; vā—or;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Ah, my Lord! I do not crave victory, nor a kingdom, nor any pleasure. What would a kingdom, happiness, or life be to me?",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 33,
+      "sanskrit": {
+        "text": "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च।\n\nत इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च।।1.33।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yeṣhām arthe kāṅkṣhitaṁ no rājyaṁ bhogāḥ sukhāni cha\nta ime ’vasthitā yuddhe prāṇāṁs tyaktvā dhanāni cha",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yeṣhām—for whose; arthe—sake; kāṅkṣhitam—coveted for; naḥ—by us; rājyam—kingdom; bhogāḥ—pleasures; sukhāni—happiness; cha—also; te—they; ime—these; avasthitāḥ—situated; yuddhe—for battle; prāṇān—lives; tyaktvā—giving up; dhanāni—wealth; cha—also",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "When those for whose sake I desire these things stand here, about to sacrifice their property and lives:",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 34,
+      "sanskrit": {
+        "text": "आचार्याः पितरः पुत्रास्तथैव च पितामहाः।\n\nमातुलाः श्चशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा।।1.34।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "āchāryāḥ pitaraḥ putrās tathaiva cha pitāmahāḥ\nmātulāḥ śhvaśhurāḥ pautrāḥ śhyālāḥ sambandhinas tathā",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "āchāryāḥ—teachers; pitaraḥ—fathers; putrāḥ—sons; tathā—as well; eva—indeed; cha—also; pitāmahāḥ—grandfathers; mātulāḥ—maternal uncles; śhvaśhurāḥ—fathers-in-law; pautrāḥ—grandsons; śhyālāḥ—brothers-in-law; sambandhinaḥ—kinsmen; tathā—as well;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Teachers, fathers, grandfathers, sons, grandsons, uncles, fathers-in-law, brothers-in-law, and other relatives.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 35,
+      "sanskrit": {
+        "text": "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन।\n\nअपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते।।1.35।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "etān na hantum ichchhāmi ghnato ’pi madhusūdana\napi trailokya-rājyasya hetoḥ kiṁ nu mahī-kṛite",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "etān—these; na—not; hantum—to slay; ichchhāmi—I wish; ghnataḥ—killed; api—even though; madhusūdana—Shree Krishna, killer of the demon Madhu; api—even though; trai-lokya-rājyasya—dominion over three worlds; hetoḥ—for the sake of; kim nu—what to speak of; mahī-kṛite—for the earth",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I would not kill them, even for three worlds; why then for this earth alone? It matters not if I myself am killed.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 36,
+      "sanskrit": {
+        "text": "निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन।\n\nपापमेवाश्रयेदस्मान्हत्वैतानाततायिनः।।1.36।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "nihatya dhārtarāṣhṭrān naḥ kā prītiḥ syāj janārdana\npāpam evāśhrayed asmān hatvaitān ātatāyinaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "nihatya—by killing; dhārtarāṣhṭrān—the sons of Dhritarashtra; naḥ—our; kā—what; prītiḥ—pleasure; syāt—will there be; janārdana—he who looks after the public, Shree Krishna; pāpam—vices; eva—certainly; āśhrayet—must come upon; asmān—us; hatvā—by killing; etān—all these; ātatāyinaḥ—aggressors;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "My Lord! What happiness can come from the death of these sons of Dhritarashtra? We shall be committing a sin if we kill these desperate men.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 37,
+      "sanskrit": {
+        "text": "तस्मान्नार्हा वयं हन्तुं धार्तराष्ट्रान्स्वबान्धवान्।\n\nस्वजनं हि कथं हत्वा सुखिनः स्याम माधव।।1.37।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tasmān nārhā vayaṁ hantuṁ dhārtarāṣhṭrān sa-bāndhavān \nsva-janaṁ hi kathaṁ hatvā sukhinaḥ syāma mādhava",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tasmāt—hence; na—never; arhāḥ—behoove; vayam—we; hantum—to kill; dhārtarāṣhṭrān—the sons of Dhritarashtra; sva-bāndhavān—along with friends; sva-janam—kinsmen; hi—certainly; katham—how; hatvā—by killing; sukhinaḥ—happy; syāma—will we become; mādhava—Shree Krishna, the husband of Yogmaya",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "We are worthy of a nobler feat than slaughtering our relatives—the sons of Dhritarashtra; for, my Lord, how can we be happy if we kill our kinsmen?",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 38,
+      "sanskrit": {
+        "text": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः।\n\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम्।।1.38।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yady apy ete na paśhyanti lobhopahata-chetasaḥ\nkula-kṣhaya-kṛitaṁ doṣhaṁ mitra-drohe cha pātakam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yadi api—even though; ete—they; na—not; paśhyanti—see; lobha—greed; upahata—overpowered; chetasaḥ—thoughts; kula-kṣhaya-kṛitam—in annihilating their relatives; doṣham—fault; mitra-drohe—to wreak treachery upon friends; cha—and; pātakam—sin;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Although these men, blinded by greed, see no guilt in destroying their kin or fighting against their friends,",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 39,
+      "sanskrit": {
+        "text": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम्।\n\nकुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन।।1.39।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "kathaṁ na jñeyam asmābhiḥ pāpād asmān nivartitum\nkula-kṣhaya-kṛitaṁ doṣhaṁ prapaśhyadbhir janārdana",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "katham—why; na—not; jñeyam—should be known; asmābhiḥ—we; pāpāt—from sin; asmāt—these; nivartitum—to turn away; kula-kṣhaya—killing the kindered; kṛitam—done; doṣham—crime; prapaśhyadbhiḥ—who can see; janārdana—he who looks after the public, Shree Krishna",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Should we not, whose eyes are open and who consider it wrong to annihilate our family, turn away from such a great crime?",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 40,
+      "sanskrit": {
+        "text": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः।\n\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत।।1.40।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "kula-kṣhaye praṇaśhyanti kula-dharmāḥ sanātanāḥ\ndharme naṣhṭe kulaṁ kṛitsnam adharmo ’bhibhavaty uta",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "kula-kṣhaye—in the destruction of a dynasty; praṇaśhyanti—are vanquished; kula-dharmāḥ—family traditions; sanātanāḥ—eternal; dharme—religion; naṣhṭe—is destroyed; kulam—family; kṛitsnam—the whole; adharmaḥ—irreligion; abhibhavati—overcome; uta—indeed",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The destruction of our kindred means the destruction of the traditions of our ancient lineage, and when these are lost, irreligion will overrun our homes.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 41,
+      "sanskrit": {
+        "text": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः।\n\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः।।1.41।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "adharmābhibhavāt kṛiṣhṇa praduṣhyanti kula-striyaḥ\nstrīṣhu duṣhṭāsu vārṣhṇeya jāyate varṇa-saṅkaraḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "adharma—irreligion; abhibhavāt—preponderance; kṛiṣhṇa—Shree Krishna; praduṣhyanti—become immoral; kula-striyaḥ—women of the family; strīṣhu—of women; duṣhṭāsu—become immoral; vārṣhṇeya—descendant of Vrishni; jāyate—are born; varṇa-saṅkaraḥ—unwanted progeny",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "When irreligion spreads, the women of the house start to stray; when they lose their purity, adulteration of the lineage follows.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 42,
+      "sanskrit": {
+        "text": "सङ्करो नरकायैव कुलघ्नानां कुलस्य च।\n\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः।।1.42।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "saṅkaro narakāyaiva kula-ghnānāṁ kulasya cha\npatanti pitaro hy eṣhāṁ lupta-piṇḍodaka-kriyāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "saṅkaraḥ—unwanted children; narakāya—hellish; eva—indeed; kula-ghnānām—for those who destroy the family; kulasya—of the family; cha—also; patanti—fall; pitaraḥ—ancestors; hi—verily; eṣhām—their; lupta—deprived of; piṇḍodaka-kriyāḥ—performances of sacrificial offerings",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Promiscuity ruins both the family and those who defile it; while the souls of our ancestors droop, due to the lack of funeral cakes and ablutions.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 43,
+      "sanskrit": {
+        "text": "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः।\n\nउत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः।।1.43।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "doṣhair etaiḥ kula-ghnānāṁ varṇa-saṅkara-kārakaiḥ\nutsādyante jāti-dharmāḥ kula-dharmāśh cha śhāśhvatāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "doṣhaiḥ—through evil deeds; etaiḥ—these; kula-ghnānām—of those who destroy the family; varṇa-saṅkara—unwanted progeny; kārakaiḥ—causing; utsādyante—are ruined; jāti-dharmāḥ—social and family welfare activities; kula-dharmāḥ—family traditions; cha—and; śhāśhvatāḥ—eternal",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "By the destruction of our lineage and the pollution of our blood, ancient class traditions and family purity alike perish.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 44,
+      "sanskrit": {
+        "text": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन।\n\nनरकेऽनियतं वासो भवतीत्यनुशुश्रुम।।1.44।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "utsanna-kula-dharmāṇāṁ manuṣhyāṇāṁ janārdana\nnarake ‘niyataṁ vāso bhavatītyanuśhuśhruma",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "utsanna—destroyed; kula-dharmāṇām—whose family traditions; manuṣhyāṇām—of such human beings; janārdana—he who looks after the public, Shree Krishna; narake—in hell; aniyatam—indefinite; vāsaḥ—dwell; bhavati—is; iti—thus; anuśhuśhruma—I have heard from the learned",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The wise say, my Lord, that they are forever lost whose ancient traditions have been lost.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 45,
+      "sanskrit": {
+        "text": "अहो बत महत्पापं कर्तुं व्यवसिता वयम्।\n\nयद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः।।1.45।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "aho bata mahat pāpaṁ kartuṁ vyavasitā vayam\nyad rājya-sukha-lobhena hantuṁ sva-janam udyatāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aho—alas; bata—how; mahat—great; pāpam—sins; kartum—to perform; vyavasitāḥ—have decided; vayam—we; yat—because; rājya-sukha-lobhena—driven by the desire for kingly pleasure; hantum—to kill; sva-janam—kinsmen; udyatāḥ—intending;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Alas, it is strange that we should be willing to kill our own countrymen and commit a great sin, in order to enjoy the pleasures of kingdom.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 46,
+      "sanskrit": {
+        "text": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः।\n\nधार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत्।।1.46।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yadi mām apratīkāram aśhastraṁ śhastra-pāṇayaḥ\ndhārtarāṣhṭrā raṇe hanyus tan me kṣhemataraṁ bhavet",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yadi—if; mām—me; apratīkāram—unresisting; aśhastram—unarmed; śhastra-pāṇayaḥ—those with weapons in hand; dhārtarāṣhṭrāḥ—the sons of Dhritarashtra; raṇe—on the battlefield; hanyuḥ—shall kill; tat—that; me—to me; kṣhema-taram—better; bhavet—would be",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "If, on the contrary, the sons of Dhritarashtra, with weapons in hand, should slay me, unarmed and unresisting, surely that would be better for my welfare!",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 1,
+      "verseNumber": 47,
+      "sanskrit": {
+        "text": "सञ्जय उवाच\n\nएवमुक्त्वाऽर्जुनः संख्ये रथोपस्थ उपाविशत्।\n\nविसृज्य सशरं चापं शोकसंविग्नमानसः।।1.47।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sañjaya uvācha\nevam uktvārjunaḥ saṅkhye rathopastha upāviśhat\nvisṛijya sa-śharaṁ chāpaṁ śhoka-saṁvigna-mānasaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sañjayaḥ uvācha—Sanjay said; evam uktvā—speaking thus; arjunaḥ—Arjun; saṅkhye—in the battlefield; ratha upasthe—on the chariot; upāviśhat—sat; visṛijya—casting aside; sa-śharam—along with arrows; chāpam—the bow; śhoka—with grief; saṁvigna—distressed; mānasaḥ—mind",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Sanjaya said: \"Having spoken thus, Arjuna sank into the seat of his chariot, discarding his bow and arrow, overwhelmed with grief in the midst of the armies.\"",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    }
+  ]
+}
