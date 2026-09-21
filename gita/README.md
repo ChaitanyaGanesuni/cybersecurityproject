@@ -14,17 +14,24 @@ revise · apply). Architecture: [`../docs/ARCHITECTURE.md`](../docs/ARCHITECTURE
 gita/
 ├─ packages/
 │  ├─ contracts/     @gita/contracts — zod content model (single source of truth)
-│  └─ gita-content/  @gita/content   — verified public-domain source ingestion + validation
-└─ (apps/, services/ — added in later phases; see ARCHITECTURE.md §16)
+│  ├─ gita-content/  @gita/content   — verified public-domain source ingestion + validation
+│  └─ core/          @gita/core      — framework-agnostic theme, repository, view-models, i18n
+├─ apps/
+│  └─ mobile/        @gita/mobile    — Expo / React Native shell (expo-router)
+└─ (services/ — added in later phases; see ARCHITECTURE.md §16)
 ```
 
 ## Phase status
 
 - **Phase 1 — Architecture:** done (`docs/ARCHITECTURE.md`).
-- **Phase 2 — Content model & ingestion:** **in progress (this commit).**
-  Provenance-tracked content model; ingestion of the verified public-domain source; validation
-  test passing (18 chapters, 701 verses, English by Shri Purohit Swami).
-- Phases 3–10: not started.
+- **Phase 2 — Content model & ingestion:** done. Provenance-tracked content model; ingestion of
+  the verified public-domain source; validation passing (18 chapters, 701 verses, English by
+  Shri Purohit Swami).
+- **Phase 3 — Mobile shell:** **in progress (this commit).** `@gita/core` (theme, content
+  repository, view-models, i18n) with 30 passing tests; Expo/expo-router app (`@gita/mobile`)
+  with Home, Chapters, Chapter detail, and Verse Reader screens, light/dark theming, and an
+  AI-content badge enforcing the scripture/AI distinction. All packages + the app typecheck clean.
+- Phases 4–10: not started.
 
 ## Core design rule (anti-fabrication)
 
@@ -39,10 +46,20 @@ ingest time.
 ```bash
 cd gita
 npm install
-npm run ingest     # raw/ (verified snapshot) -> data/gita.json + per-chapter files
-npm run validate   # asserts structure, verse counts, provenance, and anti-fabrication
-npx tsc -p tsconfig.json   # typecheck
+npm run ingest              # raw/ (verified snapshot) -> data/gita.json + per-chapter files
+npm run validate            # asserts structure, verse counts, provenance, anti-fabrication
+npm test -w @gita/core      # 30 assertions against the real dataset
+npx tsc -p tsconfig.json    # typecheck packages
+npm run typecheck -w @gita/mobile   # typecheck the RN app
+
+# Run the app (needs a machine with the Expo toolchain + a device/simulator):
+npm start -w @gita/mobile   # then press i (iOS) / a (Android)
 ```
+
+> The mobile app is a reviewed, type-checked scaffold. It cannot be launched in a headless CI
+> container — it requires the Expo dev client on a real device or simulator. App icons/splash
+> images and the bundled Noto fonts (Devanagari/Telugu) are wired in configuration and added as
+> assets in Phase 3 polish / Phase 4.
 
 ## Content & licensing
 

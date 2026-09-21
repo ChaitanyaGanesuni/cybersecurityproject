@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "description": "AI-powered Bhagavad Gita learning companion — monorepo root",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "scripts": {
     "ingest": "npm run ingest -w @gita/content",

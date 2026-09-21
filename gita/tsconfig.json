@@ -3,6 +3,9 @@
   "compilerOptions": { "noEmit": true, "types": ["node"] },
   "include": [
     "packages/contracts/src/**/*.ts",
-    "packages/gita-content/scripts/**/*.ts"
+    "packages/gita-content/scripts/**/*.ts",
+    "packages/gita-content/src/**/*.ts",
+    "packages/core/src/**/*.ts",
+    "packages/core/test/**/*.ts"
   ]
 }
