@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { Pressable, Text, TextInput, View } from "react-native";
+import { ActivityIndicator, Pressable, Text, TextInput, View } from "react-native";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import {
   buildVerseViewModel,
@@ -14,7 +14,9 @@ import {
 } from "@gita/core";
 import type { LanguageCode } from "@gita/contracts";
 import { SPEED_OPTIONS, type Speed } from "@gita/audio";
+import { MODE_ORDER, MODES, type AiAnswer, type ExplanationMode } from "@gita/ai";
 import { getRepository } from "../../../src/data/content";
+import { getAiClient, toRetrievedVerse } from "../../../src/ai";
 import { speech } from "../../../src/audio/registry";
 import { useUserStore } from "../../../src/state/user";
 import { useTheme } from "../../../src/theme/theme";
@@ -98,6 +100,24 @@ export default function VerseScreen() {
 
   const [draftNote, setDraftNote] = useState("");
   const [speed, setSpeed] = useState<Speed>(1);
+  const [mode, setMode] = useState<ExplanationMode | null>(null);
+  const [answer, setAnswer] = useState<AiAnswer | null>(null);
+  const [aiBusy, setAiBusy] = useState(false);
+
+  const explain = async (m: ExplanationMode) => {
+    if (!verse) return;
+    setMode(m);
+    setAiBusy(true);
+    setAnswer(null);
+    try {
+      const retrieved = toRetrievedVerse(repo, verse, language.explanationLang);
+      setAnswer(await getAiClient().explain(retrieved, m, language.explanationLang));
+    } catch {
+      setAnswer(null);
+    } finally {
+      setAiBusy(false);
+    }
+  };
 
   const readAloud = (text: string | undefined, lang: LanguageCode | string | undefined) => {
     if (!text) return;
@@ -191,20 +211,38 @@ export default function VerseScreen() {
         </View>
       </Card>
 
-      {/* AI-derived sections — populated at runtime in Phase 6; shown as pending until then. */}
-      {vm.simpleMeaning ? (
-        <VerseSection label={t("verse.simpleMeaning")} block={vm.simpleMeaning} />
-      ) : (
-        <Card>
-          <SectionLabel>{t("verse.simpleMeaning")}</SectionLabel>
-          <AiBadge />
-          <Muted>Generated on demand by the AI tutor (Phase 6).</Muted>
-        </Card>
-      )}
+      {/* Explanation-mode switcher (spec §16): AI-generated, grounded on THIS verse, cited. */}
+      <Card>
+        <SectionLabel>Understand</SectionLabel>
+        <View style={{ flexDirection: "row", flexWrap: "wrap", gap: spacing.sm }}>
+          {MODE_ORDER.map((m) => (
+            <Chip key={m} label={MODES[m].label} active={mode === m} onPress={() => explain(m)} />
+          ))}
+        </View>
 
-      <Card onPress={() => router.push("/chapters")}>
+        {aiBusy && <ActivityIndicator color={colors.accent} style={{ marginTop: spacing.md }} />}
+
+        {answer && !aiBusy && (
+          <View style={{ marginTop: spacing.md }}>
+            <AiBadge />
+            <Body>{answer.text}</Body>
+            {answer.sources.length > 0 && (
+              <View style={{ marginTop: spacing.sm }}>
+                <Muted>
+                  Sources:{" "}
+                  {answer.sources.map((s) => `${s.ref.chapterNumber}.${s.ref.verseNumber}`).join(", ")}
+                </Muted>
+              </View>
+            )}
+          </View>
+        )}
+
+        {!answer && !aiBusy && <Muted>Choose a way to understand this verse.</Muted>}
+      </Card>
+
+      <Card onPress={() => router.push(`/tutor?c=${chapterNumber}&v=${verseNumber}`)}>
         <SectionLabel>{t("verse.askAboutThis")}</SectionLabel>
-        <Muted>Opens the grounded AI tutor with this verse as context (Phase 6).</Muted>
+        <Muted>Open the AI teacher with this verse as context.</Muted>
       </Card>
 
       {/* Personal study controls (spec §17) */}

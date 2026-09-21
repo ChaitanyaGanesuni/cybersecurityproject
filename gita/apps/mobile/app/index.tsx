@@ -72,9 +72,9 @@ export default function HomeScreen() {
         </View>
       </View>
 
-      <Card>
+      <Card onPress={() => router.push("/tutor")}>
         <SectionLabel>{t("home.aiTeacher")}</SectionLabel>
-        <Muted>Grounded AI tutor arrives in Phase 6.</Muted>
+        <Muted>Ask anything — answers are grounded in the verses and cite their sources.</Muted>
       </Card>
 
       <Muted>

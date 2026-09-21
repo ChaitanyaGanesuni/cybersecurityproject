@@ -16,8 +16,10 @@ gita/
 │  ├─ contracts/     @gita/contracts — zod content model (single source of truth)
 │  ├─ gita-content/  @gita/content   — verified public-domain source ingestion + validation
 │  ├─ core/          @gita/core      — framework-agnostic theme, repository, view-models, i18n
-│  └─ audio/         @gita/audio     — TTS provider interface, segmentation, chunking, hash cache,
-│                                      synthesis pipeline, playback/resume reducer, provider router
+│  ├─ audio/         @gita/audio     — TTS provider interface, segmentation, chunking, hash cache,
+│  │                                   synthesis pipeline, playback/resume reducer, provider router
+│  └─ ai/            @gita/ai        — LLMProvider port, explanation modes, grounded prompts,
+│                                      retrieval-based citation guard, answer cache, history trim
 ├─ apps/
 │  └─ mobile/        @gita/mobile    — Expo / React Native shell (expo-router)
 └─ (services/ — added in later phases; see ARCHITECTURE.md §16)
@@ -47,7 +49,24 @@ gita/
   App: device-native TTS adapter (expo-speech) implementing the port, provider registry, and
   Read/Stop/speed controls in the Verse Reader (Sanskrit deliberately not spoken by the English
   voice). Self-hosted Kokoro/Indic-TTS/Sanskrit providers register in Phase 10 with no UI change.
-- Phases 6–10: not started.
+- **Phase 6 — AI tutor:** **in progress (this commit).** `@gita/ai`: `LLMProvider` port
+  (generate/stream/generateStructured/embed) with a deterministic mock; seven explanation modes
+  (Simple/Deep/Practical/Story/Child/Telugu/Sanskrit-terms); a grounding system prompt that forbids
+  fabrication; **citation guard** that keeps only references present in the retrieved set and drops
+  invented ones; `AiTutorService` that assembles Sources from retrieval (never model free-text);
+  answer cache + history trimming. 30 assertions pass, incl. the hallucination-drop guarantee.
+  App: an `AiClient` (no keys in the app — HTTP to backend, or an honest offline grounded fallback
+  that shows the real translation instead of a fake explanation), a tutor chat screen (lexical
+  search stands in as the retriever until Phase 7), and an in-reader explanation-mode switcher with
+  the AI badge + Sources.
+- Phases 7–10: not started.
+
+### Security note (spec §24)
+
+The mobile app never holds an LLM/TTS API key. AI calls go to an `AiClient`; the real,
+key-holding adapter runs on the backend. Until the backend exists, the app uses the offline
+grounded client, which surfaces the public-domain translation and its source rather than inventing
+an explanation.
 
 ### A note on the search decision
 

@@ -8,6 +8,8 @@
     "packages/core/src/**/*.ts",
     "packages/core/test/**/*.ts",
     "packages/audio/src/**/*.ts",
-    "packages/audio/test/**/*.ts"
+    "packages/audio/test/**/*.ts",
+    "packages/ai/src/**/*.ts",
+    "packages/ai/test/**/*.ts"
   ]
 }

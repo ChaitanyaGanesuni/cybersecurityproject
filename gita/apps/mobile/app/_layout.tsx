@@ -38,6 +38,7 @@ export default function RootLayout() {
         <Stack.Screen name="chapters" options={{ title: "Chapters" }} />
         <Stack.Screen name="search" options={{ title: "Search" }} />
         <Stack.Screen name="library" options={{ title: "My Gita" }} />
+        <Stack.Screen name="tutor" options={{ title: "AI Gita Teacher" }} />
         <Stack.Screen name="chapter/[n]" options={{ title: "" }} />
         <Stack.Screen name="verse/[c]/[v]" options={{ title: "" }} />
       </Stack>
