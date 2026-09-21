@@ -5,3 +5,6 @@ export * from "./repository.js";
 export * from "./format.js";
 export * from "./i18n.js";
 export * from "./viewmodels/index.js";
+export * from "./search/index.js";
+export * from "./study.js";
+export * from "./persistence.js";

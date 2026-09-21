@@ -27,11 +27,24 @@ gita/
 - **Phase 2 — Content model & ingestion:** done. Provenance-tracked content model; ingestion of
   the verified public-domain source; validation passing (18 chapters, 701 verses, English by
   Shri Purohit Swami).
-- **Phase 3 — Mobile shell:** **in progress (this commit).** `@gita/core` (theme, content
-  repository, view-models, i18n) with 30 passing tests; Expo/expo-router app (`@gita/mobile`)
-  with Home, Chapters, Chapter detail, and Verse Reader screens, light/dark theming, and an
-  AI-content badge enforcing the scripture/AI distinction. All packages + the app typecheck clean.
-- Phases 4–10: not started.
+- **Phase 3 — Mobile shell:** done. `@gita/core` (theme, content repository, view-models, i18n);
+  Expo/expo-router app with Home, Chapters, Chapter detail, Verse Reader; light/dark theming; and
+  an AI-content badge enforcing the scripture/AI distinction.
+- **Phase 4 — Reader depth, personal study & offline search:** **in progress (this commit).**
+  Notes / highlights / bookmarks / mark-understood / mark-for-revision, aggregated into a
+  "My Gita" library; **offline search** (lexical + verse-reference, diacritic-insensitive) behind
+  a `SearchEngine` interface (SQLite FTS5 is the documented scale path; semantic search is Phase 7);
+  a `StatePersistence` port with an AsyncStorage adapter so bookmarks/notes/progress survive
+  restart. 54 core assertions pass; packages + app typecheck clean.
+- Phases 5–10: not started.
+
+### A note on the search decision
+
+For 701 verses an in-memory lexical index is instant, needs no native module, works fully
+offline, and is unit-testable — so it is the default `SearchEngine`. SQLite **FTS5** implements
+the same interface on-device if the corpus grows (multi-commentary, many languages), and the
+**semantic** engine ("anxiety about results" → detachment verses) is added in Phase 7 behind the
+same interface. Swapping engines touches no screen code.
 
 ## Core design rule (anti-fabrication)
 

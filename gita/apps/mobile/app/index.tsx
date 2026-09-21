@@ -52,17 +52,22 @@ export default function HomeScreen() {
         </Muted>
       </Card>
 
+      <Card onPress={() => router.push("/search")}>
+        <SectionLabel>{t("home.search")}</SectionLabel>
+        <Muted>Find a verse, a concept, or a reference like 2.47</Muted>
+      </Card>
+
       <View style={{ flexDirection: "row", gap: spacing.md }}>
         <View style={{ flex: 1 }}>
-          <Card>
+          <Card onPress={() => router.push("/library")}>
             <SectionLabel>{t("home.bookmarks")}</SectionLabel>
             <Title>{home.bookmarkCount}</Title>
           </Card>
         </View>
         <View style={{ flex: 1 }}>
-          <Card>
+          <Card onPress={() => router.push("/library")}>
             <SectionLabel>{t("home.notes")}</SectionLabel>
-            <Muted>Coming in a later phase</Muted>
+            <Body>My Gita →</Body>
           </Card>
         </View>
       </View>
@@ -73,9 +78,9 @@ export default function HomeScreen() {
       </Card>
 
       <Muted>
-        Read the full plan:{" "}
+        Or{" "}
         <Link href="/chapters" style={{ textDecorationLine: "underline" }}>
-          browse chapters
+          browse all chapters
         </Link>
       </Muted>
     </Screen>
