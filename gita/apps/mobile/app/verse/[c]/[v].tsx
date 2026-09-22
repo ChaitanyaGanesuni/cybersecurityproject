@@ -20,30 +20,9 @@ import { getAiClient, toRetrievedVerse } from "../../../src/ai";
 import { speech } from "../../../src/audio/registry";
 import { useUserStore } from "../../../src/state/user";
 import { useTheme } from "../../../src/theme/theme";
-import { Screen, Card, Body, Muted, SectionLabel, AiBadge } from "../../../src/components/ui";
+import { Screen, Card, Body, Muted, SectionLabel, AiBadge, Chip } from "../../../src/components/ui";
 
 const HIGHLIGHT_COLORS: HighlightColor[] = ["saffron", "green", "blue"];
-
-/** A small pill toggle used by the study controls. */
-function Chip({ label, active, onPress }: { label: string; active: boolean; onPress: () => void }) {
-  const { colors } = useTheme();
-  return (
-    <Pressable
-      onPress={onPress}
-      accessibilityRole="button"
-      style={{
-        backgroundColor: active ? colors.accent : colors.surfaceAlt,
-        borderRadius: radii.pill,
-        paddingHorizontal: spacing.md,
-        paddingVertical: spacing.sm,
-      }}
-    >
-      <Text style={{ color: active ? "#fff" : colors.text, fontSize: typeScale.caption, fontWeight: "600" }}>
-        {label}
-      </Text>
-    </Pressable>
-  );
-}
 
 /** One labelled section of the verse. Renders the AI badge + omits attribution for AI content. */
 function VerseSection({

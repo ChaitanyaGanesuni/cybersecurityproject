@@ -1,0 +1,19 @@
+{
+  "name": "@gita/rag",
+  "version": "0.0.0",
+  "description": "Retrieval layer: VectorStore interface + in-memory cosine store, per-verse document builder, embedding retriever, and an offline concept-expansion retriever. Feeds grounded verses to the AI tutor.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "test": "tsx test/rag.test.ts" },
+  "dependencies": {
+    "@gita/contracts": "*",
+    "@gita/core": "*",
+    "@gita/ai": "*"
+  },
+  "devDependencies": {
+    "@gita/content": "*",
+    "tsx": "^4.19.2"
+  }
+}

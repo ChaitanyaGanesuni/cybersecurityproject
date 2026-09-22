@@ -10,6 +10,8 @@
     "packages/audio/src/**/*.ts",
     "packages/audio/test/**/*.ts",
     "packages/ai/src/**/*.ts",
-    "packages/ai/test/**/*.ts"
+    "packages/ai/test/**/*.ts",
+    "packages/rag/src/**/*.ts",
+    "packages/rag/test/**/*.ts"
   ]
 }

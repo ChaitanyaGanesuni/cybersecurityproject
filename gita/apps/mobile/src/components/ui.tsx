@@ -95,6 +95,35 @@ export function Muted({ children }: { children: React.ReactNode }) {
   );
 }
 
+/** A small pill toggle used across screens (modes, filters, study controls). */
+export function Chip({
+  label,
+  active,
+  onPress,
+}: {
+  label: string;
+  active: boolean;
+  onPress: () => void;
+}) {
+  const { colors } = useTheme();
+  return (
+    <Pressable
+      onPress={onPress}
+      accessibilityRole="button"
+      style={{
+        backgroundColor: active ? colors.accent : colors.surfaceAlt,
+        borderRadius: radii.pill,
+        paddingHorizontal: spacing.md,
+        paddingVertical: spacing.sm,
+      }}
+    >
+      <Text style={{ color: active ? "#fff" : colors.text, fontSize: typeScale.caption, fontWeight: "600" }}>
+        {label}
+      </Text>
+    </Pressable>
+  );
+}
+
 /** Non-negotiable marker for AI-generated content (spec §2). */
 export function AiBadge() {
   const { colors } = useTheme();

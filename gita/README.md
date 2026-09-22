@@ -18,8 +18,10 @@ gita/
 │  ├─ core/          @gita/core      — framework-agnostic theme, repository, view-models, i18n
 │  ├─ audio/         @gita/audio     — TTS provider interface, segmentation, chunking, hash cache,
 │  │                                   synthesis pipeline, playback/resume reducer, provider router
-│  └─ ai/            @gita/ai        — LLMProvider port, explanation modes, grounded prompts,
-│                                      retrieval-based citation guard, answer cache, history trim
+│  ├─ ai/            @gita/ai        — LLMProvider port, explanation modes, grounded prompts,
+│  │                                   retrieval-based citation guard, answer cache, history trim
+│  └─ rag/           @gita/rag       — VectorStore + cosine store, per-verse doc builder, concept
+│                                      lexicon + query expander, lexical & embedding retrievers
 ├─ apps/
 │  └─ mobile/        @gita/mobile    — Expo / React Native shell (expo-router)
 └─ (services/ — added in later phases; see ARCHITECTURE.md §16)
@@ -59,7 +61,24 @@ gita/
   that shows the real translation instead of a fake explanation), a tutor chat screen (lexical
   search stands in as the retriever until Phase 7), and an in-reader explanation-mode switcher with
   the AI badge + Sources.
-- Phases 7–10: not started.
+- **Phase 7 — RAG:** **in progress (this commit).** `@gita/rag`: a `VectorStore` interface +
+  in-memory cosine store (pgvector/Qdrant swap in behind it); per-verse multi-document builder with
+  §9 metadata; a curated **concept lexicon + query expander**; and two retrievers behind one
+  `Retriever` interface — a deterministic **offline concept retriever** (default) and a production
+  **embedding retriever**. 23 assertions pass, including the flagship *"anxiety about the outcome of
+  my work" → 2.47* with none of the target words, plus embedding self-retrieval end-to-end. App: the
+  tutor now retrieves through the `Retriever`; Search gains a "By meaning" toggle.
+- Phases 8–10: not started.
+
+### A note on the two retrievers
+
+True neural semantic matching needs an embedding model, which runs on the backend (no key in the
+app). So the app ships a **deterministic, offline concept-expansion retriever** that bridges the
+user's words to the translation's vocabulary (e.g. *outcome → fruit*, *anxious → fear*) and returns
+sensible verses with no network. The **`EmbeddingRetriever`** (same `Retriever` interface, real
+cosine `VectorStore`) is the production upgrade — swap it in `src/rag/retriever.ts` with zero tutor
+changes once the backend embedder exists. Its full pipeline is verified here via deterministic
+self-retrieval.
 
 ### Security note (spec §24)
 

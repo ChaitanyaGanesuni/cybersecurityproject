@@ -3,7 +3,8 @@ import { ActivityIndicator, Pressable, Text, TextInput, View } from "react-nativ
 import { useLocalSearchParams } from "expo-router";
 import { radii, spacing, typeScale } from "@gita/core";
 import type { AiAnswer, RetrievedVerse } from "@gita/ai";
-import { getRepository, getSearchEngine } from "../src/data/content";
+import { getRepository } from "../src/data/content";
+import { getRetriever } from "../src/rag/retriever";
 import { getAiClient, toRetrievedVerse } from "../src/ai";
 import { useUserStore } from "../src/state/user";
 import { useTheme } from "../src/theme/theme";
@@ -19,7 +20,6 @@ export default function TutorScreen() {
   const { c, v } = useLocalSearchParams<{ c?: string; v?: string }>();
   const { colors } = useTheme();
   const repo = getRepository();
-  const engine = getSearchEngine();
   const client = getAiClient();
   const lang = useUserStore((s) => s.language.explanationLang);
 
@@ -39,17 +39,11 @@ export default function TutorScreen() {
     setTurns((t) => [...t, { role: "user", text: q }]);
     setBusy(true);
     try {
-      // Retrieval: the anchored verse if present, else lexical search stands in for RAG (Phase 7).
-      let retrieved: RetrievedVerse[];
-      if (contextVerse) {
-        retrieved = [toRetrievedVerse(repo, contextVerse, lang)];
-      } else {
-        retrieved = engine
-          .search(q, 5)
-          .map((r) => repo.getVerse(r.ref))
-          .filter((x): x is NonNullable<typeof x> => x !== null)
-          .map((verse) => toRetrievedVerse(repo, verse, lang));
-      }
+      // Retrieval: the anchored verse if present, else the RAG retriever (concept-expansion; the
+      // embedding retriever swaps in behind the same interface when a backend embedder exists).
+      const retrieved: RetrievedVerse[] = contextVerse
+        ? [toRetrievedVerse(repo, contextVerse, lang)]
+        : await getRetriever(lang).retrieve(q, 5);
       const answer = await client.ask(q, retrieved, lang);
       setTurns((t) => [...t, { role: "assistant", text: answer.text, sources: answer.sources }]);
     } catch {
