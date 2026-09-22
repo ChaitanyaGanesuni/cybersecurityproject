@@ -68,6 +68,7 @@ export default function VerseScreen() {
 
   const language = useUserStore((s) => s.language);
   const user = useUserStore((s) => s.user);
+  const showTransliteration = useUserStore((s) => s.display.showTransliteration);
   const markRead = useUserStore((s) => s.markRead);
   const toggleBookmark = useUserStore((s) => s.toggleBookmark);
   const setHighlight = useUserStore((s) => s.setHighlight);
@@ -148,7 +149,9 @@ export default function VerseScreen() {
       />
 
       <VerseSection label={t("verse.sanskrit")} block={vm.sanskrit} emphasize="sanskrit" />
-      <VerseSection label={t("verse.transliteration")} block={vm.transliteration} />
+      {showTransliteration && (
+        <VerseSection label={t("verse.transliteration")} block={vm.transliteration} />
+      )}
 
       {vm.translation ? (
         <VerseSection label={t("verse.translation")} block={vm.translation} />

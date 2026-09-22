@@ -71,7 +71,21 @@ gita/
 - **Phase 8 — Progress, Daily Practice, Spaced Repetition:** done. SM-2 scheduler (Day 1→2→4/6→…,
   lapse resets), Daily Practice flow (Listen→Understand→Reflect→Apply→Journal with private journal),
   "for revision" enrolls verses in the schedule, Home surfaces due-count. +16 core assertions.
-- Phases 9–10: in progress.
+- **Phase 9 — Offline mode:** done. All text content ships bundled (reader, search, notes, study
+  work with no connection); a pure, tested download-queue state machine models the four states
+  (not downloaded · queued · downloading · downloaded, + failed) for future audio packs; Downloads
+  screen reflects real bundled availability. +9 core assertions.
+- **Phase 10 — Settings, accessibility & test harness:** done. Settings screen (theme, adjustable
+  text size, transliteration toggle, and independent UI/verse/explanation languages); accessibility
+  text-scaling applied across shared components; transliteration toggle honored in the reader; a
+  single `npm test` runs content validation, all four package suites, and the full typecheck.
+
+## Test & typecheck everything
+
+```bash
+cd gita && npm install && npm test
+# validate (701 verses) + core (79) + audio (47) + ai (30) + rag (23) + tsc (packages + app)
+```
 
 ### A note on the two retrievers
 

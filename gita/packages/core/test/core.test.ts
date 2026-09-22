@@ -31,6 +31,10 @@ import {
   withStep,
   isDailyComplete,
   dayKey,
+  initialDownloadState,
+  downloadReducer,
+  itemId,
+  summarize,
   type UserState,
 } from "../src/index.js";
 
@@ -230,6 +234,32 @@ await (async () => {
   for (const step of DAILY_STEPS) entry = withStep(entry, step, now);
   ok(isDailyComplete(entry), "entry complete after all steps");
   eq(withStep(entry, "listen", now).completedSteps.length, DAILY_STEPS.length, "withStep is idempotent");
+}
+
+// --- offline downloads (spec §15) ---
+{
+  let ds = initialDownloadState(repo);
+  eq(Object.keys(ds.items).length, 18, "content items for all 18 chapters");
+  eq(summarize(ds).downloaded, 18, "all content bundled -> downloaded");
+
+  const id = itemId("audio", 2);
+  ds = downloadReducer(ds, { type: "enqueue", kind: "audio", chapterNumber: 2 });
+  eq(ds.items[id]!.status, "queued", "enqueue -> queued");
+  ds = downloadReducer(ds, { type: "start", id });
+  eq(ds.items[id]!.status, "downloading", "start -> downloading");
+  ds = downloadReducer(ds, { type: "progress", id, progress: 1.5 });
+  eq(ds.items[id]!.progress, 1, "progress clamped to 1");
+  ds = downloadReducer(ds, { type: "complete", id });
+  eq(ds.items[id]!.status, "downloaded", "complete -> downloaded");
+  // enqueue of already-downloaded is a no-op
+  const before = ds.items[id];
+  ds = downloadReducer(ds, { type: "enqueue", kind: "audio", chapterNumber: 2 });
+  eq(ds.items[id], before, "enqueue of downloaded item is a no-op");
+  // fail + remove
+  ds = downloadReducer(ds, { type: "fail", id });
+  eq(ds.items[id]!.status, "failed", "fail -> failed");
+  ds = downloadReducer(ds, { type: "remove", id });
+  ok(ds.items[id] === undefined, "remove deletes the item");
 }
 
 if (failures.length) {

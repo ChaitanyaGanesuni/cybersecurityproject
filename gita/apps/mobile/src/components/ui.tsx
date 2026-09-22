@@ -8,8 +8,14 @@ import {
   type ViewStyle,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { radii, spacing, typeScale } from "@gita/core";
+import { radii, scaled, spacing, typeScale } from "@gita/core";
 import { useTheme } from "../theme/theme";
+import { useUserStore } from "../state/user";
+
+/** User-controlled accessibility text scale (spec §21). */
+function useTextScale() {
+  return useUserStore((s) => s.display.textScale);
+}
 
 export function Screen({ children }: { children: React.ReactNode }) {
   const { colors } = useTheme();
@@ -72,8 +78,9 @@ export function SectionLabel({ children }: { children: React.ReactNode }) {
 
 export function Title({ children }: { children: React.ReactNode }) {
   const { colors } = useTheme();
+  const scale = useTextScale();
   return (
-    <Text style={{ color: colors.text, fontSize: typeScale.title, fontWeight: "600" }}>
+    <Text style={{ color: colors.text, fontSize: scaled(typeScale.title, scale), fontWeight: "600" }}>
       {children}
     </Text>
   );
@@ -81,8 +88,9 @@ export function Title({ children }: { children: React.ReactNode }) {
 
 export function Body({ children }: { children: React.ReactNode }) {
   const { colors } = useTheme();
+  const scale = useTextScale();
   return (
-    <Text style={{ color: colors.text, fontSize: typeScale.body, lineHeight: 24 }}>
+    <Text style={{ color: colors.text, fontSize: scaled(typeScale.body, scale), lineHeight: scaled(24, scale) }}>
       {children}
     </Text>
   );
@@ -90,8 +98,9 @@ export function Body({ children }: { children: React.ReactNode }) {
 
 export function Muted({ children }: { children: React.ReactNode }) {
   const { colors } = useTheme();
+  const scale = useTextScale();
   return (
-    <Text style={{ color: colors.textMuted, fontSize: typeScale.caption }}>{children}</Text>
+    <Text style={{ color: colors.textMuted, fontSize: scaled(typeScale.caption, scale) }}>{children}</Text>
   );
 }
 

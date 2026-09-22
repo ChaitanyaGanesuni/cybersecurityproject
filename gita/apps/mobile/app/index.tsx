@@ -92,6 +92,21 @@ export default function HomeScreen() {
         <Muted>Ask anything — answers are grounded in the verses and cite their sources.</Muted>
       </Card>
 
+      <View style={{ flexDirection: "row", gap: spacing.md }}>
+        <View style={{ flex: 1 }}>
+          <Card onPress={() => router.push("/settings")}>
+            <SectionLabel>Settings</SectionLabel>
+            <Muted>Theme · text size · languages</Muted>
+          </Card>
+        </View>
+        <View style={{ flex: 1 }}>
+          <Card onPress={() => router.push("/downloads")}>
+            <SectionLabel>Downloads</SectionLabel>
+            <Muted>Offline content</Muted>
+          </Card>
+        </View>
+      </View>
+
       <Muted>
         Or{" "}
         <Link href="/chapters" style={{ textDecorationLine: "underline" }}>

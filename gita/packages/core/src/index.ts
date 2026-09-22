@@ -9,4 +9,5 @@ export * from "./search/index.js";
 export * from "./study.js";
 export * from "./revision.js";
 export * from "./daily.js";
+export * from "./downloads.js";
 export * from "./persistence.js";
