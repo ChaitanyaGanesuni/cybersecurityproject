@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Bundler",
+    "paths": {
+      "@gita/core": ["../../packages/core/src/index.ts"],
+      "@gita/audio": ["../../packages/audio/src/index.ts"],
+      "@gita/ai": ["../../packages/ai/src/index.ts"],
+      "@gita/rag": ["../../packages/rag/src/index.ts"],
+      "@gita/contracts": ["../../packages/contracts/src/index.ts"],
+      "@gita/content/data/gita.json": ["../../packages/gita-content/data/gita.json"]
+    }
+  },
+  "include": ["app", "src", ".expo/types/**/*.ts", "expo-env.d.ts"]
+}

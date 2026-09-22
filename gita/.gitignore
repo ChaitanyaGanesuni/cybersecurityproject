@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# python (inference service)
+__pycache__/
+*.pyc
+.venv/
+services/inference/.venv/

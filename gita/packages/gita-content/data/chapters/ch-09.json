@@ -1,0 +1,1315 @@
+{
+  "chapter": {
+    "chapterNumber": 9,
+    "nameTransliterated": "Rāja Vidyā Yog",
+    "nameSanskrit": {
+      "text": "राजविद्याराजगुह्ययोग",
+      "lang": "sa",
+      "contentType": "sanskrit",
+      "sourceId": "sanskrit-classical"
+    },
+    "nameTranslation": "Raja Vidya Yoga",
+    "summary": {
+      "text": "The ninth chapter of the Bhagavad Gita is \"Raja Vidya Yoga\". In this chapter, Krishna explains that He is Supreme and how this material existence is created, maintained and destroyed by His Yogmaya and all beings come and go under his supervision. He reveals the Role and the Importance of Bhakti (transcendental devotional service) towards our Spiritual Awakening. In such devotion, one must live for the God, offer everything that he possesses to Him and do everything for Him only. One who follows such devotion becomes free from the bonds of this material world and unites with the Lord.",
+      "lang": "en",
+      "contentType": "explanation",
+      "sourceId": "gita-gita-editorial"
+    },
+    "theme": null,
+    "versesCount": 34
+  },
+  "verses": [
+    {
+      "chapterNumber": 9,
+      "verseNumber": 1,
+      "sanskrit": {
+        "text": "श्री भगवानुवाच\n\nइदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे।\n\nज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात्।।9.1।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhrī bhagavān uvācha\nidaṁ tu te guhyatamaṁ pravakṣhyāmyanasūyave\njñānaṁ vijñāna-sahitaṁ yaj jñātvā mokṣhyase ’śhubhāt",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhrī-bhagavān uvācha—the Supreme Lord said; idam—this; tu—but; te—to you; guhya-tamam—the most confidential; pravakṣhyāmi—I shall impart; anasūyave—nonenvious; jñānam—knowledge; vijñāna—realized knowledge; sahitam—with; yat—which; jñātvā—knowing; mokṣhyase—you will be released; aśhubhāt—miseries of material existence",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna said: I will now reveal to you, since you do not doubt, that profound mysticism, which, when followed with experience, will liberate you from sin.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 2,
+      "sanskrit": {
+        "text": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम्।\n\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम्।।9.2।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "rāja-vidyā rāja-guhyaṁ pavitram idam uttamam\npratyakṣhāvagamaṁ dharmyaṁ su-sukhaṁ kartum avyayam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "rāja-vidyā—the king of sciences; rāja-guhyam—the most profound secret; pavitram—pure; idam—this; uttamam—highest; pratyakṣha—directly perceptible; avagamam—directly realizable; dharmyam—virtuous; su-sukham—easy; kartum—to practice; avyayam—everlasting",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "This is the supreme science, the supreme secret, the purest and best; it is intuitive, righteous, and to those who practice it, it is exceedingly pleasant.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 3,
+      "sanskrit": {
+        "text": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप।\n\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि।।9.3।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "aśhraddadhānāḥ puruṣhā dharmasyāsya parantapa\naprāpya māṁ nivartante mṛityu-samsāra-vartmani",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aśhraddadhānāḥ—people without faith; puruṣhāḥ—(such) persons; dharmasya—of dharma; asya—this; parantapa—Arjun, conqueror the enemies; aprāpya—without attaining; mām—me; nivartante—come back; mṛityu—death; samsāra—material existence; vartmani—in the path",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "They who have no faith in this teaching cannot find Me; they remain lost in the purlieus of this perishable world.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 4,
+      "sanskrit": {
+        "text": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना।\n\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः।।9.4।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "mayā tatam idaṁ sarvaṁ jagad avyakta-mūrtinā\nmat-sthāni sarva-bhūtāni na chāhaṁ teṣhvavasthitaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "mayā—by me; tatam—pervaded; idam—this; sarvam—entire; jagat—cosmic manifestation; avyakta-mūrtinā—the unmanifested form; mat-sthāni—in me; sarva-bhūtāni—all living beings; na—not; cha—and; aham—I; teṣhu—in them; avasthitaḥ—dwell",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The whole world is pervaded by Me, yet My form is not visible. All living beings have their being in Me, yet I am not confined by them.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 5,
+      "sanskrit": {
+        "text": "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम्।\n\nभूतभृन्न च भूतस्थो ममात्मा भूतभावनः।।9.5।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "na cha mat-sthāni bhūtāni paśhya me yogam aiśhwaram\nbhūta-bhṛin na cha bhūta-stho mamātmā bhūta-bhāvanaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—never; cha—and; mat-sthāni—abide in me; bhūtāni—all living beings; paśhya—behold; me—my; yogam aiśhwaram—divine energy; bhūta-bhṛit—the sustainer of all living beings; na—never; cha—yet; bhūta-sthaḥ—dwelling in; mama—my; ātmā—self; bhūta-bhāvanaḥ—the creator of all beings",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Nevertheless, they do not consciously abide in Me. Such is My Divine Sovereignty that, though I, the Supreme Self, am the cause and upholder of all, yet I remain outside.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 6,
+      "sanskrit": {
+        "text": "यथाऽऽकाशस्थितो नित्यं वायुः सर्वत्रगो महान्।\n\nतथा सर्वाणि भूतानि मत्स्थानीत्युपधारय।।9.6।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yathākāśha-sthito nityaṁ vāyuḥ sarvatra-go mahān\ntathā sarvāṇi bhūtāni mat-sthānītyupadhāraya",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yathā—as; ākāśha-sthitaḥ—rests in the sky; nityam—always; vāyuḥ—the wind; sarvatra-gaḥ—blowing everywhere; mahān—mighty; tathā—likewise; sarvāṇi bhūtāni—all living beings; mat-sthāni—rest in me; iti—thus; upadhāraya—know",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "As the mighty wind, though moving everywhere, has no resting place except in space, so all these beings have no home except in Me.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 7,
+      "sanskrit": {
+        "text": "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम्।\n\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम्।।9.7।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sarva-bhūtāni kaunteya prakṛitiṁ yānti māmikām\nkalpa-kṣhaye punas tāni kalpādau visṛijāmyaham",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sarva-bhūtāni—all living beings; kaunteya—Arjun, the son of Kunti; prakṛitim—primordial material energy; yānti—merge; māmikām—my; kalpa-kṣhaye—at the end of a kalpa; punaḥ—again; tāni—them; kalpa-ādau—at the beginning of a kalpa; visṛijāmi—manifest; aham—I",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "All beings, O Arjuna, return at the end of every cosmic cycle into the realm of Nature, which is a part of Me, and at the start of the next I send them forth again.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 8,
+      "sanskrit": {
+        "text": "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः।\n\nभूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात्।।9.8।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "prakṛitiṁ svām avaṣhṭabhya visṛijāmi punaḥ punaḥ\nbhūta-grāmam imaṁ kṛitsnam avaśhaṁ prakṛiter vaśhāt",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "prakṛitim—the material energy; svām—my own; avaṣhṭabhya—presiding over; visṛijāmi—generate; punaḥ punaḥ—again and again; bhūta-grāmam—myriad forms; imam—these; kṛitsnam—all; avaśham—beyond their control; prakṛiteḥ—nature; vaśhāt—force",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "With the help of Nature, I again and again pour forth the whole multitude of beings, whether they will or not, for they are ruled by My will.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 9,
+      "sanskrit": {
+        "text": "न च मां तानि कर्माणि निबध्नन्ति धनञ्जय।\n\nउदासीनवदासीनमसक्तं तेषु कर्मसु।।9.9।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "na cha māṁ tāni karmāṇi nibadhnanti dhanañjaya\nudāsīna-vad āsīnam asaktaṁ teṣhu karmasu",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—none; cha—as; mām—me; tāni—those; karmāṇi—actions; nibadhnanti—bind; dhanañjaya—Arjun, conqueror of wealth; udāsīna-vat—as neutral; āsīnam—situated; asaktam—detached; teṣhu—those; karmasu—actions",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But these acts of mine do not bind me; I remain outside and unattached.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 10,
+      "sanskrit": {
+        "text": "मयाऽध्यक्षेण प्रकृतिः सूयते सचराचरम्।\n\nहेतुनाऽनेन कौन्तेय जगद्विपरिवर्तते।।9.10।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "mayādhyakṣheṇa prakṛitiḥ sūyate sa-charācharam\nhetunānena kaunteya jagad viparivartate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "mayā—by me; adhyakṣheṇa—direction; prakṛitiḥ—material energy; sūyate—brings into being; sa—both; chara-acharam—the animate and the inanimate; hetunā—reason; anena—this; kaunteya—Arjun, the son of Kunti; jagat—the material world; viparivartate—undergoes the changes",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Under my guidance, Nature produces all movable and immovable things. Thus, O Arjuna, this universe revolves.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 11,
+      "sanskrit": {
+        "text": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम्।\n\nपरं भावमजानन्तो मम भूतमहेश्वरम्।।9.11।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "avajānanti māṁ mūḍhā mānuṣhīṁ tanum āśhritam\nparaṁ bhāvam ajānanto mama bhūta-maheśhvaram",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "avajānanti—disregard; mām—me; mūḍhāḥ—dim-witted; mānuṣhīm—human; tanum—form; āśhritam—take on; param—divine; bhāvam—personality; ajānantaḥ—not knowing; mama—my; bhūta—all beings; mahā-īśhvaram—the Supreme Lord",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Fools disregard Me, seeing Me clad in human form. They do not know that in My higher nature, I am the Lord-God of all.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 12,
+      "sanskrit": {
+        "text": "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः।\n\nराक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः।।9.12।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "moghāśhā mogha-karmāṇo mogha-jñānā vichetasaḥ\nrākṣhasīm āsurīṁ chaiva prakṛitiṁ mohinīṁ śhritāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "mogha-āśhāḥ—of vain hopes; mogha-karmāṇaḥ—of vain actions; mogha-jñānāḥ—of baffled knowledge; vichetasaḥ—deluded; rākṣhasīm—demoniac; āsurīm—atheistic; cha—and; eva—certainly; prakṛitim—material energy; mohinīm—bewildered; śhritāḥ—take shelter",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Their hopes are futile, their actions worthless, their knowledge ineffective; they are without sense, deceitful, barbaric, and godless.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 13,
+      "sanskrit": {
+        "text": "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः।\n\nभजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम्।।9.13।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "mahātmānas tu māṁ pārtha daivīṁ prakṛitim āśhritāḥ\nbhajantyananya-manaso jñātvā bhūtādim avyayam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "mahā-ātmānaḥ—the great souls; tu—but; mām—me; pārtha—Arjun, the son of Pritha; daivīm prakṛitim—divine energy; āśhritāḥ—take shelter of; bhajanti—engage in devotion; ananya-manasaḥ—with mind fixed exclusively; jñātvā—knowing; bhūta—all creation; ādim—the origin; avyayam—imperishable",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But the great souls, O Arjuna! Filled with my divine spirit, they worship me, fix their minds on me alone, for they know that I am the imperishable source of being.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 14,
+      "sanskrit": {
+        "text": "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रताः।\n\nनमस्यन्तश्च मां भक्त्या नित्ययुक्ता उपासते।।9.14।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "satataṁ kīrtayanto māṁ yatantaśh cha dṛiḍha-vratāḥ\nnamasyantaśh cha māṁ bhaktyā nitya-yuktā upāsate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "satatam—always; kīrtayantaḥ—singing divine glories; mām—me; yatantaḥ—striving; cha—and; dṛiḍha-vratāḥ—with great determination; namasyantaḥ—humbly bowing down; cha—and; mām—me; bhaktyā—loving devotion; nitya-yuktāḥ—constantly united; upāsate—worship",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Always extolling Me, they are strenuous and firm in their vows, prostrating themselves before Me, and worshiping Me continually with concentrated devotion.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 15,
+      "sanskrit": {
+        "text": "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते।\n\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम्।।9.15।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "jñāna-yajñena chāpyanye yajanto mām upāsate\nekatvena pṛithaktvena bahudhā viśhvato-mukham",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "jñāna-yajñena—yajña of cultivating knowledge; cha—and; api—also; anye—others; yajantaḥ—worship; mām—me; upāsate—worship; ekatvena—undifferentiated oneness; pṛithaktvena—separately; bahudhā—various; viśhwataḥ-mukham—the cosmic form",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Others worship Me with full consciousness as the One, the Manifold, the Omnipresent, and the Universal.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 16,
+      "sanskrit": {
+        "text": "अहं क्रतुरहं यज्ञः स्वधाऽहमहमौषधम्।\n\nमंत्रोऽहमहमेवाज्यमहमग्निरहं हुतम्।।9.16।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ahaṁ kratur ahaṁ yajñaḥ svadhāham aham auṣhadham\nmantro ’ham aham evājyam aham agnir ahaṁ hutam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aham—I; kratuḥ—Vedic ritual; aham—I; yajñaḥ—sacrifice; svadhā—oblation; aham—I; aham—I; auṣhadham—medicinal herb; mantraḥ—Vedic mantra; aham—I; aham—I; eva—also; ājyam—clarified butter; aham—I; agniḥ—fire; aham—I; hutam—the act offering;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I am the oblation, the sacrifice, and the worship; I am the fuel and the chant; I am the butter offered to the fire; I am the fire itself, and I am the act of offering.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 17,
+      "sanskrit": {
+        "text": "पिताऽहमस्य जगतो माता धाता पितामहः।\n\nवेद्यं पवित्रमोंकार ऋक् साम यजुरेव च।।9.17।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "pitāham asya jagato mātā dhātā pitāmahaḥ\nvedyaṁ pavitram oṁkāra ṛik sāma yajur eva cha",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "pitā—Father; aham—I; asya—of this; jagataḥ—universe; mātā—Mother; dhātā—Sustainer; pitāmahaḥ—Grandsire; vedyam—the goal of knowledge; pavitram—the purifier; om-kāra—the sacred syllable Om; ṛik—the Rig Veda; sāma—the Sama Veda; yajuḥ—the Yajur Veda; eva—also; cha—and",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I am the Father of the universe, its Mother, Nourisher, and Grandfather; I am the Knowable and the Pure; I am Om, and I am the Sacred Scriptures.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 18,
+      "sanskrit": {
+        "text": "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत्।\n\nप्रभवः प्रलयः स्थानं निधानं बीजमव्ययम्।।9.18।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "gatir bhartā prabhuḥ sākṣhī nivāsaḥ śharaṇaṁ suhṛit\nprabhavaḥ pralayaḥ sthānaṁ nidhānaṁ bījam avyayam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "gatiḥ—the supreme goal; bhartā—sustainer; prabhuḥ—master; sākṣhī—witness; nivāsaḥ—abode; śharaṇam—shelter; su-hṛit—friend; prabhavaḥ—the origin; pralayaḥ—dissolution; sthānam—store house; nidhānam—resting place; bījam—seed; avyayam—imperishable",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I am the goal, the sustainer, the Lord, the witness, the home, the shelter, the lover, and the origin; I am life and death; I am the fountain and the imperishable seed.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 19,
+      "sanskrit": {
+        "text": "तपाम्यहमहं वर्षं निगृह्णाम्युत्सृजामि च।\n\nअमृतं चैव मृत्युश्च सदसच्चाहमर्जुन।।9.19।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tapāmyaham ahaṁ varṣhaṁ nigṛihṇāmyutsṛijāmi cha\namṛitaṁ chaiva mṛityuśh cha sad asach chāham arjuna",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tapāmi—radiate heat; aham—I; aham—I; varṣham—rain; nigṛihṇāmi—withhold; utsṛijāmi—send forth; cha—and; amṛitam—immortality; cha—and; eva—also; mṛityuḥ—death; cha—and; sat—eternal spirit; asat—temporary matter; cha—and; aham—I; arjuna—Arjun",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I am the heat of the sun, I release and withhold the rain. I am death and immortality; I am being and non-being.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 20,
+      "sanskrit": {
+        "text": "त्रैविद्या मां सोमपाः पूतपापा\n\nयज्ञैरिष्ट्वा स्वर्गतिं प्रार्थयन्ते।\n\nते पुण्यमासाद्य सुरेन्द्रलोक\n\nमश्नन्ति दिव्यान्दिवि देवभोगान्।।9.20।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "trai-vidyā māṁ soma-pāḥ pūta-pāpā\nyajñair iṣhṭvā svar-gatiṁ prārthayante\nte puṇyam āsādya surendra-lokam\naśhnanti divyān divi deva-bhogān",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "trai-vidyāḥ—the science of karm kāṇḍ (Vedic Rituals); mām—me; soma-pāḥ—drinkers of the Soma juice; pūta—purified; pāpāḥ—sins; yajñaiḥ—through sacrifices; iṣhṭvā—worship; svaḥ-gatim—way to the abode of the king of heaven; prārthayante—seek; te—they; puṇyam—pious; āsādya—attain; sura-indra—of Indra; lokam—abode; aśhnanti—enjoy; divyān—celestial; divi—in heaven; deva-bhogān—the pleasures of the celestial gods",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Those who are versed in the scriptures, who drink the mystic Soma-juice and are purified from sin, and who, while worshipping Me with sacrifices, pray that I will lead them to heaven; they reach the holy world where the Controller of the Powers of Nature resides, and they enjoy the feasts of Paradise.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 21,
+      "sanskrit": {
+        "text": "ते तं भुक्त्वा स्वर्गलोकं विशालं\n\nक्षीणे पुण्ये मर्त्यलोकं विशन्ति।\n\nएव त्रयीधर्ममनुप्रपन्ना\n\nगतागतं कामकामा लभन्ते।।9.21।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "te taṁ bhuktvā swarga-lokaṁ viśhālaṁ\nkṣhīṇe puṇye martya-lokaṁ viśhanti\nevaṁ trayī-dharmam anuprapannā\ngatāgataṁ kāma-kāmā labhante",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "te—they; tam—that; bhuktvā—having enjoyed; swarga-lokam—heaven; viśhālam—vast; kṣhīṇe—at the exhaustion of; puṇye—stock of merits; martya-lokam—to the earthly plane; viśhanti—return; evam—thus; trayī dharmam—the karm-kāṇḍ portion of the three Vedas; anuprapannāḥ—follow; gata-āgatam—repeated coming and going; kāma-kāmāḥ—desiring objects of enjoyments; labhante—attain",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Yet, although they enjoy the spacious glories of Paradise, when their merit is exhausted, they are born again into this world of mortals. They have followed the letter of the scriptures, yet, because they have sought to fulfill their own desires, they must depart and return again and again.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 22,
+      "sanskrit": {
+        "text": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\n\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्।।9.22।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ananyāśh chintayanto māṁ ye janāḥ paryupāsate\nteṣhāṁ nityābhiyuktānāṁ yoga-kṣhemaṁ vahāmyaham",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ananyāḥ—always; chintayantaḥ—think of; mām—me; ye—those who; janāḥ—persons; paryupāsate—worship exclusively; teṣhām—of them; nitya abhiyuktānām—who are always absorbed; yoga—supply spiritual assets; kṣhemam—protect spiritual assets; vahāmi—carry; aham—I",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But if a person meditates on Me and Me alone, worships Me always and everywhere, I will take upon Myself the fulfillment of their aspiration, and I will safeguard whatever they attain.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 23,
+      "sanskrit": {
+        "text": "येऽप्यन्यदेवता भक्ता यजन्ते श्रद्धयाऽन्विताः।\n\nतेऽपि मामेव कौन्तेय यजन्त्यविधिपूर्वकम्।।9.23।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ye ’pyanya-devatā-bhaktā yajante śhraddhayānvitāḥ\nte ’pi mām eva kaunteya yajantyavidhi-pūrvakam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ye—those who; api—although; anya—other; devatā—celestial gods; bhaktāḥ—devotees; yajante—worship; śhraddhayā anvitāḥ—faithfully; te—they; api—also; mām—me; eva—only; kaunteya—Arjun, the son of Kunti; yajanti—worship; avidhi-pūrvakam—by the wrong method",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Even those who worship the lesser powers, if they do so with faith, they are thereby worshipping Me, though not in the correct manner.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 24,
+      "sanskrit": {
+        "text": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च।\n\nन तु मामभिजानन्ति तत्त्वेनातश्च्यवन्ति ते।।9.24।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ahaṁ hi sarva-yajñānāṁ bhoktā cha prabhureva cha\nna tu mām abhijānanti tattvenātaśh chyavanti te",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aham—I; hi—verily; sarva—of all; yajñānām—sacrifices; bhoktā—the enjoyer; cha—and; prabhuḥ—the Lord; eva—only; cha—and; na—not; tu—but; mām—me; abhijānanti—realize; tattvena—divine nature; ataḥ—therefore; chyavanti—fall down (wander in samsara); te—they",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I am the willing recipient of sacrifice, and I am its true Lord. But they do not know me truly, so they fall back.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 25,
+      "sanskrit": {
+        "text": "यान्ति देवव्रता देवान् पितृ़न्यान्ति पितृव्रताः।\n\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम्।।9.25।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yānti deva-vratā devān pitṝīn yānti pitṛi-vratāḥ\nbhūtāni yānti bhūtejyā yānti mad-yājino ’pi mām",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yānti—go; deva-vratāḥ—worshipers of celestial gods; devān—amongst the celestial gods; pitṝīn—to the ancestors; yānti—go; pitṛi-vratā—worshippers of ancestors; bhūtāni—to the ghosts; yānti—go; bhūta-ijyāḥ—worshippers of ghosts; yānti—go; mat—my; yājinaḥ—devotees; api—and; mām—to me",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The votaries of the lesser powers go to them; the devotees of spirits go to them; they who worship the powers of darkness, to such powers shall they go; and so too, those who worship me shall come to me.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 26,
+      "sanskrit": {
+        "text": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति।\n\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः।।9.26।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "patraṁ puṣhpaṁ phalaṁ toyaṁ yo me bhaktyā prayachchhati\ntadahaṁ bhaktyupahṛitam aśhnāmi prayatātmanaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "patram—a leaf; puṣhpam—a flower; phalam—a fruit; toyam—water; yaḥ—who; me—to me; bhaktyā—with devotion; prayachchhati—offers; tat—that; aham—I; bhakti-upahṛitam—offered with devotion; aśhnāmi—partake; prayata-ātmanaḥ—one in pure consciousness",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Whatever a person offers to Me, be it a leaf, flower, fruit, or water, I accept it, for it is offered with devotion and a pure mind.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 27,
+      "sanskrit": {
+        "text": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत्।\n\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम्।।9.27।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yat karoṣhi yad aśhnāsi yaj juhoṣhi dadāsi yat\nyat tapasyasi kaunteya tat kuruṣhva mad-arpaṇam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yat—whatever; karoṣhi—you do; yat—whatever; aśhnāsi—you eat; yat—whatever; juhoṣhi—offer to the sacred fire; dadāsi—bestow as a gift; yat—whatever; yat—whatever; tapasyasi—austerities you perform; kaunteya—Arjun, the son of Kunti; tat—them; kuruṣhva—do; mad arpaṇam—as an offering to me",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Whatever you do, whatever you eat, whatever you sacrifice and give, whatever austerities you practice, do all as an offering to Me.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 28,
+      "sanskrit": {
+        "text": "शुभाशुभफलैरेवं मोक्ष्यसे कर्मबन्धनैः।\n\nसंन्यासयोगयुक्तात्मा विमुक्तो मामुपैष्यसि।।9.28।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhubhāśhubha-phalair evaṁ mokṣhyase karma-bandhanaiḥ\nsannyāsa-yoga-yuktātmā vimukto mām upaiṣhyasi",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhubha aśhubha phalaiḥ—from good and bad results; evam—thus; mokṣhyase—you shall be freed; karma—work; bandhanaiḥ—from the bondage; sanyāsa-yoga—renunciation of selfishness; yukta-ātmā—having the mind attached to me; vimuktaḥ—liberated; mām—to me; upaiṣhyasi—you shall reach",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "So, your action will have no result, either good or bad; but, through the spirit of renunciation, you will come to Me and be free.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 29,
+      "sanskrit": {
+        "text": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः।\n\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम्।।9.29।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "samo ’haṁ sarva-bhūteṣhu na me dveṣhyo ’sti na priyaḥ\nye bhajanti tu māṁ bhaktyā mayi te teṣhu chāpyaham",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "samaḥ—equally disposed; aham—I; sarva-bhūteṣhu—to all living beings; na—no one; me—to me; dveṣhyaḥ—inimical; asti—is; na—not; priyaḥ—dear; ye—who; bhajanti—worship with love; tu—but; mām—me; bhaktyā—with devotion; mayi—reside in me; te—such persons; teṣhu—in them; cha—and; api—also; aham—I",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I am the same to all beings; I do not favour any, nor do I hate any. However, those who worship Me devotedly, they live in Me and I in them.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 30,
+      "sanskrit": {
+        "text": "अपि चेत्सुदुराचारो भजते मामनन्यभाक्।\n\nसाधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः।।9.30।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "api chet su-durāchāro bhajate mām ananya-bhāk\nsādhur eva sa mantavyaḥ samyag vyavasito hi saḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "api—even; chet—if; su-durāchāraḥ—the vilest sinners; bhajate—worship; mām—me; ananya-bhāk—exclusive devotion; sādhuḥ—righteous; eva—certainly; saḥ—that person; mantavyaḥ—is to be considered; samyak—properly; vyavasitaḥ—resolve; hi—certainly; saḥ—that person",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Even the most sinful, if he worships Me with his whole heart, shall be considered righteous, for he is treading the right path.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 31,
+      "sanskrit": {
+        "text": "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति।\n\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति।।9.31।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "kṣhipraṁ bhavati dharmātmā śhaśhvach-chhāntiṁ nigachchhati\nkaunteya pratijānīhi na me bhaktaḥ praṇaśhyati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "kṣhipram—quickly; bhavati—become; dharma-ātmā—virtuous; śhaśhvat-śhāntim—lasting peace; nigachchhati—attain; kaunteya—Arjun, the son of Kunti; pratijānīhi—declare; na—never; me—my; bhaktaḥ—devotee; praṇaśhyati—perishes",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "He will soon attain spirituality and eternal peace. O Arjuna! Believe me, my devotee is never lost.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 32,
+      "sanskrit": {
+        "text": "मां हि पार्थ व्यपाश्रित्य येऽपि स्युः पापयोनयः।\n\nस्त्रियो वैश्यास्तथा शूद्रास्तेऽपि यान्ति परां गतिम्।।9.32।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "māṁ hi pārtha vyapāśhritya ye ’pi syuḥ pāpa-yonayaḥ\nstriyo vaiśhyās tathā śhūdrās te ’pi yānti parāṁ gatim",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "mām—in me; hi—certainly; pārtha—Arjun, the son of Pritha; vyapāśhritya—take refuge; ye—who; api—even; syuḥ—may be; pāpa yonayaḥ—of low birth; striyaḥ—women; vaiśhyāḥ—mercantile people; tathā—and; śhūdrāḥ—manual workers; te api—even they; yānti—go; parām—the supreme; gatim—destination",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Even the children of sinful parents, those miscalled the weaker sex, merchants, and laborers, if they make Me their refuge, they shall attain the highest.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 33,
+      "sanskrit": {
+        "text": "किं पुनर्ब्राह्मणाः पुण्या भक्ता राजर्षयस्तथा।\n\nअनित्यमसुखं लोकमिमं प्राप्य भजस्व माम्।।9.33।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "kiṁ punar brāhmaṇāḥ puṇyā bhaktā rājarṣhayas tathā\nanityam asukhaṁ lokam imaṁ prāpya bhajasva mām",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "kim—what; punaḥ—then; brāhmaṇāḥ—sages; puṇyāḥ—meritorius; bhaktāḥ—devotees; rāja-ṛiṣhayaḥ—saintly kings; tathā—and; anityam—transient; asukham—joyless; lokam—world; imam—this; prāpya—having achieved; bhajasva—engage in devotion; mām—unto me",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "What need is there, then, to mention the holy ministers of God, the devotees, and the saintly rulers? Therefore, do you, born in this changing and miserable world, also worship Me.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 9,
+      "verseNumber": 34,
+      "sanskrit": {
+        "text": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु।\n\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः।।9.34।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "man-manā bhava mad-bhakto mad-yājī māṁ namaskuru\nmām evaiṣhyasi yuktvaivam ātmānaṁ mat-parāyaṇaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "mat-manāḥ—always think of me; bhava—be; mat—my; bhaktaḥ—devotee; mat—my; yājī—worshipper; mām—to me; namaskuru—offer obeisances; mām—to me; eva—certainly; eṣhyasi—you will come; yuktvā—united with me; evam—thus; ātmānam—your mind and body; mat-parāyaṇaḥ—having dedicated to me",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Fix your mind on Me, devote yourself to Me, sacrifice for Me, surrender to Me, make Me the object of your aspirations, and you shall assuredly become one with Me, Who am your own Self.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    }
+  ]
+}

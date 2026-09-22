@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Gita Companion",
+    "slug": "gita-companion",
+    "scheme": "gita",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#FAF6EF",
+      "resizeMode": "contain"
+    },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "app.gita.companion" },
+    "android": {
+      "package": "app.gita.companion",
+      "adaptiveIcon": { "backgroundColor": "#FAF6EF" }
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": { "typedRoutes": true }
+  }
+}

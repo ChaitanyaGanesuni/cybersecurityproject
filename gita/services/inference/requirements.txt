@@ -1,0 +1,12 @@
+# Core service (always needed)
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+pydantic>=2.0,<3.0
+
+# Optional — real multilingual embeddings (uncomment to enable; large download)
+# sentence-transformers>=3.0
+# torch
+
+# Optional — open-model TTS (choose per provider; see README, licensing verified Sept 2026)
+# kokoro                     # English, Apache-2.0
+# (Indic-Parler-TTS is installed from its HF repo; Apache-2.0; needs torch + a GPU for speed)
