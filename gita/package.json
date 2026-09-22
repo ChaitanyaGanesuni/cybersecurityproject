@@ -10,7 +10,7 @@
   "scripts": {
     "ingest": "npm run ingest -w @gita/content",
     "validate": "npm run validate -w @gita/content",
-    "typecheck": "tsc -p tsconfig.json && npm run typecheck -w @gita/mobile",
+    "typecheck": "tsc -p tsconfig.json && npm run typecheck -w @gita/mobile && npm run typecheck -w @gita/api",
     "test": "npm run validate && npm test -w @gita/core && npm test -w @gita/audio && npm test -w @gita/ai && npm test -w @gita/rag && npm run typecheck"
   },
   "devDependencies": {

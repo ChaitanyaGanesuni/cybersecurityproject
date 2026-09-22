@@ -23,8 +23,10 @@ gita/
 │  └─ rag/           @gita/rag       — VectorStore + cosine store, per-verse doc builder, concept
 │                                      lexicon + query expander, lexical & embedding retrievers
 ├─ apps/
-│  └─ mobile/        @gita/mobile    — Expo / React Native shell (expo-router)
-└─ (services/ — added in later phases; see ARCHITECTURE.md §16)
+│  ├─ mobile/        @gita/mobile    — Expo / React Native shell (expo-router)
+│  └─ api/           @gita/api       — Fastify backend (holds LLM/TTS keys; grounded AI + content)
+└─ services/
+   └─ inference/                     — FastAPI: multilingual embeddings + open-model TTS
 ```
 
 ## Phase status
@@ -79,6 +81,12 @@ gita/
   text size, transliteration toggle, and independent UI/verse/explanation languages); accessibility
   text-scaling applied across shared components; transliteration toggle honored in the reader; a
   single `npm test` runs content validation, all four package suites, and the full typecheck.
+- **Backend (post-plan):** done. `@gita/api` (Fastify) holds the keys and serves grounded AI +
+  content + a TTS proxy — reuses the tested domain packages, verified live (`/health`, `/ai/ask`,
+  `/ai/explain`, validation, `/tts`→501). Ships with a **Gemini free-tier** adapter (mock provider
+  when no key). `services/inference` (FastAPI) serves multilingual embeddings (real model or
+  deterministic fallback) and the open-model TTS contract (`/embed`, `/tts`, `/tts/providers`),
+  verified live. See `apps/api/README.md` and `services/inference/README.md`.
 
 ## Test & typecheck everything
 
