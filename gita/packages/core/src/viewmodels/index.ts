@@ -4,6 +4,7 @@ import { ContentRepository } from "../repository.js";
 import type { LanguagePrefs } from "../prefs.js";
 import type { UserState } from "../progress.js";
 import { versesReadInChapter } from "../progress.js";
+import { dueItems } from "../revision.js";
 import {
   chapterProgressLabel,
   chapterWordCount,
@@ -158,6 +159,7 @@ export interface HomeViewModel {
   totalChapters: number;
   totalVerses: number;
   bookmarkCount: number;
+  dueRevisions: number;
 }
 
 /**
@@ -199,5 +201,6 @@ export function buildHome(
     totalChapters: repo.listChapters().length,
     totalVerses: repo.totalVerses(),
     bookmarkCount: user.bookmarks.length,
+    dueRevisions: dueItems(user.revisionItems, now).length,
   };
 }

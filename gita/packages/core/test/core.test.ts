@@ -23,6 +23,14 @@ import {
   hydrate,
   InMemoryPersistence,
   defaultPersistedState,
+  createRevisionItem,
+  reviewItem,
+  dueItems,
+  DAILY_STEPS,
+  emptyDailyEntry,
+  withStep,
+  isDailyComplete,
+  dayKey,
   type UserState,
 } from "../src/index.js";
 
@@ -179,6 +187,50 @@ await (async () => {
   const back = await store.load();
   eq(back!.user.bookmarks, ["2.47"], "persistence round-trips user state");
 })();
+
+// --- spaced repetition (SM-2) ---
+{
+  const t0 = new Date("2026-01-01T00:00:00Z");
+  const item = createRevisionItem("2.47", t0);
+  eq(item.repetitions, 0, "new item has 0 repetitions");
+  eq(dueItems([item], t0).length, 1, "new item is due immediately");
+
+  // First "good" review -> interval 1 day.
+  const r1 = reviewItem(item, "good", t0);
+  eq(r1.intervalDays, 1, "first good review -> 1 day");
+  eq(r1.repetitions, 1, "repetitions incremented");
+  eq(dueItems([r1], t0).length, 0, "not due right after review");
+
+  // Second good -> 6 days.
+  const t1 = new Date(r1.dueAt);
+  const r2 = reviewItem(r1, "good", t1);
+  eq(r2.intervalDays, 6, "second good review -> 6 days");
+
+  // Third good -> interval grows by ease (>6).
+  const r3 = reviewItem(r2, "good", new Date(r2.dueAt));
+  ok(r3.intervalDays > 6, "third good review interval grows");
+
+  // A lapse resets repetitions and shortens interval.
+  const lapsed = reviewItem(r3, "again", new Date(r3.dueAt));
+  eq(lapsed.repetitions, 0, "lapse resets repetitions");
+  eq(lapsed.intervalDays, 1, "lapse -> back to 1 day");
+  ok(lapsed.ease >= 1.3, "ease never drops below 1.3");
+
+  // 'easy' increases ease.
+  ok(reviewItem(item, "easy", t0).ease >= item.ease, "easy grade does not lower ease");
+}
+
+// --- daily practice ---
+{
+  const now = new Date("2026-09-22T08:00:00Z");
+  eq(dayKey(now), "2026-09-22", "dayKey is YYYY-MM-DD");
+  let entry = emptyDailyEntry({ chapterNumber: 2, verseNumber: 47 }, now);
+  eq(entry.completedSteps.length, 0, "new daily entry has no steps done");
+  ok(!isDailyComplete(entry), "new entry not complete");
+  for (const step of DAILY_STEPS) entry = withStep(entry, step, now);
+  ok(isDailyComplete(entry), "entry complete after all steps");
+  eq(withStep(entry, "listen", now).completedSteps.length, DAILY_STEPS.length, "withStep is idempotent");
+}
 
 if (failures.length) {
   console.error(`✗ core tests FAILED: ${failures.length} failure(s), ${passed} passed`);

@@ -37,6 +37,21 @@ export default function HomeScreen() {
         </Title>
       </Card>
 
+      <View style={{ flexDirection: "row", gap: spacing.md }}>
+        <View style={{ flex: 1 }}>
+          <Card onPress={() => router.push("/daily")}>
+            <SectionLabel>{t("home.dailyReflection")}</SectionLabel>
+            <Body>Listen · Reflect · Apply →</Body>
+          </Card>
+        </View>
+        <View style={{ flex: 1 }}>
+          <Card onPress={() => router.push("/revision")}>
+            <SectionLabel>Revision</SectionLabel>
+            <Body>{home.dueRevisions > 0 ? `${home.dueRevisions} due` : "Review →"}</Body>
+          </Card>
+        </View>
+      </View>
+
       {home.continueListening && (
         <Card onPress={() => go(home.continueListening!.chapterNumber, home.continueListening!.verseNumber)}>
           <SectionLabel>{t("home.continueListening")}</SectionLabel>

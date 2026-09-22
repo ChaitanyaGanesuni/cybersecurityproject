@@ -7,4 +7,6 @@ export * from "./i18n.js";
 export * from "./viewmodels/index.js";
 export * from "./search/index.js";
 export * from "./study.js";
+export * from "./revision.js";
+export * from "./daily.js";
 export * from "./persistence.js";

@@ -1,15 +1,23 @@
 import { create } from "zustand";
 import {
+  createRevisionItem,
   defaultDisplayPrefs,
   defaultLanguagePrefs,
+  emptyDailyEntry,
   emptyUserState,
+  findDailyEntry,
+  reviewItem,
   verseTitle,
+  withStep,
+  type DailyStep,
   type DisplayPrefs,
   type HighlightColor,
   type LanguagePrefs,
   type PersistedState,
+  type ReviewGrade,
   type UserState,
 } from "@gita/core";
+import type { VerseRef } from "@gita/contracts";
 import { AsyncStoragePersistence } from "../data/persistence";
 
 const persistence = new AsyncStoragePersistence();
@@ -31,6 +39,11 @@ interface Store {
   setHighlight: (c: number, v: number, color: HighlightColor | null) => void;
   toggleUnderstood: (c: number, v: number) => void;
   toggleForRevision: (c: number, v: number) => void;
+  reviewRevision: (verseKey: string, grade: ReviewGrade) => void;
+  updateDaily: (
+    verse: VerseRef,
+    patch: Partial<{ reflection: string; application: string; step: DailyStep }>,
+  ) => void;
   setLanguage: (patch: Partial<LanguagePrefs>) => void;
   setDisplay: (patch: Partial<DisplayPrefs>) => void;
 }
@@ -117,8 +130,42 @@ export const useUserStore = create<Store>((set, get) => {
     toggleUnderstood: (c, v) =>
       update((s) => ({ user: { ...s.user, understood: toggle(s.user.understood, verseTitle(c, v)) } })),
 
+    // Marking a verse for revision also enrolls it in the SM-2 schedule (and un-enrolls on toggle-off).
     toggleForRevision: (c, v) =>
-      update((s) => ({ user: { ...s.user, forRevision: toggle(s.user.forRevision, verseTitle(c, v)) } })),
+      update((s) => {
+        const key = verseTitle(c, v);
+        const has = s.user.forRevision.includes(key);
+        const revisionItems = has
+          ? s.user.revisionItems.filter((i) => i.verseKey !== key)
+          : s.user.revisionItems.some((i) => i.verseKey === key)
+            ? s.user.revisionItems
+            : [...s.user.revisionItems, createRevisionItem(key, new Date())];
+        return {
+          user: { ...s.user, forRevision: toggle(s.user.forRevision, key), revisionItems },
+        };
+      }),
+
+    reviewRevision: (verseKey, grade) =>
+      update((s) => ({
+        user: {
+          ...s.user,
+          revisionItems: s.user.revisionItems.map((i) =>
+            i.verseKey === verseKey ? reviewItem(i, grade, new Date()) : i,
+          ),
+        },
+      })),
+
+    updateDaily: (verse, patch) =>
+      update((s) => {
+        const now = new Date();
+        const base = findDailyEntry(s.user.dailyEntries, now) ?? emptyDailyEntry(verse, now);
+        let entry = { ...base, updatedAt: now.toISOString() };
+        if (patch.reflection !== undefined) entry.reflection = patch.reflection;
+        if (patch.application !== undefined) entry.application = patch.application;
+        if (patch.step) entry = withStep(entry, patch.step, now);
+        const others = s.user.dailyEntries.filter((e) => e.date !== entry.date);
+        return { user: { ...s.user, dailyEntries: [...others, entry] } };
+      }),
 
     setLanguage: (patch) => update((s) => ({ language: { ...s.language, ...patch } })),
     setDisplay: (patch) => update((s) => ({ display: { ...s.display, ...patch } })),

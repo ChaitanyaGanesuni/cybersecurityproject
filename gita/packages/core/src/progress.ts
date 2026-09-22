@@ -36,6 +36,10 @@ export interface Highlight {
   createdAt: string;
 }
 
+// Re-exported here to avoid a circular import; defined in revision.ts / daily.ts.
+import type { RevisionItem } from "./revision.js";
+import type { DailyEntry } from "./daily.js";
+
 export interface UserState {
   reading: ReadingProgress;
   listening: ListeningProgress | null;
@@ -44,6 +48,8 @@ export interface UserState {
   highlights: Highlight[];
   understood: string[]; // verse keys marked "understood"
   forRevision: string[]; // verse keys marked "for revision"
+  revisionItems: RevisionItem[]; // SM-2 schedule (spec §18)
+  dailyEntries: DailyEntry[]; // daily practice journal (spec §19)
 }
 
 export const emptyUserState: UserState = {
@@ -54,6 +60,8 @@ export const emptyUserState: UserState = {
   highlights: [],
   understood: [],
   forRevision: [],
+  revisionItems: [],
+  dailyEntries: [],
 };
 
 /** Count read verses within a given chapter. */

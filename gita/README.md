@@ -68,7 +68,10 @@ gita/
   **embedding retriever**. 23 assertions pass, including the flagship *"anxiety about the outcome of
   my work" → 2.47* with none of the target words, plus embedding self-retrieval end-to-end. App: the
   tutor now retrieves through the `Retriever`; Search gains a "By meaning" toggle.
-- Phases 8–10: not started.
+- **Phase 8 — Progress, Daily Practice, Spaced Repetition:** done. SM-2 scheduler (Day 1→2→4/6→…,
+  lapse resets), Daily Practice flow (Listen→Understand→Reflect→Apply→Journal with private journal),
+  "for revision" enrolls verses in the schedule, Home surfaces due-count. +16 core assertions.
+- Phases 9–10: in progress.
 
 ### A note on the two retrievers
 
