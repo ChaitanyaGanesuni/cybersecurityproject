@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react';
 import { AppProvider, useApp } from './data/store';
 import { db } from './data/db';
-import { startSyncLoop } from './data/sync';
+import { startSyncLoop, syncNow } from './data/sync';
 import { deliver } from './integrations/notify';
 import { dueNotifications } from './domain/reminders';
-import { SCORE_KEYS, type ScoreKey } from './domain/types';
-import { Overlays, celebrate, useRoute } from './ui/kit';
+import { SCORE_KEYS, type ScoreKey, type WaterEntry } from './domain/types';
+import { Overlays, celebrate, toast, useRoute } from './ui/kit';
 import { Home } from './pages/Home';
 import { Today } from './pages/Today';
 import { Food } from './pages/Food';
@@ -52,6 +52,30 @@ function useCelebrations() {
   }, [todayEval, today]);
 }
 
+let reminderRunning = false;
+
+/**
+ * "+250 ml" pressed on a notification: the service worker writes the entry
+ * straight to IndexedDB (so it works with the app closed). Open tabs re-save
+ * the same record through Dexie — Dexie doesn't see raw writes, and its query
+ * cache would otherwise keep showing the old total — then push it to sync.
+ */
+function useNotificationActions() {
+  useEffect(() => {
+    if (!('serviceWorker' in navigator)) return;
+    const on = (e: MessageEvent) => {
+      const d = e.data as { type?: string; ml?: number; record?: WaterEntry } | null;
+      if (d?.type !== 'water-logged' || !d.record) return;
+      void db.water.put(d.record).then(() => {
+        toast(`💧 +${d.ml} ml logged`);
+        void syncNow();
+      });
+    };
+    navigator.serviceWorker.addEventListener('message', on);
+    return () => navigator.serviceWorker.removeEventListener('message', on);
+  }, []);
+}
+
 /** Checks for due reminders whenever the clock ticks (every ~30s while open). */
 function useReminders() {
   const app = useApp();
@@ -60,9 +84,17 @@ function useReminders() {
     if (!settings.reminders.enabled) return;
     let cancelled = false;
     void (async () => {
-      const sentToday = await db.notifications.where('date').equals(today).toArray();
-      const due = dueNotifications({ settings, clock, today: todayEval, nudges, habits: activeHabits, sentToday, streak: streaks.overall.current });
-      if (!cancelled && due.length) await deliver(today, due);
+      if (reminderRunning) return; // a slow delivery must not overlap the next tick
+      reminderRunning = true;
+      try {
+        const sentToday = await db.notifications.where('date').equals(today).toArray();
+        const drinks = await db.water.where('date').equals(today).toArray();
+        const lastDrinkAt = drinks.length ? Math.max(...drinks.map((w) => w.at)) : null;
+        const due = dueNotifications({ settings, clock, today: todayEval, nudges, habits: activeHabits, sentToday, streak: streaks.overall.current, now, lastDrinkAt });
+        if (!cancelled && due.length) await deliver(today, due);
+      } finally {
+        reminderRunning = false;
+      }
     })();
     return () => {
       cancelled = true;
@@ -76,6 +108,7 @@ function Shell() {
   const route = useRoute();
   useCelebrations();
   useReminders();
+  useNotificationActions();
   const top = route.path[0] ?? '';
 
   if (!app.settings.onboarded) {

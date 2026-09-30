@@ -37,7 +37,7 @@ Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 b
 * **Progress:** arc score with editable weights, per-category and per-habit streaks (current, longest, previous), weekly and arc stats, charts, sleep statistics. There is also a weight and body page.
 * **Check-in:** goals ✓/○, score, streak message, mood and a journal note, plus an auto-generated reflection.
 * **Streak rules:** each category can be set to "Breaks streak", "Reduces score" or "No effect", with a minimum day score. Streak Protection is manual only and limited per arc.
-* **Reminders:** a smart reminder engine with quiet hours and a daily cap, delivered through the Notification API.
+* **Reminders:** a smart reminder engine with quiet hours and a daily cap, delivered through the Notification API. Recurring **water reminders** (every 1–3 h while the goal is open) suggest an amount that keeps you on pace and have **+250 ml** buttons that log water without opening the app.
 * **Arc complete:** summary stats and a written summary from your data, then carry your goals into the next arc.
 * **Assistant:** answers on the device by default; opt in to Claude through your own server.
 * **Privacy:** export, delete device data, delete server account. No trackers.

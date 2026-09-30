@@ -50,6 +50,12 @@ export interface ReminderPrefs {
   evening: string | null;
   night: string | null;
   habitReminders: boolean;
+  /**
+   * Recurring hydration reminders: minutes between reminders while the water
+   * goal is open, or null for off. Missing on settings saved before this
+   * option existed, which also means off.
+   */
+  waterEveryMin?: number | null;
   maxPerDay: number;
   quietStart: string; // "HH:MM"
   quietEnd: string;

@@ -317,6 +317,23 @@ function RemindersSection() {
               {r[k] != null && <input type="time" style={{ width: 130 }} value={r[k] as string} onChange={(e) => setR({ [k]: e.target.value })} />}
             </div>
           ))}
+          <div className="row between" style={{ marginTop: 12 }}>
+            <span className="small">💧 Water reminders</span>
+            <select
+              style={{ width: 'auto', minHeight: 36, padding: '4px 8px' }}
+              value={r.waterEveryMin ?? 0}
+              onChange={(e) => setR({ waterEveryMin: Number(e.target.value) || null })}
+            >
+              <option value={0}>Off</option>
+              <option value={60}>Every hour</option>
+              <option value={90}>Every 1.5 hours</option>
+              <option value={120}>Every 2 hours</option>
+              <option value={180}>Every 3 hours</option>
+            </select>
+          </div>
+          <p className="tiny muted" style={{ margin: '4px 0 0' }}>
+            Only while your water goal is open, between your wake-up time and 30 min before bed. Logging water resets the timer. Tap “+250 ml” on the notification to log without opening the app (Android/desktop Chrome).
+          </p>
           <label className="row small" style={{ marginTop: 10 }}>
             <input type="checkbox" checked={r.habitReminders} onChange={(e) => setR({ habitReminders: e.target.checked })} /> Habit reminders at each habit's time
           </label>

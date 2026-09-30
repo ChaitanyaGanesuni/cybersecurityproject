@@ -3,7 +3,7 @@ import { defaultSettings } from './defaults';
 import { emptyRawDay, evaluateDay, type RawDay } from './scoring';
 import { computeStreak, computeAllStreaks, protectableDate } from './streaks';
 import { computeNudges, dayClock, riskSummary, walkMinutes, nextAction } from './nudges';
-import { dueNotifications, inQuietHours } from './reminders';
+import { dueNotifications, dueWaterReminder, inQuietHours } from './reminders';
 import { arcScore, insights, sleepStats } from './analytics';
 import { dateRange, sleepMinutes, addDays } from './dates';
 import { localAnswer, MEDICAL_NOTE, type AssistantContext } from './assistant';
@@ -157,7 +157,7 @@ describe('reminders', () => {
     const e = evaluateDay(day('2026-10-12', { water: 1400 }), s, []);
     const clock = dayClock(new Date(2026, 9, 12, 14, 40), s);
     const nudges = computeNudges(e, s, [], clock, { typicalWorkoutMin: null }, true);
-    const base = { settings: s, clock, today: e, nudges, habits: [], sentToday: [], streak: 3 };
+    const base = { settings: s, clock, today: e, nudges, habits: [], sentToday: [], streak: 3, now: new Date(2026, 9, 12, 14, 40), lastDrinkAt: new Date(2026, 9, 12, 14, 0).getTime() };
     expect(dueNotifications(base)).toEqual([]);
     s.reminders.enabled = true;
     const due = dueNotifications(base);
@@ -168,6 +168,64 @@ describe('reminders', () => {
     expect(dueNotifications({ ...base, sentToday: sent })).toEqual([]);
     expect(inQuietHours(23 * 60, s.reminders)).toBe(true);
     expect(inQuietHours(12 * 60, s.reminders)).toBe(false);
+  });
+});
+
+describe('recurring water reminders', () => {
+  const at = (h: number, m = 0) => new Date(2026, 9, 12, h, m);
+  const setup = (ml: number, now: Date) => {
+    const s = S();
+    s.reminders.enabled = true;
+    s.reminders.waterEveryMin = 120;
+    const e = evaluateDay(day('2026-10-12', { water: ml }), s, []);
+    return { settings: s, clock: dayClock(now, s), today: e, now };
+  };
+  const log = (type: string, t: Date) => ({ id: type, updatedAt: 0, date: '2026-10-12', type, scheduledAt: t.getTime(), sentAt: t.getTime(), status: 'sent' as const, title: '', body: '' });
+
+  it('fires once the interval has passed since the last drink, with a pace-based amount', () => {
+    const a = setup(1000, at(15));
+    expect(dueWaterReminder({ ...a, lastDrinkAt: at(14).getTime(), sentToday: [] })).toBeNull(); // drank 1h ago
+    const w = dueWaterReminder({ ...a, lastDrinkAt: at(12, 30).getTime(), sentToday: [] })!;
+    expect(w.title).toBe('💧 Catch-up sip time'); // 1.0 L at 3 PM is behind pace
+    expect(w.body).toMatch(/^1.0 L \/ 3.0 L\. Have about \d+ ml now to get back on pace\.$/);
+    expect(w.tag).toBe('water');
+    expect(w.actions?.[0]).toEqual({ action: 'water-add:250', title: '+250 ml' });
+  });
+
+  it('counts from wake-up when nothing is logged, and waits after any reminder', () => {
+    const a = setup(0, at(8, 30)); // woke 07:00, 90 min ago
+    expect(dueWaterReminder({ ...a, lastDrinkAt: null, sentToday: [] })).toBeNull();
+    const b = setup(0, at(9, 5));
+    expect(dueWaterReminder({ ...b, lastDrinkAt: null, sentToday: [] })).not.toBeNull();
+    expect(dueWaterReminder({ ...b, lastDrinkAt: null, sentToday: [log('morning', at(8))] })).toBeNull();
+  });
+
+  it('stops when the goal is met, near bedtime, when off, and in quiet hours', () => {
+    expect(dueWaterReminder({ ...setup(3000, at(15)), lastDrinkAt: null, sentToday: [] })).toBeNull();
+    expect(dueWaterReminder({ ...setup(1000, at(22, 45)), lastDrinkAt: null, sentToday: [] })).toBeNull();
+    const off = setup(1000, at(15));
+    off.settings.reminders.waterEveryMin = null;
+    expect(dueWaterReminder({ ...off, lastDrinkAt: null, sentToday: [] })).toBeNull();
+    const q = setup(500, at(22, 40));
+    q.settings.bedTime = '23:59';
+    const nudges = computeNudges(q.today, q.settings, [], q.clock, { typicalWorkoutMin: null }, false);
+    expect(dueNotifications({ ...q, nudges, habits: [], sentToday: [], streak: 0, lastDrinkAt: null })).toEqual([]);
+  });
+
+  it('suggests exactly what is left when that finishes the goal', () => {
+    const w = dueWaterReminder({ ...setup(2800, at(20)), lastDrinkAt: at(17).getTime(), sentToday: [] })!;
+    expect(w.body).toContain('Have about 200 ml now — that finishes today’s goal! 🎉');
+  });
+
+  it('is paced by its interval, not the daily cap, and never doubles up with a slot', () => {
+    const a = setup(1000, at(16));
+    const nudges = computeNudges(a.today, a.settings, [], a.clock, { typicalWorkoutMin: null }, false);
+    const full = [log('morning', at(8)), log('afternoon', at(9)), log('evening', at(10)), log('night', at(11))];
+    const due = dueNotifications({ ...a, nudges, habits: [], sentToday: full, streak: 0, lastDrinkAt: null });
+    expect(due.map((d) => d.type)).toEqual(['water:16:00']);
+    a.settings.reminders.afternoon = '16:00';
+    const both = dueNotifications({ ...a, nudges, habits: [], sentToday: [], streak: 0, lastDrinkAt: null });
+    expect(both.map((d) => d.type)).toEqual(['afternoon']);
   });
 });
 

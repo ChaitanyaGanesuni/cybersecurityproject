@@ -31,9 +31,21 @@ export const webChannel: NotificationChannel = {
   async show(n) {
     if (!('Notification' in window) || Notification.permission !== 'granted') return false;
     const reg = await navigator.serviceWorker?.getRegistration();
-    const opts: NotificationOptions = { body: n.body, tag: n.type, icon: '/icon.svg', badge: '/icon.svg' };
-    if (reg) await reg.showNotification(n.title, opts);
-    else new Notification(n.title, opts);
+    const opts: NotificationOptions & { actions?: { action: string; title: string }[]; renotify?: boolean } = {
+      body: n.body,
+      tag: n.tag ?? n.type,
+      icon: '/icon.svg',
+      badge: '/icon.svg',
+      data: { type: n.type },
+    };
+    // Action buttons (e.g. "+250 ml") only work through the service worker.
+    if (reg) {
+      if (n.actions?.length) {
+        opts.actions = n.actions;
+        opts.renotify = true;
+      }
+      await reg.showNotification(n.title, opts);
+    } else new Notification(n.title, opts);
     return true;
   },
 };

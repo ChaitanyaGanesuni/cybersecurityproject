@@ -2,8 +2,8 @@
 // Delivery (web Notification API, push, native) lives in src/integrations/notify.ts.
 
 import type { DayEval, Habit, NotificationLog, Settings } from './types';
-import { hm } from './dates';
-import { fmtDuration, fmtInt, fmtLiters } from './format';
+import { hm, minutesToHM } from './dates';
+import { fmtDuration, fmtInt, fmtLiters, roundTo } from './format';
 import type { DayClock, Nudge } from './nudges';
 import { nextAction, sortNudges } from './nudges';
 
@@ -11,10 +11,16 @@ export type Slot = 'morning' | 'afternoon' | 'evening' | 'night';
 export const SLOTS: Slot[] = ['morning', 'afternoon', 'evening', 'night'];
 
 export interface PlannedNotification {
-  type: string; // slot name or `habit:<id>` — one of each per day at most
+  type: string; // slot name, `habit:<id>` (once a day each) or `water:<HH:MM>` (recurring)
   title: string;
   body: string;
+  /** Notifications sharing a tag replace each other instead of stacking. */
+  tag?: string;
+  /** Buttons on the notification, e.g. { action: 'water-add:250', title: '+250 ml' }. */
+  actions?: { action: string; title: string }[];
 }
+
+const isWater = (type: string) => type.startsWith('water:');
 
 export function inQuietHours(nowMin: number, r: Settings['reminders']): boolean {
   const a = hm(r.quietStart), b = hm(r.quietEnd);
@@ -34,12 +40,16 @@ export function dueNotifications(args: {
   habits: Habit[];
   sentToday: NotificationLog[];
   streak: number;
+  now: Date;
+  /** Time of today's most recent water entry (ms), if any. */
+  lastDrinkAt: number | null;
 }): PlannedNotification[] {
   const { settings: s, clock, today, nudges, habits, sentToday, streak } = args;
   const r = s.reminders;
   if (!r.enabled || inQuietHours(clock.nowMin, r)) return [];
   const already = new Set(sentToday.map((n) => n.type));
-  let budget = r.maxPerDay - sentToday.filter((n) => n.status === 'sent').length;
+  // Recurring water reminders are paced by their own interval, not the daily cap.
+  let budget = r.maxPerDay - sentToday.filter((n) => n.status === 'sent' && !isWater(n.type)).length;
   const out: PlannedNotification[] = [];
 
   for (const slot of SLOTS) {
@@ -66,7 +76,64 @@ export function dueNotifications(args: {
       budget--;
     }
   }
+
+  // Never buzz twice at once: water waits if anything else is going out now.
+  if (!out.length) {
+    const w = dueWaterReminder({ settings: s, clock, today, now: args.now, lastDrinkAt: args.lastDrinkAt, sentToday });
+    if (w) out.push(w);
+  }
   return out;
+}
+
+/**
+ * Recurring hydration reminder. Fires when the water goal is still open, it's
+ * within the waking day (and not in the last 30 minutes before bed), and at
+ * least `waterEveryMin` has passed since the later of: wake-up time, the last
+ * drink logged, and the last reminder of any kind. Logging water resets the timer.
+ * The suggested amount keeps you on pace for the rest of the day.
+ */
+export function dueWaterReminder(args: {
+  settings: Settings;
+  clock: DayClock;
+  today: DayEval;
+  now: Date;
+  lastDrinkAt: number | null;
+  sentToday: NotificationLog[];
+}): PlannedNotification | null {
+  const { settings: s, clock, today: e, now } = args;
+  const every = s.reminders.waterEveryMin;
+  if (!every || s.policies.water === 'none' || e.complete.water) return null;
+  if (clock.dayFraction <= 0 || clock.minutesLeft < 30) return null;
+
+  const wake = new Date(now);
+  const wm = hm(s.wakeTime);
+  wake.setHours(Math.floor(wm / 60), wm % 60, 0, 0);
+  // Any attempt counts (even a failed one), so a blocked channel isn't retried every minute.
+  const lastSent = Math.max(0, ...args.sentToday.map((n) => n.scheduledAt));
+  const anchor = Math.max(wake.getTime(), args.lastDrinkAt ?? 0, lastSent);
+  if (now.getTime() - anchor < every * 60_000) return null;
+
+  const goal = s.goals.waterMl;
+  const ml = e.totals.waterMl;
+  const remaining = goal - ml;
+  const behind = Math.max(0, goal * clock.dayFraction - ml);
+  const slotsLeft = Math.max(1, Math.floor(clock.minutesLeft / every));
+  const suggest = Math.min(remaining, Math.min(750, Math.max(150, roundTo(Math.max(behind, remaining / slotsLeft), 50))));
+  const catchUp = behind > 250;
+  const finishes = suggest >= remaining;
+
+  return {
+    type: `water:${minutesToHM(clock.nowMin)}`,
+    tag: 'water',
+    title: catchUp ? '💧 Catch-up sip time' : '💧 Water break',
+    body: `${fmtLiters(ml)} / ${fmtLiters(goal)}. Have about ${suggest} ml now${
+      finishes ? ' — that finishes today’s goal! 🎉' : catchUp ? ' to get back on pace.' : ' to stay on pace.'
+    }`,
+    actions: [
+      { action: 'water-add:250', title: '+250 ml' },
+      { action: `water-add:${suggest === 250 ? 500 : suggest}`, title: `+${suggest === 250 ? 500 : suggest} ml` },
+    ],
+  };
 }
 
 export function composeSlot(

@@ -40,6 +40,7 @@ export function defaultSettings(): Settings {
       evening: '19:30',
       night: '21:30',
       habitReminders: true,
+      waterEveryMin: 120,
       maxPerDay: 4,
       quietStart: '22:30',
       quietEnd: '07:00',
