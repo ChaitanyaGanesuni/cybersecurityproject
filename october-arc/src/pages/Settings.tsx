@@ -6,6 +6,7 @@ import {
 import { deleteAccount, getSession, serverInfo, signIn, signOut } from '../data/api';
 import { getSyncStatus, subscribeSync, syncNow, type SyncStatus } from '../data/sync';
 import { HEALTH_PROVIDERS, type HealthStatus } from '../integrations/health';
+import { disconnectGoogleFit, isConnected as fitConnected } from '../integrations/googleFit';
 import { webChannel } from '../integrations/notify';
 import { FOOD_FLAGS, HABIT_SUGGESTIONS, PRIMARY_GOALS, CATEGORY_META } from '../domain/defaults';
 import { SCORE_KEYS, type Habit, type Settings, type StreakPolicy } from '../domain/types';
@@ -335,6 +336,7 @@ function RemindersSection() {
 
 function HealthStatusList() {
   const [st, setSt] = useState<Record<string, HealthStatus>>({});
+  const [fit, setFit] = useState(fitConnected());
   useEffect(() => {
     void Promise.all(HEALTH_PROVIDERS.map(async (p) => [p.id, await p.status()] as const)).then((xs) => setSt(Object.fromEntries(xs)));
   }, []);
@@ -345,10 +347,32 @@ function HealthStatusList() {
           <div className="grow">
             <b>{p.name}</b> <span className="tiny" style={{ color: st[p.id] === 'available' ? 'var(--good)' : 'var(--muted)' }}>{st[p.id] === 'available' ? '● Available' : '○ Not available'}</span>
             <div className="tiny muted">{p.requirement}</div>
+            {p.id === 'google-fit' && st[p.id] === 'available' && (
+              <button
+                className="btn sm"
+                style={{ marginTop: 8 }}
+                onClick={async () => {
+                  if (fit) {
+                    disconnectGoogleFit();
+                    setFit(false);
+                    return toast('Google Fit disconnected');
+                  }
+                  try {
+                    await p.requestAccess();
+                    setFit(true);
+                    toast('Google Fit connected — use “Sync from Google Fit” on the Steps card');
+                  } catch (e) {
+                    toast((e as Error).message);
+                  }
+                }}
+              >
+                {fit ? 'Disconnect Google Fit' : 'Connect Google Fit'}
+              </button>
+            )}
           </div>
         </div>
       ))}
-      <p className="tiny muted" style={{ marginBottom: 0 }}>Google Fit's APIs are deprecated in favour of Health Connect, so October Arc doesn't use them. Manual step entry always works.</p>
+      <p className="tiny muted" style={{ marginBottom: 0 }}>Google Fit only reads your step count (read-only access). The Google token stays in this browser and is never sent to the October Arc server. Manual step entry always works.</p>
     </>
   );
 }

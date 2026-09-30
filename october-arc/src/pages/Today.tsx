@@ -49,7 +49,7 @@ export function Today() {
       </div>
 
       <WaterSection date={date} ml={t.waterMl} />
-      <StepsSection date={date} steps={t.steps} isToday={isToday} />
+      <StepsSection date={date} steps={t.steps} />
       <SleepSection date={date} />
       <ExerciseSection date={date} minutes={t.exerciseMin} />
       <HabitsSection date={date} />
@@ -91,11 +91,13 @@ function WaterSection({ date, ml }: { date: string; ml: number }) {
 
 const MILESTONES = [0.25, 0.5, 0.75, 1];
 
-function StepsSection({ date, steps, isToday }: { date: string; steps: number; isToday: boolean }) {
-  const { settings: s } = useApp();
+function StepsSection({ date, steps }: { date: string; steps: number }) {
+  const app = useApp();
+  const s = app.settings;
   const goal = s.goals.steps;
   const [val, setVal] = useState('');
   const [provider, setProvider] = useState<HealthProvider | null>(null);
+  const synced = steps > 0 && app.raw.get(date)?.steps?.source !== 'manual' ? app.raw.get(date)?.steps?.source : null;
   useEffect(() => { void availableHealthProvider().then(setProvider); }, []);
   const remaining = Math.max(0, goal - steps);
 
@@ -127,20 +129,27 @@ function StepsSection({ date, steps, isToday }: { date: string; steps: number; i
           <button key={v} className="chip" onClick={() => void save(steps + v)}>+{fmtInt(v)}</button>
         ))}
       </div>
-      {isToday && provider && (
+      {provider && (
         <button
           className="btn ghost block"
           style={{ marginTop: 10 }}
           onClick={async () => {
-            if (!(await provider.requestAccess())) return toast('Permission not granted');
-            const n = await provider.readSteps(date);
-            if (n != null) await save(n, provider.id);
+            try {
+              if (!(await provider.requestAccess())) return toast('Permission not granted');
+              const n = await provider.readSteps(date);
+              if (n == null) return toast(`${provider.name} has no steps for this day yet`);
+              await save(n, provider.id);
+              toast(`⟳ ${fmtInt(n)} steps from ${provider.name}`);
+            } catch (e) {
+              toast((e as Error).message);
+            }
           }}
         >
           ⟳ Sync from {provider.name}
         </button>
       )}
-      {!provider && <p className="tiny muted" style={{ marginBottom: 0 }}>Automatic step sync needs the native app with Health Connect / Apple Health. Enter your total from your phone or watch.</p>}
+      {synced && <p className="tiny muted" style={{ marginBottom: 0 }}>Last value imported from {synced === 'google-fit' ? 'Google Fit' : synced}. Saving a number above replaces it.</p>}
+      {!provider && <p className="tiny muted" style={{ marginBottom: 0 }}>Automatic step import isn't set up (Google Fit, Health Connect or Apple Health — see Settings → Health data). Enter your total from your phone or watch.</p>}
     </section>
   );
 }

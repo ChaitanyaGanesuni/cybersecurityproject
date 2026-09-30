@@ -169,7 +169,8 @@ const server = createServer(async (req, res) => {
   res.setHeader('permissions-policy', 'geolocation=(), microphone=()');
   res.setHeader(
     'content-security-policy',
-    "default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; connect-src 'self'" + (CORS ? ` ${CORS}` : '') + "; frame-ancestors 'none'",
+    // Google Identity Services + Fitness API are only used by the optional Google Fit step import.
+    "default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client; frame-src https://accounts.google.com; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; connect-src 'self' https://www.googleapis.com https://accounts.google.com" + (CORS ? ` ${CORS}` : '') + "; frame-ancestors 'none'",
   );
   if (CORS && req.headers.origin === CORS) {
     res.setHeader('access-control-allow-origin', CORS);

@@ -42,7 +42,24 @@ Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 b
 * **Assistant:** answers on the device by default; opt in to Claude through your own server.
 * **Privacy:** export, delete device data, delete server account. No trackers.
 
+## Google Fit step import
+
+Build with a Google OAuth **Web application** client ID from a Google Cloud project that has the **Fitness API** enabled:
+
+```bash
+VITE_GOOGLE_FIT_CLIENT_ID=1234-abc.apps.googleusercontent.com npm run build
+```
+
+In Google Cloud Console:
+
+* Add the app's origin (e.g. `http://localhost:5173`, your deployed URL) under **Authorized JavaScript origins**.
+* Add your Google account as a **test user** on the OAuth consent screen.
+
+Then use **Settings → Health data → Connect Google Fit**, and **Sync from Google Fit** on the Steps card.
+
+⚠️ Google stopped accepting new Fit API developers on May 1, 2024, and has announced the Fit APIs end in 2026. This only works with a project that already had access, and only until Google switches it off. Health Connect is the long-term replacement.
+
 ## Needs platform setup (interfaces are in place, not faked)
 
-* **Apple Health / Health Connect:** need a native shell (e.g. Capacitor) that implements `window.OctoberArcHealth` (see `src/integrations/health.ts`) with the platform permissions.
+* **Apple Health / Health Connect (native):** need a native shell (e.g. Capacitor) that implements `window.OctoberArcHealth` (see `src/integrations/health.ts`) with the platform permissions.
 * **Background notifications:** need Web Push (VAPID keys + server scheduling) or native local notifications. In the web build, reminders fire while the app is open or recently used.

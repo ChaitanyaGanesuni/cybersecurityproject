@@ -8,14 +8,18 @@
 //  - Android Health Connect: requires an Android app declaring
 //    android.permission.health.READ_STEPS plus a privacy-policy activity, and
 //    Google Play's health-permissions declaration.
-//  - Google Fit REST APIs are deprecated in favour of Health Connect, so we
-//    don't build against them.
+//  - Google Fit: the web build can import steps through the Fitness REST API
+//    (see googleFit.ts) when a Google OAuth client ID is configured. Google
+//    closed new sign-ups in May 2024 and plans to end the API in 2026, so
+//    Health Connect is the long-term path on Android.
 //
 // The plan: ship this PWA inside a native shell (e.g. Capacitor). The shell
 // exposes a tiny bridge at `window.OctoberArcHealth` implementing
 // `NativeHealthBridge` using HealthKit / Health Connect. When the bridge is
 // absent (plain web), providers report "unavailable" and the user enters steps
 // manually. No data is ever fabricated.
+
+import { googleFitProvider } from './googleFit';
 
 export type HealthStatus = 'available' | 'unavailable' | 'denied';
 
@@ -81,6 +85,7 @@ export const HEALTH_PROVIDERS: HealthProvider[] = [
     'Apple Health',
     'Needs the October Arc iOS app (native shell) with the HealthKit entitlement. Not available in a browser.',
   ),
+  googleFitProvider,
 ];
 
 export async function availableHealthProvider(): Promise<HealthProvider | null> {

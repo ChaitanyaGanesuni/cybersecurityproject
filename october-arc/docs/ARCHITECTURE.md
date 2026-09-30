@@ -85,9 +85,14 @@ The same record shapes are used on the device (IndexedDB) and in sync payloads. 
 
 * **Apple HealthKit** needs an iOS app with the HealthKit entitlement and `NSHealthShareUsageDescription`. A browser can't access it.
 * **Android Health Connect** needs an Android app that declares `android.permission.health.READ_STEPS`, plus a privacy-policy activity and Google Play's health-permissions declaration.
-* **Google Fit** REST APIs are deprecated in favour of Health Connect, so the app does not use them.
+* **Google Fit** works in the web build today, through the Fitness REST API (`integrations/googleFit.ts`):
+  * **Sign-in:** Google Identity Services, token model, read-only `fitness.activity.read` scope. The token is held in memory only and never reaches the October Arc server.
+  * **Data:** `dataset:aggregate` on `derived:com.google.step_count.delta:com.google.android.gms:estimated_steps`, the same number the Fit app shows, for one local calendar day.
+  * **Setup:** a Google Cloud OAuth *Web application* client ID in `VITE_GOOGLE_FIT_CLIENT_ID` at build time. The app's origin must be listed under Authorized JavaScript origins, and you must be a test user on the consent screen. Fitness scopes are sensitive, so the app isn't verified for the public.
+  * **Caveats:** Google closed Fit API sign-ups to new developers on May 1, 2024, so the project must already have Fit access. Google has also announced the Fit APIs end in 2026. When Google refuses the call, the user sees the error and manual entry still works.
+  * **Long-term path:** Health Connect.
 
-In the web build, both providers report "Not available" in Settings → Health data and the Steps card offers manual entry. When a bridge is present, a "Sync from …" button appears. It asks for permission and writes the day's total with `source` set to the provider.
+In the web build, the two native providers report "Not available" in Settings → Health data. Google Fit shows a Connect button when a client ID is configured. Whenever a provider is available, the Steps card shows a "Sync from …" button (tapping it is required, because Google's sign-in popup needs a user gesture). It asks for permission and writes the day's total with `source` set to the provider.
 
 ## 6. Offline synchronization
 
