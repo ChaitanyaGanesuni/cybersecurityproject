@@ -14,6 +14,7 @@
     "ios": { "supportsTablet": true, "bundleIdentifier": "app.gita.companion" },
     "android": {
       "package": "app.gita.companion",
+      "versionCode": 1,
       "adaptiveIcon": { "backgroundColor": "#FAF6EF" }
     },
     "plugins": ["expo-router", "expo-font"],

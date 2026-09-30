@@ -13,4 +13,20 @@ config.resolver.nodeModulesPaths = [
 ];
 // The workspace packages ship TypeScript source; let Metro transpile it.
 config.resolver.sourceExts = [...config.resolver.sourceExts, "ts", "tsx"];
+
+// The workspace packages use ESM-style specifiers (`./theme.js` for `theme.ts`), which tsc and
+// Node accept but Metro resolves literally. Resolve as written first (so node_modules is
+// unaffected); only if that fails, retry a relative `.js` import without its extension so Metro
+// finds the `.ts` source.
+config.resolver.resolveRequest = (context, moduleName, platform) => {
+  try {
+    return context.resolveRequest(context, moduleName, platform);
+  } catch (err) {
+    if (moduleName.startsWith(".") && moduleName.endsWith(".js")) {
+      return context.resolveRequest(context, moduleName.slice(0, -3), platform);
+    }
+    throw err;
+  }
+};
+
 module.exports = config;
