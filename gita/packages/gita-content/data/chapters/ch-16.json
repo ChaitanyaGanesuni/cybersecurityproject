@@ -1,0 +1,935 @@
+{
+  "chapter": {
+    "chapterNumber": 16,
+    "nameTransliterated": "Daivāsura Sampad Vibhāg Yog",
+    "nameSanskrit": {
+      "text": "दैवासुरसम्पद्विभागयोग",
+      "lang": "sa",
+      "contentType": "sanskrit",
+      "sourceId": "sanskrit-classical"
+    },
+    "nameTranslation": "Daivasura Sampad Vibhaga Yoga",
+    "summary": {
+      "text": "The sixteenth chapter of the Bhagavad Gita is \"Daivasura Sampad Vibhaga Yoga\". In this chapter, Krishna describes explicitly the two kinds of natures among human beings - divine and demoniac. Those who possess demonaic qualities associate themselves with the modes of passion and ignorance do not follow the regulations of the scriptures and embrace materialistic views. These people attain lower births and further material bondage. But people who possess divine qualities, follow the instructions of the scriptures, associate themselves with the mode of goodness and purify the mind through spiritual practices. This leads to the enhancement of divine qualities and they eventually attain spiritual realization.",
+      "lang": "en",
+      "contentType": "explanation",
+      "sourceId": "gita-gita-editorial"
+    },
+    "theme": null,
+    "versesCount": 24
+  },
+  "verses": [
+    {
+      "chapterNumber": 16,
+      "verseNumber": 1,
+      "sanskrit": {
+        "text": "श्री भगवानुवाच\n\nअभयं सत्त्वसंशुद्धिः ज्ञानयोगव्यवस्थितिः।\n\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम्।।16.1।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhrī-bhagavān uvācha\nabhayaṁ sattva-sanśhuddhir jñāna-yoga-vyavasthitiḥ\ndānaṁ damaśh cha yajñaśh cha svādhyāyas tapa ārjavam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhrī-bhagavān uvācha—the Supreme Divine Personality said; abhayam—fearlessness; sattva-sanśhuddhiḥ—purity of mind; jñāna—knowledge; yoga—spiritual; vyavasthitiḥ—steadfastness; dānam—charity; damaḥ—control of the senses; cha—and; yajñaḥ—performance of sacrifice; cha—and; svādhyāyaḥ—study of sacred books; tapaḥ—austerity; ārjavam—straightforwardness;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna continued: Fearlessness, clean living, unceasing concentration on wisdom, readiness to give, self-control, a spirit of sacrifice, regular study of the scriptures, austerity, candor,",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 2,
+      "sanskrit": {
+        "text": "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम्।दया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम्।।16.2।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ahinsā satyam akrodhas tyāgaḥ śhāntir apaiśhunam\ndayā bhūteṣhv aloluptvaṁ mārdavaṁ hrīr achāpalam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ahinsā—non-violence; satyam—truthfulness; akrodhaḥ—absence of anger; tyāgaḥ—renunciation; śhāntiḥ—peacefulness; apaiśhunam—restraint from fault-finding; dayā—compassion; bhūteṣhu—toward all living beings; aloluptvam—absence of covetousness; mārdavam—gentleness; hrīḥ—modesty; achāpalam—lack of fickleness;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Harmlessness, truth, absence of wrath, renunciation, contentment, straightforwardness, compassion towards all, uncovetousness, courtesy, modesty, and constancy.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 3,
+      "sanskrit": {
+        "text": "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता।\n\nभवन्ति सम्पदं दैवीमभिजातस्य भारत।।16.3।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tejaḥ kṣhamā dhṛitiḥ śhaucham adroho nāti-mānitā\nbhavanti sampadaṁ daivīm abhijātasya bhārata",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tejaḥ—vigor; kṣhamā—forgiveness; dhṛitiḥ—fortitude; śhaucham—cleanliness; adrohaḥ—bearing enmity toward none; na—not; ati-mānitā—absence of vanity; bhavanti—are; sampadam—qualities; daivīm—godly; abhijātasya—of those endowed with; bhārata—scion of Bharat",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Valor, forgiveness, fortitude, purity, freedom from hate and vanity—these are the qualities of one who possesses the divine, O Arjuna!",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 4,
+      "sanskrit": {
+        "text": "दम्भो दर्पोऽभिमानश्च क्रोधः पारुष्यमेव च।अज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम्।।16.4।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "dambho darpo ’bhimānaśh cha krodhaḥ pāruṣhyam eva cha\najñānaṁ chābhijātasya pārtha sampadam āsurīm",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "dambhaḥ—hypocrisy; darpaḥ—arrogance; abhimānaḥ—conceit; cha—and; krodhaḥ—anger; pāruṣhyam—harshness; eva—certainly; cha—and; ajñānam—ignorance; cha—and; abhijātasya—of those who possess; pārtha—Arjun, the son of Pritha; sampadam—qualities; āsurīm—demoniac",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Hypocrisy, pride, insolence, cruelty, and ignorance belong to those born of godless qualities.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 5,
+      "sanskrit": {
+        "text": "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता।मा शुचः सम्पदं दैवीमभिजातोऽसि पाण्डव।।16.5।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "daivī sampad vimokṣhāya nibandhāyāsurī matā\nmā śhuchaḥ sampadaṁ daivīm abhijāto ’si pāṇḍava",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "daivī—divine; sampat—qualities; vimokṣhāya—toward liberation; nibandhāya—to bondage; āsurī—demoniac qualities; matā—are considered; mā—do not; śhuchaḥ—grieve; sampadam—virtues; daivīm—saintly; abhijātaḥ—born; asi—you are; pāṇḍava—Arjun, the son of Pandu",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Godly qualities lead to liberation; godless ones lead to bondage. Do not be anxious, Prince! You have the Godly qualities.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 6,
+      "sanskrit": {
+        "text": "द्वौ भूतसर्गौ लोकेऽस्मिन् दैव आसुर एव च।दैवो विस्तरशः प्रोक्त आसुरं पार्थ मे श्रृणु।।16.6।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "dvau bhūta-sargau loke ’smin daiva āsura eva cha\ndaivo vistaraśhaḥ prokta āsuraṁ pārtha me śhṛiṇu",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "dvau—two; bhūta-sargau—of created living beings; loke—in the world; asmin—this; daivaḥ—divine; āsuraḥ—demoniac; eva—certainly; cha—and; daivaḥ—the divine; vistaraśhaḥ—at great length; proktaḥ—said; āsuram—the demoniac; pārtha—Arjun, the son of Pritha; me—from me; śhṛiṇu—hear",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "No changes needed.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 7,
+      "sanskrit": {
+        "text": "प्रवृत्तिं च निवृत्तिं च जना न विदुरासुराः।न शौचं नापि चाचारो न सत्यं तेषु विद्यते।।16.7।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "pravṛittiṁ cha nivṛittiṁ cha janā na vidur āsurāḥ\nna śhauchaṁ nāpi chāchāro na satyaṁ teṣhu vidyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "pravṛittim—proper actions; cha—and; nivṛittim—improper actions; cha—and; janāḥ—persons; na—not; viduḥ—comprehend; āsurāḥ—those possessing demoniac nature; na—neither; śhaucham—purity; na—nor; api—even; cha—and; āchāraḥ—conduct; na—nor; satyam—truthfulness; teṣhu—in them; vidyate—exist",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The godless do not know how to act or renounce; they lack both purity and truth. They do not understand the right principles of conduct.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 8,
+      "sanskrit": {
+        "text": "असत्यमप्रतिष्ठं ते जगदाहुरनीश्वरम्।अपरस्परसम्भूतं किमन्यत्कामहैतुकम्।।16.8।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "asatyam apratiṣhṭhaṁ te jagad āhur anīśhvaram\naparaspara-sambhūtaṁ kim anyat kāma-haitukam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "asatyam—without absolute truth; apratiṣhṭham—without any basis; te—they; jagat—the world; āhuḥ—say; anīśhvaram—without a God; aparaspara—without cause; sambhūtam—created; kim—what; anyat—other; kāma-haitukam—for sexual gratification only",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "They say the universe is an accident with no purpose and no God. Life is created through sexual union, a product of lust and nothing else.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 9,
+      "sanskrit": {
+        "text": "एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धयः।प्रभवन्त्युग्रकर्माणः क्षयाय जगतोऽहिताः।।16.9।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "etāṁ dṛiṣhṭim avaṣhṭabhya naṣhṭātmāno ’lpa-buddhayaḥ\nprabhavanty ugra-karmāṇaḥ kṣhayāya jagato ’hitāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "etām—such; dṛiṣhṭim—views; avaṣhṭabhya—holding; naṣhṭa—misdirected; ātmānaḥ—souls; alpa-buddhayaḥ—of small intellect; prabhavanti—arise; ugra—cruel; karmāṇaḥ—actions; kṣhayāya—destruction; jagataḥ—of the world; ahitāḥ—enemies",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Thinking thus, these degraded souls, these enemies of mankind—whose intelligence is negligible and whose deeds are monstrous—come into the world only to destroy.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 10,
+      "sanskrit": {
+        "text": "काममाश्रित्य दुष्पूरं दम्भमानमदान्विताः।मोहाद्गृहीत्वासद्ग्राहान्प्रवर्तन्तेऽशुचिव्रताः।।16.10।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "kāmam āśhritya duṣhpūraṁ dambha-māna-madānvitāḥ\nmohād gṛihītvāsad-grāhān pravartante ’śhuchi-vratāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "kāmam—lust; āśhritya—harboring; duṣhpūram—insatiable; dambha—hypocrisy; māna—arrogance; mada-anvitāḥ—clinging to false tenets; mohāt—the illusioned; gṛihītvā—being attracted to; asat—impermanent; grāhān—things; pravartante—they flourish; aśhuchi-vratāḥ—with impure resolve",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Giving themselves up to insatiable passions, hypocritically, self-sufficiently, and arrogantly, cherishing false conceptions founded on delusion, they work only to carry out their own unholy purposes.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 11,
+      "sanskrit": {
+        "text": "चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिताः।कामोपभोगपरमा एतावदिति निश्िचताः।।16.11।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "chintām aparimeyāṁ cha pralayāntām upāśhritāḥ\nkāmopabhoga-paramā etāvad iti niśhchitāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "chintām—anxieties; aparimeyām—endless; cha—and; pralaya-antām—until death; upāśhritāḥ—taking refuge; kāma-upabhoga—gratification of desires; paramāḥ—the purpose of life; etāvat—still; iti—thus; niśhchitāḥ—with complete assurance",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Poring anxiously over evil resolutions that only end in death, seeking only the gratification of desire as the highest goal, and seeing nothing beyond—",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 12,
+      "sanskrit": {
+        "text": "आशापाशशतैर्बद्धाः कामक्रोधपरायणाः।ईहन्ते कामभोगार्थमन्यायेनार्थसञ्चयान्।।16.12।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "āśhā-pāśha-śhatair baddhāḥ kāma-krodha-parāyaṇāḥ\nīhante kāma-bhogārtham anyāyenārtha-sañchayān",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "āśhā-pāśha—bondage of desires; śhataiḥ—by hundreds; baddhāḥ—bound; kāma—lust; krodha—anger; parāyaṇāḥ—dedicated to; īhante—strive; kāma—lust; bhoga—gratification of the senses; artham—for; anyāyena—by unjust means; artha—wealth; sañchayān—to accumulate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Caught in the toils of a hundred vain hopes, enslaved by passion and wrath, they accumulate hoards of unjust wealth, only to indulge their sensual desires.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 13,
+      "sanskrit": {
+        "text": "इदमद्य मया लब्धमिमं प्राप्स्ये मनोरथम्।इदमस्तीदमपि मे भविष्यति पुनर्धनम्।।16.13।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "idam adya mayā labdham imaṁ prāpsye manoratham\nidam astīdam api me bhaviṣhyati punar dhanam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "idam—this; adya—today; mayā—by me; labdham—gained; imam—this; prāpsye—I shall acquire; manaḥ-ratham—desire; idam—this; asti—is; idam—this; api—also; me—mine; bhaviṣhyati—in future; punaḥ—again; dhanam—wealth;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Today I have gained this; tomorrow I will fulfill another desire; this wealth is mine now, and the rest will soon be mine.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 14,
+      "sanskrit": {
+        "text": "असौ मया हतः शत्रुर्हनिष्ये चापरानपि।ईश्वरोऽहमहं भोगी सिद्धोऽहं बलवान्सुखी।।16.14।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "asau mayā hataḥ śhatrur haniṣhye chāparān api\nīśhvaro ’ham ahaṁ bhogī siddho ’haṁ balavān sukhī",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "asau—that; mayā—by me; hataḥ—has been destroyed; śhatruḥ—enemy; haniṣhye—I shall destroy; cha—and; aparān—others; api—also; īśhvaraḥ—God; aham—I; aham—I; bhogī—the enjoyer; siddhaḥ—powerful; aham—I; bala-vān—powerful; sukhī—happy;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I have slain one enemy; I will slay the others too. I am worthy of enjoying; I am the Almighty, perfect, powerful, and happy.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 15,
+      "sanskrit": {
+        "text": "आढ्योऽभिजनवानस्मि कोऽन्योऽस्ति सदृशो मया।यक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिताः।।16.15।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "āḍhyo ’bhijanavān asmi ko ’nyo ’sti sadṛiśho mayā\nyakṣhye dāsyāmi modiṣhya ity ajñāna-vimohitāḥ\n aneka-chitta-vibhrāntā moha-jāla-samāvṛitāḥ\nprasaktāḥ kāma-bhogeṣhu patanti narake ’śhuchau",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "āḍhyaḥ—wealthy; abhijana-vān—having highly placed relatives; asmi—me; kaḥ—who; anyaḥ—else; asti—is; sadṛiśhaḥ—like; mayā—to me; yakṣhye—I shall perform sacrifices; dāsyāmi—I shall give alms; modiṣhye—I shall rejoice; iti—thus; ajñāna—ignorance; vimohitāḥ—deluded\n aneka—many; chitta—imaginings; vibhrāntāḥ—led astray; moha—delusion; jāla—mesh; samāvṛitāḥ—enveloped; prasaktāḥ—addicted; kāma-bhogeṣhu—gratification of sensuous pleasures; patanti—descend; narake—to hell; aśhuchau—murky",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I am wealthy, I am of noble birth; who can compare with me? I will sacrifice, I will give, I will pay—and I will enjoy. Thus blinded by ignorance,",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 16,
+      "sanskrit": {
+        "text": "अनेकचित्तविभ्रान्ता मोहजालसमावृताः।प्रसक्ताः कामभोगेषु पतन्ति नरकेऽशुचौ।।16.16।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "aneka-citta-vibhrāntā    moha-jāla-samāvṛtāḥ prasaktāḥ   kāma-bhogeṣu    patanti narake  'śucau",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aneka—numerous;    citta-vibhrāntāḥ—perplexed  by  anxieties;  moha—of illusions;  jāla—by a   network;    samāvṛtāḥ—surrounded;   prasaktāḥ—attached; kāma—lust;  bhogeṣu—sense  gratification;   patanti—glides  down; narake—into hell; aśucau—unclean.",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Perplexed by discordant thoughts, entangled in the snares of desire, infatuated by passion, they sink into the depths of hell.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 17,
+      "sanskrit": {
+        "text": "आत्मसम्भाविताः स्तब्धा धनमानमदान्विताः।यजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम्।।16.17।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ātma-sambhāvitāḥ stabdhā dhana-māna-madānvitāḥ\nyajante nāma-yajñais te dambhenāvidhi-pūrvakam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ātma-sambhāvitāḥ—self-conceited; stabdhāḥ—stubborn; dhana—wealth; māna—pride; mada—arrogance; anvitāḥ—full of; yajante—perform sacrifice; nāma—in name only; yajñaiḥ—sacrifices; te—they; dambhena—ostentatiously; avidhi-pūrvakam—with no regards to the rules of the scriptures",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Self-conceited, stubborn, wealthy, proud, and insolent, they make a show of their patronage, disregarding the norms of propriety.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 18,
+      "sanskrit": {
+        "text": "अहङ्कारं बलं दर्पं कामं क्रोधं च संश्रिताः।मामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः।।16.18।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ahankāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ cha sanśhritāḥ\nmām ātma-para-deheṣhu pradviṣhanto ’bhyasūyakāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ahankāram—egotism; balam—strength; darpam—arrogance; kāmam—desire; krodham—anger; cha—and; sanśhritāḥ—covered by; mām—me; ātma-para-deheṣhu—within one’s own and bodies of others; pradviṣhantaḥ—abuse; abhyasūyakāḥ—the demoniac",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Puffed up by power and inordinate conceit, swayed by lust and wrath, these wicked people hate Me, Who am within them as I am within all.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 19,
+      "sanskrit": {
+        "text": "तानहं द्विषतः क्रूरान्संसारेषु नराधमान्।क्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु।।16.19।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tān ahaṁ dviṣhataḥ krūrān sansāreṣhu narādhamān\nkṣhipāmy ajasram aśhubhān āsurīṣhv eva yoniṣhu",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tān—these; aham—I; dviṣhataḥ—hateful; krūrān—cruel; sansāreṣhu—in the material world; nara-adhamān—the vile and vicious of humankind; kṣhipāmi—I hurl; ajasram—again and again; aśhubhān—inauspicious; āsurīṣhu—demoniac; eva—indeed; yoniṣhu—in to the wombs;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Those who thus hate Me, who are cruel, the dregs of mankind, I condemn them to a continuous, miserable, and godless rebirth.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 20,
+      "sanskrit": {
+        "text": "असुरीं योनिमापन्ना मूढा जन्मनि जन्मनि।मामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम्।।16.20।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "āsurīṁ yonim āpannā mūḍhā janmani janmani\nmām aprāpyaiva kaunteya tato yānty adhamāṁ gatim",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "āsurīm—demoniac; yonim—wombs; āpannāḥ—gaining; mūḍhāḥ—the ignorant; janmani janmani—in birth after birth; mām—me; aprāpya—failing to reach; eva—even; kaunteya—Arjun, the son of Kunti; tataḥ—thereafter; yānti—go; adhamām—abominable; gatim—destination",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "So, reborn, they spend life after life enveloped in delusion, and they never reach Me, O Prince, but degenerate into even lower forms of life.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 21,
+      "sanskrit": {
+        "text": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः।कामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत्।।16.21।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tri-vidhaṁ narakasyedaṁ dvāraṁ nāśhanam ātmanaḥ\nkāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tri-vidham—three types of; narakasya—to the hell; idam—this; dvāram—gates; nāśhanam—destruction; ātmanaḥ—self; kāmaḥ—lust; krodhaḥ—anger; tathā—and; lobhaḥ—greed; tasmāt—therefore; etat—these; trayam—three; tyajet—should abandon",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The gates of hell are three: lust, wrath, and avarice; they destroy the Self, so avoid them.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 22,
+      "sanskrit": {
+        "text": "एतैर्विमुक्तः कौन्तेय तमोद्वारैस्त्रिभिर्नरः।आचरत्यात्मनः श्रेयस्ततो याति परां गतिम्।।16.22।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "etair vimuktaḥ kaunteya tamo-dvārais tribhir naraḥ\nācharaty ātmanaḥ śhreyas tato yāti parāṁ gatim",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "etaiḥ—from this; vimuktaḥ—freed; kaunteya—Arjun, the son of Kunti; tamaḥ-dvāraiḥ—gates to darkness; tribhiḥ—three; naraḥ—a person; ācharati—endeavor; ātmanaḥ—soul; śhreyaḥ—welfare; tataḥ—thereby; yāti—attain; parām—supreme; gatim—goal",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "These are the gates that lead to darkness; if one avoids them, they will ensure their own welfare and eventually attain liberation.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 23,
+      "sanskrit": {
+        "text": "यः शास्त्रविधिमुत्सृज्य वर्तते कामकारतः।न स सिद्धिमवाप्नोति न सुखं न परां गतिम्।।16.23।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yaḥ śhāstra-vidhim utsṛijya vartate kāma-kārataḥ\nna sa siddhim avāpnoti na sukhaṁ na parāṁ gatim",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yaḥ—who; śhāstra-vidhim—scriptural injunctions; utsṛijya—discarding; vartate—act; kāma-kārataḥ—under the impulse of desire; na—neither; saḥ—they; siddhim—perfection; avāpnoti—attain; na—nor; sukham—happiness; na—nor; parām—the supreme; gatim—goal",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But he who neglects the commands of the scriptures and follows the promptings of passion does not attain perfection, happiness, or the final goal.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 16,
+      "verseNumber": 24,
+      "sanskrit": {
+        "text": "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ।ज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि।।16.24।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tasmāch chhāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau\njñātvā śhāstra-vidhānoktaṁ karma kartum ihārhasi",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tasmāt—therefore; śhāstram—scriptures; pramāṇam—authority; te—your; kārya—duty; akārya—forbidden action; vyavasthitau—in determining; jñātvā—having understood; śhāstra—scriptures; vidhāna—injunctions; uktam—as revealed; karma—actions; kartum—perform; iha—in this world; arhasi—you should",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Therefore, whenever there is doubt as to whether you should do something or not, let the scriptures guide your conduct. In the light of the scriptures, you should labor your whole life.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    }
+  ]
+}

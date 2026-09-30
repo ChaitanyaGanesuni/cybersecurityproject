@@ -1,0 +1,1087 @@
+{
+  "chapter": {
+    "chapterNumber": 17,
+    "nameTransliterated": "Śhraddhā Traya Vibhāg Yog",
+    "nameSanskrit": {
+      "text": "श्रद्धात्रयविभागयोग",
+      "lang": "sa",
+      "contentType": "sanskrit",
+      "sourceId": "sanskrit-classical"
+    },
+    "nameTranslation": "Sraddhatraya Vibhaga Yoga",
+    "summary": {
+      "text": "The seventeenth chapter of the Bhagavad Gita is \"Sraddhatraya Vibhaga Yoga\". In this chapter, Krishna describes the three types of faith corresponding to the three modes of the material nature. Lord Krishna further reveals that it is the nature of faith that determines the quality of life and the character of living entities. Those who have faith in passion and ignorance perform actions that yield temporary, material results while those who have faith in goodness perform actions in accordance with scriptural instructions and hence their hearts get further purified.",
+      "lang": "en",
+      "contentType": "explanation",
+      "sourceId": "gita-gita-editorial"
+    },
+    "theme": null,
+    "versesCount": 28
+  },
+  "verses": [
+    {
+      "chapterNumber": 17,
+      "verseNumber": 1,
+      "sanskrit": {
+        "text": "अर्जुन उवाचये शास्त्रविधिमुत्सृज्य यजन्ते श्रद्धयाऽन्विताः।तेषां निष्ठा तु का कृष्ण सत्त्वमाहो रजस्तमः।।17.1।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "arjuna uvācha\nye śhāstra-vidhim utsṛijya yajante śhraddhayānvitāḥ\nteṣhāṁ niṣhṭhā tu kā kṛiṣhṇa sattvam āho rajas tamaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "arjunaḥ uvācha—Arjun said; ye—who; śhāstra-vidhim—scriptural injunctions; utsṛijya—disregard; yajante—worship; śhraddhayā-anvitāḥ—with faith; teṣhām—their; niṣhṭhā—faith; tu—indeed; kā—what; kṛiṣhṇa—Krishna; sattvam—mode of goodness; āho—or; rajaḥ—mode of passion; tamaḥ—mode of ignorance",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Arjuna asked, \"My Lord, what is the condition of those who perform acts of sacrifice not according to the scriptures, but with implicit faith? Is it one of purity, passion, or ignorance?\"",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 2,
+      "sanskrit": {
+        "text": "श्री भगवानुवाचत्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा।सात्त्विकी राजसी चैव तामसी चेति तां श्रृणु।।17.2।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhrī-bhagavān uvācha\ntri-vidhā bhavati śhraddhā dehināṁ sā svabhāva-jā\nsāttvikī rājasī chaiva tāmasī cheti tāṁ śhṛiṇu",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhrī-bhagavān uvācha—the Supreme Personality said; tri-vidhā—of three kinds; bhavati—is; śhraddhā—faith; dehinām—embodied beings; sā—which; sva-bhāva-jā—born of one’s innate nature; sāttvikī—of the mode of goodness; rājasī—of the mode of passion; cha—and; eva—certainly; tāmasī—of the mode of ignorance; cha—and; iti—thus; tām—about this; śhṛiṇu—hear",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna replied: Man has an inherent faith in one or another of the qualities—purity, passion, and ignorance. Now, listen.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 3,
+      "sanskrit": {
+        "text": "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत।श्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः।।17.3।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sattvānurūpā sarvasya śhraddhā bhavati bhārata\nśhraddhā-mayo ‘yaṁ puruṣho yo yach-chhraddhaḥ sa eva saḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sattva-anurūpā—conforming to the nature of one’s mind; sarvasya—all; śhraddhā—faith; bhavati—is; bhārata—Arjun, the scion of Bharat; śhraddhāmayaḥ—possessing faith; ayam—that; puruṣhaḥ—human being; yaḥ—who; yat-śhraddhaḥ—whatever the nature of their faith; saḥ—their; eva—verily; saḥ—they",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Every person's faith conforms to their nature. By nature, they are full of faith. They are, in fact, what their faith makes them.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 4,
+      "sanskrit": {
+        "text": "यजन्ते सात्त्विका देवान्यक्षरक्षांसि राजसाः।प्रेतान्भूतगणांश्चान्ये यजन्ते तामसा जनाः।।17.4।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yajante sāttvikā devān yakṣha-rakṣhānsi rājasāḥ\npretān bhūta-gaṇānśh chānye yajante tāmasā janāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yajante—worship; sāttvikāḥ—those in the mode of goodness; devān—celestial gods; yakṣha—semi-celestial beings who exude power and wealth; rakṣhānsi—powerful beings who embody sensual enjoyment, revenge, and wrath; rājasāḥ—those in the mode of passion; pretān-bhūta-gaṇān—ghosts and spirits; cha—and; anye—others; yajante—worship; tāmasāḥ—those in the mode of ignorance; janāḥ—persons",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The pure worship the true God; the passionate, the powers of wealth and magic; the ignorant, the spirits of the dead and lower orders of nature.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 5,
+      "sanskrit": {
+        "text": "अशास्त्रविहितं घोरं तप्यन्ते ये तपो जनाः।दम्भाहङ्कारसंयुक्ताः कामरागबलान्विताः।।17.5।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "aśhāstra-vihitaṁ ghoraṁ tapyante ye tapo janāḥ\ndambhāhankāra-sanyuktāḥ kāma-rāga-balānvitāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aśhāstra-vihitam—not enjoined by the scriptures; ghoram—stern; tapyante—perform; ye—who; tapaḥ—austerities; janāḥ—people; dambha—hypocrisy; ahankāra—egotism; sanyuktāḥ—possessed of; kāma—desire; rāga—attachment; bala—force; anvitāḥ—impelled by;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Those who practice austerities not commanded by scripture, who are enslaved to hypocrisy and egotism, who are carried away by the fury of desire and passion,",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 6,
+      "sanskrit": {
+        "text": "कर्षयन्तः शरीरस्थं भूतग्राममचेतसः।मां चैवान्तःशरीरस्थं तान्विद्ध्यासुरनिश्चयान्।।17.6।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "karṣhayantaḥ śharīra-sthaṁ bhūta-grāmam achetasaḥ\nmāṁ chaivāntaḥ śharīra-sthaṁ tān viddhy āsura-niśhchayān",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "karṣhayantaḥ—torment; śharīra-stham—within the body; bhūta-grāmam—elements of the body; achetasaḥ—senseless; mām—me; cha—and; eva—even; antaḥ—within; śharīra-stham—dwelling in the body; tān—them; viddhi—know; āsura-niśhchayān—of demoniacal resolves",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "They are ignorant and torment the organs of the body, harassing Me who lives within. Know that they are devoted to evil.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 7,
+      "sanskrit": {
+        "text": "आहारस्त्वपि सर्वस्य त्रिविधो भवति प्रियः।यज्ञस्तपस्तथा दानं तेषां भेदमिमं श्रृणु।।17.7।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "āhāras tv api sarvasya tri-vidho bhavati priyaḥ\nyajñas tapas tathā dānaṁ teṣhāṁ bhedam imaṁ śhṛiṇu",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "āhāraḥ—food; tu—indeed; api—even; sarvasya—of all; tri-vidhaḥ—of three kinds; bhavati—is; priyaḥ—dear; yajñaḥ—sacrifice; tapaḥ—austerity; tathā—and; dānam—charity; teṣhām—of them; bhedam—distinctions; imam—this; śhṛiṇu—hear",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The food that people enjoy is also threefold, like the ways of sacrifice, austerity, and almsgiving. Listen to the distinction.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 8,
+      "sanskrit": {
+        "text": "आयुःसत्त्वबलारोग्यसुखप्रीतिविवर्धनाः।रस्याः स्निग्धाः स्थिरा हृद्या आहाराः सात्त्विकप्रियाः।।17.8।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "āyuḥ-sattva-balārogya-sukha-prīti-vivardhanāḥ\nrasyāḥ snigdhāḥ sthirā hṛidyā āhārāḥ sāttvika-priyāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "āyuḥ sattva—which promote longevity; bala—strength; ārogya—health; sukha—happiness; prīti—satisfaction; vivardhanāḥ—increase; rasyāḥ—juicy; snigdhāḥ—succulent; sthirāḥ—nourishing; hṛidyāḥ—pleasing to the heart; āhārāḥ—food; sāttvika-priyāḥ—dear to those in the mode of goodness",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The foods that prolong life, increase purity, vigour, health, cheerfulness, and happiness are those that are delicious, soothing, substantial, and agreeable; these are loved by the pure.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 9,
+      "sanskrit": {
+        "text": "कट्वम्ललवणात्युष्णतीक्ष्णरूक्षविदाहिनः।आहारा राजसस्येष्टा दुःखशोकामयप्रदाः।।17.9।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "kaṭv-amla-lavaṇāty-uṣhṇa- tīkṣhṇa-rūkṣha-vidāhinaḥ\nāhārā rājasasyeṣhṭā duḥkha-śhokāmaya-pradāḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "kaṭu—bitter; amla—sour; lavaṇa—salty; ati-uṣhṇa—very hot; tīkṣhṇa—pungent; rūkṣha—dry; vidāhinaḥ—chiliful; āhārāḥ—food; rājasasya—to persons in the mode of passion; iṣhṭāḥ—dear; duḥkha—pain; śhoka—grief; āmaya—disease; pradāḥ—produce",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Those in whom passion is dominant like foods that are bitter, sour, salty, overly hot, pungent, dry, and burning. These produce unhappiness, repentance, and disease.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 10,
+      "sanskrit": {
+        "text": "यातयामं गतरसं पूति पर्युषितं च यत्।उच्छिष्टमपि चामेध्यं भोजनं तामसप्रियम्।।17.10।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yāta-yāmaṁ gata-rasaṁ pūti paryuṣhitaṁ cha yat\nuchchhiṣhṭam api chāmedhyaṁ bhojanaṁ tāmasa-priyam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yāta-yāmam—stale foods; gata-rasam—tasteless; pūti—putrid; paryuṣhitam—polluted; cha—and; yat—which; uchchhiṣhṭam—left over; api—also; cha—and; amedhyam—impure; bhojanam—foods; tāmasa—to persons in the mode of ignorance; priyam—dear",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The ignorant love food that is stale, not nourishing, putrid, and corrupt; the leftovers of others, and unclean.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 11,
+      "sanskrit": {
+        "text": "अफलाकाङ्क्षिभिर्यज्ञो विधिदृष्टो य इज्यते।यष्टव्यमेवेति मनः समाधाय स सात्त्विकः।।17.11।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "aphalākāṅkṣhibhir yajño vidhi-driṣhṭo ya ijyate\nyaṣhṭavyam eveti manaḥ samādhāya sa sāttvikaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aphala-ākāṅkṣhibhiḥ—without expectation of any reward; yajñaḥ—sacrifice; vidhi-driṣhṭaḥ—that is in accordance with the scriptural injunctions; yaḥ—which; ijyate—is performed; yaṣhṭavyam-eva-iti—ought to be offered; manaḥ—mind; samādhāya—with conviction; saḥ—that; sāttvikaḥ—of the nature of goodness",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Sacrifice is pure when it is offered by one who does not covet the fruit of it, when it is done according to the commands of scripture, and with implicit faith that the sacrifice is a duty.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 12,
+      "sanskrit": {
+        "text": "अभिसंधाय तु फलं दम्भार्थमपि चैव यत्।इज्यते भरतश्रेष्ठ तं यज्ञं विद्धि राजसम्।।17.12।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "abhisandhāya tu phalaṁ dambhārtham api chaiva yat\nijyate bharata-śhreṣhṭha taṁ yajñaṁ viddhi rājasam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "abhisandhāya—motivated by; tu—but; phalam—the result; dambha—pride; artham—for the sake of; api—also; cha—and; eva—certainly; yat—that which; ijyate—is performed; bharata-śhreṣhṭha—Arjun, the best of the Bharatas; tam—that; yajñam—sacrifice; viddhi—know; rājasam—in the mode of passion",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Sacrifice which is performed for the sake of its results, or for self-glorification - that, O best of Aryans, is the product of passion.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 13,
+      "sanskrit": {
+        "text": "विधिहीनमसृष्टान्नं मन्त्रहीनमदक्षिणम्।श्रद्धाविरहितं यज्ञं तामसं परिचक्षते।।17.13।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "vidhi-hīnam asṛiṣhṭānnaṁ mantra-hīnam adakṣhiṇam\nśhraddhā-virahitaṁ yajñaṁ tāmasaṁ parichakṣhate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "vidhi-hīnam—without scriptural direction; asṛiṣhṭa-annam—without distribution of prasādam; mantra-hīnam—with no chanting of the Vedic hymns; adakṣhiṇam—with no remunerations to the priests; śhraddhā—faith; virahitam—without; yajñam—sacrifice; tāmasam—in the mode of ignorance; parichakṣhate—is to be considered",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Sacrifice that is contrary to scriptural command, that is unaccompanied by prayers or gifts of food or money, and is without faith—that is the product of ignorance.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 14,
+      "sanskrit": {
+        "text": "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम्।ब्रह्मचर्यमहिंसा च शारीरं तप उच्यते।।17.14।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "deva-dwija-guru-prājña- pūjanaṁ śhaucham ārjavam\nbrahmacharyam ahinsā cha śhārīraṁ tapa uchyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "deva—the Supreme Lord; dwija—the Brahmins; guru—the spiritual master; prājña—the elders; pūjanam—worship; śhaucham—cleanliness; ārjavam—simplicity; brahmacharyam—celibacy; ahinsā—non-violence; cha—and; śhārīram—of the body; tapaḥ—austerity; uchyate—is declared as",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Worship of God and the Master; respect for the preacher and the philosopher; purity, rectitude, continence, and harmlessness—all of these constitute physical austerity.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 15,
+      "sanskrit": {
+        "text": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत्।स्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते।।17.15।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ cha yat\nsvādhyāyābhyasanaṁ chaiva vāṅ-mayaṁ tapa uchyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "anudvega-karam—not causing distress; vākyam—words; satyam—truthful; priya- hitam—beneficial; cha—and; yat—which; svādhyāya-abhyasanam—recitation of the Vedic scriptures; cha eva—as well as; vāṅ-mayam—of speech; tapaḥ—austerity; uchyate—are declared as",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Speech that hurts no one, that is true, pleasant to listen to, and beneficial, and the constant study of the scriptures—this is austerity of speech.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 16,
+      "sanskrit": {
+        "text": "मनःप्रसादः सौम्यत्वं मौनमात्मविनिग्रहः।भावसंशुद्धिरित्येतत्तपो मानसमुच्यते।।17.16।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "manaḥ-prasādaḥ saumyatvaṁ maunam ātma-vinigrahaḥ\nbhāva-sanśhuddhir ity etat tapo mānasam uchyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "manaḥ-prasādaḥ—serenity of thought; saumyatvam—gentleness; maunam—silence; ātma-vinigrahaḥ—self-control; bhāva-sanśhuddhiḥ—purity of purpose; iti—thus; etat—these; tapaḥ—austerity; mānasam—of the mind; uchyate—are declared as",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Serenity, kindness, silence, self-control, and purity—these are the austerities of the mind.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 17,
+      "sanskrit": {
+        "text": "श्रद्धया परया तप्तं तपस्तत्ित्रविधं नरैः।अफलाकाङ्क्षिभिर्युक्तैः सात्त्विकं परिचक्षते।।17.17।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhraddhayā parayā taptaṁ tapas tat tri-vidhaṁ naraiḥ\naphalākāṅkṣhibhir yuktaiḥ sāttvikaṁ parichakṣhate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhraddhayā—with faith; parayā—transcendental; taptam—practiced; tapaḥ—austerity; tat—that; tri-vidham—three-fold; naraiḥ—by persons; aphala-ākāṅkṣhibhiḥ—without yearning for material rewards; yuktaiḥ—steadfast; sāttvikam—in the mode of goodness; parichakṣhate—are designated",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "These threefold austerities, performed with faith and without thought of reward, can truly be considered pure.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 18,
+      "sanskrit": {
+        "text": "सत्कारमानपूजार्थं तपो दम्भेन चैव यत्।क्रियते तदिह प्रोक्तं राजसं चलमध्रुवम्।।17.18।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "satkāra-māna-pūjārthaṁ tapo dambhena chaiva yat\nkriyate tad iha proktaṁ rājasaṁ chalam adhruvam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sat-kāra—respect; māna—honor; pūjā—adoration; artham—for the sake of; tapaḥ—austerity; dambhena—with ostentation; cha—also; eva—certainly; yat—which; kriyate—is performed; tat—that; iha—in this world; proktam—is said; rājasam—in the mode of passion; chalam—flickering; adhruvam—temporary",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Austerity coupled with hypocrisy, or performed for the sake of self-glorification, popularity, or vanity, comes from passion, and its result is always uncertain and temporary.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 19,
+      "sanskrit": {
+        "text": "मूढग्राहेणात्मनो यत्पीडया क्रियते तपः।परस्योत्सादनार्थं वा तत्तामसमुदाहृतम्।।17.19।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "mūḍha-grāheṇātmano yat pīḍayā kriyate tapaḥ\nparasyotsādanārthaṁ vā tat tāmasam udāhṛitam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "mūḍha—those with confused notions; grāheṇa—with endeavor; ātmanaḥ—one’s own self; yat—which; pīḍayā—torturing; kriyate—is performed; tapaḥ—austerity; parasya—of others; utsādana-artham—for harming; vā—or; tat—that; tāmasam—in the mode of ignorance; udāhṛitam—is described to be",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Austerity done under delusion, and accompanied with sorcery or the infliction of pain upon oneself or another, may be assumed to spring from ignorance.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 20,
+      "sanskrit": {
+        "text": "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे।देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम्।।17.20।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "dātavyam iti yad dānaṁ dīyate ‘nupakāriṇe\ndeśhe kāle cha pātre cha tad dānaṁ sāttvikaṁ smṛitam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "dātavyam—worthy of charity; iti—thus; yat—which; dānam—charity; dīyate—is given; anupakāriṇe—to one who cannot give in return; deśhe—in the proper place; kāle—at the proper time; cha—and; pātre—to a worthy person; cha—and; tat—that; dānam—charity; sāttvikam—in the mode of goodness; smṛitam—is stated to be",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The gift that is given without thought of recompense, believing it should be made, in an appropriate place, at an opportune time, and to a deserving person—such a gift is pure.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 21,
+      "sanskrit": {
+        "text": "यत्तु प्रत्युपकारार्थं फलमुद्दिश्य वा पुनः।दीयते च परिक्लिष्टं तद्दानं राजसं स्मृतम्।।17.21।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yat tu pratyupakārārthaṁ phalam uddiśhya vā punaḥ\ndīyate cha parikliṣhṭaṁ tad dānaṁ rājasaṁ smṛitam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yat—which; tu—but; prati-upakāra-artham—with the hope of a return; phalam—reward; uddiśhya—expectation; vā—or; punaḥ—again; dīyate—is given; cha—and; parikliṣhṭam—reluctantly; tat—that; dānam—charity; rājasam—in the mode of passion; smṛitam—is said to be",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "That which is given for the sake of the results it will produce, or with the hope of recompense, or grudgingly—that may truly be said to be the outcome of passion.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 22,
+      "sanskrit": {
+        "text": "अदेशकाले यद्दानमपात्रेभ्यश्च दीयते।असत्कृतमवज्ञातं तत्तामसमुदाहृतम्।।17.22।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "adeśha-kāle yad dānam apātrebhyaśh cha dīyate\nasat-kṛitam avajñātaṁ tat tāmasam udāhṛitam",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "adeśha—at the wrong place; kāle—at the wrong time; yat—which; dānam—charity; apātrebhyaḥ—to unworthy persons; cha—and; dīyate—is given; asat-kṛitam—without respect; avajñātam—with contempt; tat—that; tāmasam—of the nature of nescience; udāhṛitam—is held to be",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "And that which is given at an inappropriate place or time or to one who is undeserving, or with disrespect or contempt - such a gift is the result of ignorance.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 23,
+      "sanskrit": {
+        "text": "तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः।ब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा।।17.23।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "oṁ tat sad iti nirdeśho brahmaṇas tri-vidhaḥ smṛitaḥ\nbrāhmaṇās tena vedāśh cha yajñāśh cha vihitāḥ purā",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "om tat sat—syllables representing aspects of transcendence; iti—thus; nirdeśhaḥ—symbolic representatives; brahmaṇaḥ—the Supreme Absolute Truth; tri-vidhaḥ—of three kinds; smṛitaḥ—have been declared; brāhmaṇāḥ—the priests; tena—from them; vedāḥ—scriptures; cha—and; yajñāḥ—sacrifice; cha—and; vihitāḥ—came about; purā—from the beginning of creation",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Om Tat Sat is the triple designation of the Eternal Spirit, by which the Vedic Scriptures, ceremonials, and sacrifices were ordained of old.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 24,
+      "sanskrit": {
+        "text": "तस्मादोमित्युदाहृत्य यज्ञदानतपःक्रियाः।प्रवर्तन्ते विधानोक्ताः सततं ब्रह्मवादिनाम्।।17.24।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tasmād oṁ ity udāhṛitya yajña-dāna-tapaḥ-kriyāḥ\npravartante vidhānoktāḥ satataṁ brahma-vādinām",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tasmāt—therefore; om—sacred syllable om; iti—thus; udāhṛitya—by uttering; yajña—sacrifice; dāna—charity; tapaḥ—penance; kriyāḥ—performing; pravartante—begin; vidhāna-uktāḥ—according to the prescriptions of Vedic injunctions; satatam—always; brahma-vādinām—expounders of the Vedas",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Therefore, all acts of sacrifice, gifts, and austerities prescribed by the scriptures are always begun by those who understand the Spirit with the word \"Om.\"",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 25,
+      "sanskrit": {
+        "text": "तदित्यनभिसन्धाय फलं यज्ञतपःक्रियाः।दानक्रियाश्च विविधाः क्रियन्ते मोक्षकाङ्क्षि।।17.25।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tad ity anabhisandhāya phalaṁ yajña-tapaḥ-kriyāḥ\ndāna-kriyāśh cha vividhāḥ kriyante mokṣha-kāṅkṣhibhiḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tat—the syllable Tat; iti—thus; anabhisandhāya—without desiring; phalam—fruitive rewards; yajña—sacrifice; tapaḥ—austerity; kriyāḥ—acts; dāna—charity; kriyāḥ—acts; cha—and; vividhāḥ—various; kriyante—are done; mokṣha-kāṅkṣhibhiḥ—by seekers of freedom from material entanglements",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Those who desire deliverance begin their acts of sacrifice, austerity, or gift with the word \"Tat\" (meaning \"That\"), without thought of reward.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 26,
+      "sanskrit": {
+        "text": "सद्भावे साधुभावे च सदित्येतत्प्रयुज्यते।प्रशस्ते कर्मणि तथा सच्छब्दः पार्थ युज्यते।।17.26।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sad-bhāve sādhu-bhāve cha sad ity etat prayujyate\npraśhaste karmaṇi tathā sach-chhabdaḥ pārtha yujyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sat-bhāve—with the intention of eternal existence and goodness; sādhu-bhāve—with auspicious intention; cha—also; sat—the syllable Sat; iti—thus; etat—this; prayujyate—is used; praśhaste—auspicious; karmaṇi—action; tathā—also; sat-śhabdaḥ—the word “Sat”; pārtha—Arjun, the son of Pritha; yujyate—is used;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Sat' means Reality or the highest Good, and also, O Arjuna, it is used to denote an action of exceptional merit.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 27,
+      "sanskrit": {
+        "text": "यज्ञे तपसि दाने च स्थितिः सदिति चोच्यते।कर्म चैव तदर्थीयं सदित्येवाभिधीयते।।17.27।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yajñe tapasi dāne cha sthitiḥ sad iti chochyate\nkarma chaiva tad-arthīyaṁ sad ity evābhidhīyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yajñe—in sacrifice; tapasi—in penance; dāne—in charity; cha—and; sthitiḥ—established in steadiness; sat—the syllable Sat; iti—thus; cha—and; uchyate—is pronounced; karma—action; cha—and; eva—indeed; tat-arthīyam—for such purposes; sat—the syllable Sat; iti—thus; eva—indeed; abhidhīyate—is described",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Conviction in sacrifice, austerity, and giving is also called Sat. So too, an action done only for the Lord's sake.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 17,
+      "verseNumber": 28,
+      "sanskrit": {
+        "text": "अश्रद्धया हुतं दत्तं तपस्तप्तं कृतं च यत्।असदित्युच्यते पार्थ न च तत्प्रेत्य नो इह।।17.28।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "aśhraddhayā hutaṁ dattaṁ tapas taptaṁ kṛitaṁ cha yat\nasad ity uchyate pārtha na cha tat pretya no iha",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "aśhraddhayā—without faith; hutam—sacrifice; dattam—charity; tapaḥ—penance; taptam—practiced; kṛitam—done; cha—and; yat—which; asat—perishable; iti—thus; uchyate—are termed as; pārtha—Arjun, the son of Pritha; na—not; cha—and; tat—that; pretya—in the next world; na u—not; iha—in this world",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Whatever is done without faith, whether it be sacrifice, austerity, gift, or anything else, is called Asat (meaning \"Unreal\"), for it is the negation of Sat, O Arjuna! Such an act has no significance, here or hereafter.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    }
+  ]
+}

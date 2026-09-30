@@ -1,0 +1,1809 @@
+{
+  "chapter": {
+    "chapterNumber": 6,
+    "nameTransliterated": "Dhyān Yog",
+    "nameSanskrit": {
+      "text": "ध्यानयोग",
+      "lang": "sa",
+      "contentType": "sanskrit",
+      "sourceId": "sanskrit-classical"
+    },
+    "nameTranslation": "Dhyana Yoga",
+    "summary": {
+      "text": "The sixth chapter of the Bhagavad Gita is \"Dhyana Yoga\". In this chapter, Krishna reveals the \"Yoga of Meditation\" and how to practise this Yoga. He discusses the role of action in preparing for Meditation, how performing duties in devotion purifies one's mind and heightens one's spiritual consciousness. He explains in detail the obstacles that one faces when trying to control their mind and the exact methods by which one can conquer their mind. He reveals how one can focus their mind on Paramatma and unite with the God.",
+      "lang": "en",
+      "contentType": "explanation",
+      "sourceId": "gita-gita-editorial"
+    },
+    "theme": null,
+    "versesCount": 47
+  },
+  "verses": [
+    {
+      "chapterNumber": 6,
+      "verseNumber": 1,
+      "sanskrit": {
+        "text": "श्री भगवानुवाच\n\nअनाश्रितः कर्मफलं कार्यं कर्म करोति यः।\n\nस संन्यासी च योगी च न निरग्निर्न चाक्रियः।।6.1।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhrī bhagavān uvācha\nanāśhritaḥ karma-phalaṁ kāryaṁ karma karoti yaḥ\nsa sannyāsī cha yogī cha na niragnir na chākriyaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhrī-bhagavān uvācha—the Supreme Lord said; anāśhritaḥ—not desiring; karma-phalam—results of actions; kāryam—obligatory; karma—work; karoti—perform; yaḥ—one who; saḥ—that person; sanyāsī—in the renounced order; cha—and; yogī—yogi; cha—and; na—not; niḥ—without; agniḥ—fire; na—not; cha—also; akriyaḥ—without activity",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna said: He who acts out of duty, without considering the consequences, is truly spiritual and a true ascetic; not he who merely observes rituals or shuns all action.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 2,
+      "sanskrit": {
+        "text": "यं संन्यासमिति प्राहुर्योगं तं विद्धि पाण्डव।\n\nन ह्यसंन्यस्तसङ्कल्पो योगी भवति कश्चन।।6.2।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yaṁ sannyāsam iti prāhur yogaṁ taṁ viddhi pāṇḍava\nna hyasannyasta-saṅkalpo yogī bhavati kaśhchana",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yam—what; sanyāsam—renunciation; iti—thus; prāhuḥ—they say; yogam—yog; tam—that; viddhi—know; pāṇḍava—Arjun, the son of Pandu; na—not; hi—certainly; asannyasta—without giving up; saṅkalpaḥ—desire; yogī—a yogi; bhavati—becomes; kaśhchana—anyone",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "O Arjuna, renunciation is indeed what is known as right action. No one can become spiritually enlightened who has not renounced all desires.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 3,
+      "sanskrit": {
+        "text": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते।\n\nयोगारूढस्य तस्यैव शमः कारणमुच्यते।।6.3।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ārurukṣhor muner yogaṁ karma kāraṇam uchyate\nyogārūḍhasya tasyaiva śhamaḥ kāraṇam uchyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ārurukṣhoḥ—a beginner; muneḥ—of a sage; yogam—Yog; karma—working without attachment; kāraṇam—the cause; uchyate—is said; yoga ārūḍhasya—of those who are elevated in Yog; tasya—their; eva—certainly; śhamaḥ—meditation; kāraṇam—the cause; uchyate—is said",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "For the sage who seeks the heights of spiritual meditation, practice is the only method, and when they have attained it, they must maintain themselves there through continual self-control.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 4,
+      "sanskrit": {
+        "text": "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते।\n\nसर्वसङ्कल्पसंन्यासी योगारूढस्तदोच्यते।।6.4।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yadā hi nendriyārtheṣhu na karmasv-anuṣhajjate\nsarva-saṅkalpa-sannyāsī yogārūḍhas tadochyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yadā—when; hi—certainly; na—not; indriya-artheṣhu—for sense-objects; na—not; karmasu—to actions; anuṣhajjate—is attachment; sarva-saṅkalpa—all desires for the fruits of actions; sanyāsī—renouncer; yoga-ārūḍhaḥ—elevated in the science of Yog; tadā—at that time; uchyate—is said",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "When a man renounces even the thought of initiating action, and is not interested in sense objects or any results that may flow from his acts, then he truly understands spirituality.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 5,
+      "sanskrit": {
+        "text": "उद्धरेदात्मनाऽऽत्मानं नात्मानमवसादयेत्।\n\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः।।6.5।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "uddhared ātmanātmānaṁ nātmānam avasādayet\nātmaiva hyātmano bandhur ātmaiva ripur ātmanaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "uddharet—elevate; ātmanā—through the mind; ātmānam—the self; na—not; ātmānam—the self; avasādayet—degrade; ātmā—the mind; eva—certainly; hi—indeed; ātmanaḥ—of the self; bandhuḥ—friend; ātmā—the mind; eva—certainly; ripuḥ—enemy; ātmanaḥ—of the self",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Let him seek liberation with the help of his Highest Self, and never disgrace his own Self. For that Self is his only friend; yet it can also be his enemy.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 6,
+      "sanskrit": {
+        "text": "बन्धुरात्माऽऽत्मनस्तस्य येनात्मैवात्मना जितः।\n\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत्।।6.6।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ\nanātmanas tu śhatrutve vartetātmaiva śhatru-vat",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "bandhuḥ—friend; ātmā—the mind; ātmanaḥ—for the person; tasya—of him; yena—by whom; ātmā—the mind; eva—certainly; ātmanā—for the person; jitaḥ—conquered; anātmanaḥ—of those with unconquered mind; tu—but; śhatrutve—for an enemy; varteta—remains; ātmā—the mind; eva—as; śhatru-vat—like an enemy",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "To one who has conquered their lower nature with its help, the Self is a friend; but to one who has not done so, it is an enemy.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 7,
+      "sanskrit": {
+        "text": "जितात्मनः प्रशान्तस्य परमात्मा समाहितः।\n\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः।।6.7।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "jitātmanaḥ praśhāntasya paramātmā samāhitaḥ\nśhītoṣhṇa-sukha-duḥkheṣhu tathā mānāpamānayoḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "jita-ātmanaḥ—one who has conquered one’s mind; praśhāntasya—of the peaceful; parama-ātmā—God; samāhitaḥ—steadfast; śhīta—in cold; uṣhṇa—heat; sukha—happiness; duḥkheṣhu—and distress; tathā—also; māna—in honor; apamānayoḥ—and dishonor",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The Self of one who is self-controlled and has attained peace is equally unmoved by heat or cold, pleasure or pain, honor or dishonor.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 8,
+      "sanskrit": {
+        "text": "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रियः।\n\nयुक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चनः।।6.8।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "jñāna-vijñāna-tṛiptātmā kūṭa-stho vijitendriyaḥ\nyukta ityuchyate yogī sama-loṣhṭāśhma-kāñchanaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "jñāna—knowledge; vijñāna—realized knowledge, wisdom from within; tṛipta ātmā—one fully satisfied; kūṭa-sthaḥ—undisturbed; vijita-indriyaḥ—one who has conquered the senses; yuktaḥ—one who is in constant communion with the Supreme; iti—thus; uchyate—is said; yogī—a yogi; sama—looks equally; loṣhṭra—pebbles; aśhma—stone; kāñchanaḥ—gold",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "He who desires nothing but wisdom and spiritual insight, who has conquered his senses, and who looks upon a lump of earth, a stone, and fine gold with the same eye, is a real saint.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 9,
+      "sanskrit": {
+        "text": "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु।\n\nसाधुष्वपि च पापेषु समबुद्धिर्विशिष्यते।।6.9।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "suhṛin-mitrāryudāsīna-madhyastha-dveṣhya-bandhuṣhu\nsādhuṣhvapi cha pāpeṣhu sama-buddhir viśhiṣhyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "su-hṛit—toward the well-wishers; mitra—friends; ari—enemies; udāsīna—neutral persons; madhya-stha—mediators; dveṣhya—the envious; bandhuṣhu—relatives; sādhuṣhu—pious; api—as well as; cha—and; pāpeṣhu—the sinners; sama-buddhiḥ—of impartial intellect; viśhiṣhyate—is distinguished",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "He looks impartially on all—lovers, friends, or foes; indifferent, hostile, alien, or relative; virtuous or sinful.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 10,
+      "sanskrit": {
+        "text": "योगी युञ्जीत सततमात्मानं रहसि स्थितः।\n\nएकाकी यतचित्तात्मा निराशीरपरिग्रहः।।6.10।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yogī yuñjīta satatam ātmānaṁ rahasi sthitaḥ\nekākī yata-chittātmā nirāśhīr aparigrahaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yogī—a yogi; yuñjīta—should remain engaged in meditation; satatam—constantly; ātmānam—self; rahasi—in seclusion; sthitaḥ—remaining; ekākī—alone; yata-chitta-ātmā—with a controlled mind and body; nirāśhīḥ—free from desires; aparigrahaḥ—free from desires for possessions for enjoyment",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Let the student of spirituality try unceasingly to concentrate his mind; let him live in seclusion, absolutely alone, with his mind and personality controlled, free from desire and without possessions.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 11,
+      "sanskrit": {
+        "text": "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मनः।\n\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम्।।6.11।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhuchau deśhe pratiṣhṭhāpya sthiram āsanam ātmanaḥ\nnātyuchchhritaṁ nāti-nīchaṁ chailājina-kuśhottaram",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhuchau—in a clean; deśhe—place; pratiṣhṭhāpya—having established; sthiram—steadfast; āsanam—seat; ātmanaḥ—his own; na—not; ati—too; uchchhritam—high; na—not; ati—too; nīcham—low; chaila—cloth; ajina—a deerskin; kuśha—kuśh grass; uttaram—one over the other",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Having chosen a holy place, let him sit in a firm posture on a seat that is neither too high nor too low, and cover it with a grass mat, a deer skin, and a cloth.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 12,
+      "sanskrit": {
+        "text": "तत्रैकाग्रं मनः कृत्वा यतचित्तेन्द्रियक्रियः।\n\nउपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये।।6.12।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tatraikāgraṁ manaḥ kṛitvā yata-chittendriya-kriyaḥ\nupaviśhyāsane yuñjyād yogam ātma-viśhuddhaye",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tatra—there; eka-agram—one-pointed; manaḥ—mind; kṛitvā—having made; yata-chitta—controlling the mind; indriya—senses; kriyaḥ—activities; upaviśhya—being seated; āsane—on the seat; yuñjyāt yogam—should strive to practice yog; ātma viśhuddhaye—for purification of the mind;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Seated thus, with his mind concentrated, his functions controlled, and his senses governed, let him practice meditation for the purification of his lower nature.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 13,
+      "sanskrit": {
+        "text": "समं कायशिरोग्रीवं धारयन्नचलं स्थिरः।\n\nसंप्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन्।।6.13।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "samaṁ kāya-śhiro-grīvaṁ dhārayann achalaṁ sthiraḥ\nsamprekṣhya nāsikāgraṁ svaṁ diśhaśh chānavalokayan",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "samam—straight; kāya—body; śhiraḥ—head; grīvam—neck; dhārayan—holding; achalam—unmoving; sthiraḥ—still; samprekṣhya—gazing; nāsika-agram—at the tip of the nose; svam—own; diśhaḥ—directions; cha—and; anavalokayan—not looking",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Let him hold his body, head, and neck erect, motionless and steady; let him look fixedly at the tip of his nose, turning neither to the right nor to the left.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 14,
+      "sanskrit": {
+        "text": "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थितः।\n\nमनः संयम्य मच्चित्तो युक्त आसीत मत्परः।।6.14।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "praśhāntātmā vigata-bhīr brahmachāri-vrate sthitaḥ\nmanaḥ sanyamya mach-chitto yukta āsīta mat-paraḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "praśhānta—serene; ātmā—mind; vigata-bhīḥ—fearless; brahmachāri-vrate—in the vow of celibacy; sthitaḥ—situated; manaḥ—mind; sanyamya—having controlled; mat-chittaḥ—meditate on me (Shree Krishna); yuktaḥ—engaged; āsīta—should sit; mat-paraḥ—having me as the supreme goal",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "With peace in his heart and no fear, observing the vow of celibacy, with his mind controlled and fixed on Me, let the student lose himself in contemplation of Me.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 15,
+      "sanskrit": {
+        "text": "युञ्जन्नेवं सदाऽऽत्मानं योगी नियतमानसः।\n\nशान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति।।6.15।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yuñjann evaṁ sadātmānaṁ yogī niyata-mānasaḥ\nśhantiṁ nirvāṇa-paramāṁ mat-sansthām adhigachchhati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yuñjan—keeping the mind absorbed in God; evam—thus; sadā—constantly; ātmānam—the mind; yogī—a yogi; niyata-mānasaḥ—one with a disciplined mind; śhāntim—peace; nirvāṇa—liberation from the material bondage; paramām—supreme; mat-sansthām—abides in me; adhigachchhati—attains",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Thus, keeping his mind always in communion with Me and subduing his thoughts, he shall attain that Peace which is Mine and will lead him to liberation at last.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 16,
+      "sanskrit": {
+        "text": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः।\n\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन।।6.16।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "nātyaśhnatastu yogo ’sti na chaikāntam anaśhnataḥ\nna chāti-svapna-śhīlasya jāgrato naiva chārjuna",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "na—not; ati—too much; aśhnataḥ—of one who eats; tu—however; yogaḥ—Yog; asti—there is; na—not; cha—and; ekāntam—at all; anaśhnataḥ—abstaining from eating; na—not; cha—and; ati—too much; svapna-śhīlasya—of one who sleeps; jāgrataḥ—of one who does not sleep enough; na—not; eva—certainly; cha—and; arjuna—Arjun",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Meditation is not for him who eats too much, nor for him who eats not at all; not for him who is overly addicted to sleep, nor for him who is always awake.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 17,
+      "sanskrit": {
+        "text": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु।\n\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा।।6.17।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yuktāhāra-vihārasya yukta-cheṣhṭasya karmasu\nyukta-svapnāvabodhasya yogo bhavati duḥkha-hā",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yukta—moderate; āhāra—eating; vihārasya—recreation; yukta cheṣhṭasya karmasu—balanced in work; yukta—regulated; svapna-avabodhasya—sleep and wakefulness; yogaḥ—Yog; bhavati—becomes; duḥkha-hā—the slayer of sorrows",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "But for him who regulates his food and recreation, who is balanced in action, in sleep, and in waking, it shall dispel all unhappiness.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 18,
+      "sanskrit": {
+        "text": "यदा विनियतं चित्तमात्मन्येवावतिष्ठते।\n\nनिःस्पृहः सर्वकामेभ्यो युक्त इत्युच्यते तदा।।6.18।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yadā viniyataṁ chittam ātmanyevāvatiṣhṭhate\nniḥspṛihaḥ sarva-kāmebhyo yukta ityuchyate tadā",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yadā—when; viniyatam—fully controlled; chittam—the mind; ātmani—of the self; eva—certainly; avatiṣhṭhate—stays; nispṛihaḥ—free from cravings: sarva; kāmebhyaḥ—for yearning of the senses; yuktaḥ—situated in perfect Yog; iti—thus; uchyate—is said; tadā—then",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "When the mind is completely controlled, centered in the Self, and free from all earthly desires, then the man is truly spiritual.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 19,
+      "sanskrit": {
+        "text": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता।\n\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः।।6.19।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yathā dīpo nivāta-stho neṅgate sopamā smṛitā\nyogino yata-chittasya yuñjato yogam ātmanaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yathā—as; dīpaḥ—a lamp; nivāta-sthaḥ—in a windless place; na—does not; iṅgate—flickers; sā—this; upamā—analogy; smṛitā—is considered; yoginaḥ—of a yogi; yata-chittasya—whose mind is disciplined; yuñjataḥ—steadily practicing; yogam—in meditation; ātmanaḥ—on the Supreme",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The wise man who has conquered his mind and is absorbed in the Self is like a lamp that does not flicker, as it stands sheltered from every wind.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 20,
+      "sanskrit": {
+        "text": "यत्रोपरमते चित्तं निरुद्धं योगसेवया।\n\nयत्र चैवात्मनाऽऽत्मानं पश्यन्नात्मनि तुष्यति।।6.20।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yatroparamate chittaṁ niruddhaṁ yoga-sevayā\nyatra chaivātmanātmānaṁ paśhyann ātmani tuṣhyati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yatra—when; uparamate—rejoice inner joy; chittam—the mind; niruddham—restrained; yoga-sevayā—by the practice of yog; yatra—when; cha—and; eva—certainly; ātmanā—through the purified mind; ātmānam—the soul; paśhyan—behold; ātmani—in the self; tuṣhyati—is satisfied",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "There, where the whole of nature is seen in the light of the Self, where the person abides within their Self and is satisfied there, their functions restrained by their union with the Divine, the mind finds rest.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 21,
+      "sanskrit": {
+        "text": "सुखमात्यन्तिकं यत्तद्बुद्धिग्राह्यमतीन्द्रियम्।\n\nवेत्ति यत्र न चैवायं स्थितश्चलति तत्त्वतः।।6.21।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sukham ātyantikaṁ yat tad buddhi-grāhyam atīndriyam\nvetti yatra na chaivāyaṁ sthitaśh chalati tattvataḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sukham—happiness; ātyantikam—limitless; yat—which; tat—that; buddhi—by intellect; grāhyam—grasp; atīndriyam—transcending the senses; vetti—knows; yatra—wherein; na—never; cha—and; eva—certainly; ayam—he; sthitaḥ—situated; chalati—deviates; tattvataḥ—from the Eternal Truth",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "When he enjoys the bliss that surpasses the senses and can only be grasped by the pure intellect, when he comes to rest within his highest self, he will never again stray from reality.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 22,
+      "sanskrit": {
+        "text": "यं लब्ध्वा चापरं लाभं मन्यते नाधिकं ततः।\n\nयस्मिन्स्थितो न दुःखेन गुरुणापि विचाल्यते।।6.22।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yaṁ labdhvā chāparaṁ lābhaṁ manyate nādhikaṁ tataḥ\nyasmin sthito na duḥkhena guruṇāpi vichālyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yam—which; labdhvā—having gained; cha—and; aparam—any other; lābham—gain; manyate—considers; na—not; adhikam—greater; tataḥ—than that; yasmin—in which; sthitaḥ—being situated; na—never; duḥkhena—by sorrow; guruṇā—(by) the greatest; api—even; vichālyate—is shaken",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Finding That, he will realize that there is no possession so precious. And once established there, no calamity can disturb him.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 23,
+      "sanskrit": {
+        "text": "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम्।\n\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा।।6.23।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "taṁ vidyād duḥkha-sanyoga-viyogaṁ yogasaṅjñitam\nsa niśhchayena yoktavyo yogo ’nirviṇṇa-chetasā",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tam—that; vidyāt—you should know; duḥkha-sanyoga-viyogam—state of severance from union with misery; yoga-saṁjñitam—is known as yog; saḥ—that; niśhchayena—resolutely; yoktavyaḥ—should be practiced; yogaḥ—yog; anirviṇṇa-chetasā—with an undeviating mind",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "This inner severance from the affliction of misery is spirituality. It should be practiced with determination and with a heart that refuses to be depressed.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 24,
+      "sanskrit": {
+        "text": "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषतः।\n\nमनसैवेन्द्रियग्रामं विनियम्य समन्ततः।।6.24।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "saṅkalpa-prabhavān kāmāns tyaktvā sarvān aśheṣhataḥ\nmanasaivendriya-grāmaṁ viniyamya samantataḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "saṅkalpa—a resolve; prabhavān—born of; kāmān—desires; tyaktvā—having abandoned; sarvān—all; aśheṣhataḥ—completely; manasā—through the mind; eva—certainly; indriya-grāmam—the group of senses; viniyamya—restraining; samantataḥ—from all sides;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Renouncing every desire that can be imagined, controlling the senses at every point through the power of the mind;",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 25,
+      "sanskrit": {
+        "text": "शनैः शनैरुपरमेद् बुद्ध्या धृतिगृहीतया।\n\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत्।।6.25।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhanaiḥ śhanair uparamed buddhyā dhṛiti-gṛihītayā\nātma-sansthaṁ manaḥ kṛitvā na kiñchid api chintayet",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhanaiḥ—gradually; śhanaiḥ—gradually; uparamet—attain peace; buddhyā—by intellect; dhṛiti-gṛihītayā—achieved through determination of resolve that is in accordance with scriptures; ātma-sanstham—fixed in God; manaḥ—mind; kṛitvā—having made; na—not; kiñchit—anything; api—even; chintayet—should think of",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Little by little, with the help of his reason controlled by fortitude, let him attain peace; and, fixing his mind on the Self, let him not think of anything else.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 26,
+      "sanskrit": {
+        "text": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम्।\n\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत्।।6.26।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yato yato niśhcharati manaśh chañchalam asthiram\ntatas tato niyamyaitad ātmanyeva vaśhaṁ nayet",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yataḥ yataḥ—whenever and wherever; niśhcharati—wanders; manaḥ—the mind; chañchalam—restless; asthiram—unsteady; tataḥ tataḥ—from there; niyamya—having restrained; etat—this; ātmani—on God; eva—certainly; vaśham—control; nayet—should bring",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "When the volatile and wavering mind wanders, let him restrain it and bring it back to its allegiance to the Self.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 27,
+      "sanskrit": {
+        "text": "प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम्।\n\nउपैति शान्तरजसं ब्रह्मभूतमकल्मषम्।।6.27।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "praśhānta-manasaṁ hyenaṁ yoginaṁ sukham uttamam\nupaiti śhānta-rajasaṁ brahma-bhūtam akalmaṣham",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "praśhānta—peaceful; manasam—mind; hi—certainly; enam—this; yoginam—yogi; sukham uttamam—the highest bliss; upaiti—attains; śhānta-rajasam—whose passions are subdued; brahma-bhūtam—endowed with God-realization; akalmaṣham—without sin",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Supreme bliss is the lot of the sage whose mind attains peace, whose passions subside, who is without sin, and who becomes one with the Absolute.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 28,
+      "sanskrit": {
+        "text": "युञ्जन्नेवं सदाऽऽत्मानं योगी विगतकल्मषः।\n\nसुखेन ब्रह्मसंस्पर्शमत्यन्तं सुखमश्नुते।।6.28।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yuñjann evaṁ sadātmānaṁ yogī vigata-kalmaṣhaḥ\nsukhena brahma-sansparśham atyantaṁ sukham aśhnute",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yuñjan—uniting (the self with God); evam—thus; sadā—always; ātmānam—the self; yogī—a yogi; vigata—freed from; kalmaṣhaḥ—sins; sukhena—easily; brahma-sansparśham—constantly in touch with the Supreme; atyantam—the highest; sukham—bliss; aśhnute—attains",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Thus, free from sin, abiding always in the Eternal, the saint enjoys, without effort, the bliss that flows from the realization of the Infinite.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 29,
+      "sanskrit": {
+        "text": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि।\n\nईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः।।6.29।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sarva-bhūta-stham ātmānaṁ sarva-bhūtāni chātmani\nīkṣhate yoga-yuktātmā sarvatra sama-darśhanaḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sarva-bhūta-stham—situated in all living beings; ātmānam—Supreme Soul; sarva—all; bhūtāni—living beings; cha—and; ātmani—in God; īkṣhate—sees; yoga-yukta-ātmā—one united in consciousness with God; sarvatra—everywhere; sama-darśhanaḥ—equal vision",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "He who experiences the unity of life sees his own Self in all beings, and all beings in his own Self, and looks upon everything with an impartial eye.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 30,
+      "sanskrit": {
+        "text": "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति।\n\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति।।6.30।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yo māṁ paśhyati sarvatra sarvaṁ cha mayi paśhyati\ntasyāhaṁ na praṇaśhyāmi sa cha me na praṇaśhyati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yaḥ—who; mām—me; paśhyati—see; sarvatra—everywhere; sarvam—everything; cha—and; mayi—in me; paśhyati—see; tasya—for him; aham—I; na—not; praṇaśhyāmi—lost; saḥ—that person; cha—and; me—to me; na—nor; praṇaśhyati—lost",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "He who sees Me in everything and everything in Me, I shall never forsake him, nor shall he lose Me.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 31,
+      "sanskrit": {
+        "text": "सर्वभूतस्थितं यो मां भजत्येकत्वमास्थितः।\n\nसर्वथा वर्तमानोऽपि स योगी मयि वर्तते।।6.31।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "sarva-bhūta-sthitaṁ yo māṁ bhajatyekatvam āsthitaḥ\nsarvathā vartamāno ’pi sa yogī mayi vartate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "sarva-bhūta-sthitam—situated in all beings; yaḥ—who; mām—me; bhajati—worships; ekatvam—in unity; āsthitaḥ—established; sarvathā—in all kinds of; varta-mānaḥ—remain; api—although; saḥ—he; yogī—a yogi; mayi—in me; vartate—dwells",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The sage who realizes the unity of life and who worships Me in all beings, lives in Me, no matter what their lot may be.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 32,
+      "sanskrit": {
+        "text": "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन।\n\nसुखं वा यदि वा दुःखं सः योगी परमो मतः।।6.32।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "ātmaupamyena sarvatra samaṁ paśhyati yo ’rjuna\nsukhaṁ vā yadi vā duḥkhaṁ sa yogī paramo mataḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "ātma-aupamyena—similar to oneself; sarvatra—everywhere; samam—equally; paśhyati—see; yaḥ—who; arjuna—Arjun; sukham—joy; vā—or; yadi—if; vā—or; duḥkham—sorrow; saḥ—such; yogī—a yogi; paramaḥ—highest; mataḥ—is considered",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "O Arjuna! He is the perfect saint who, having been taught by the likeness within himself, sees the same Self everywhere, regardless of whether the outer form be pleasurable or painful.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 33,
+      "sanskrit": {
+        "text": "अर्जुन उवाच\n\nयोऽयं योगस्त्वया प्रोक्तः साम्येन मधुसूदन।\n\nएतस्याहं न पश्यामि चञ्चलत्वात् स्थितिं स्थिराम्।।6.33।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "arjuna uvācha\nyo ’yaṁ yogas tvayā proktaḥ sāmyena madhusūdana\netasyāhaṁ na paśhyāmi chañchalatvāt sthitiṁ sthirām",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "arjunaḥ uvācha—Arjun said; yaḥ—which; ayam—this; yogaḥ—system of Yog; tvayā—by you; proktaḥ—described; sāmyena—by equanimity; madhu-sūdana—Shree Krishna, the killer of the demon named Madhu; etasya—of this; aham—I; na—do not; paśhyāmi—see; chañchalatvāt—due to restlessness; sthitim—situation; sthirām—steady",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Arjuna said: I do not see how I can attain this state of equanimity which You have revealed, owing to the restlessness of my mind.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 34,
+      "sanskrit": {
+        "text": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद्दृढम्।\n\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम्।।6.34।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "chañchalaṁ hi manaḥ kṛiṣhṇa pramāthi balavad dṛiḍham\ntasyāhaṁ nigrahaṁ manye vāyor iva su-duṣhkaram",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "chañchalam—restless; hi—certainly; manaḥ—mind; kṛiṣhṇa—Shree Krishna; pramāthi—turbulent; bala-vat—strong; dṛiḍham—obstinate; tasya—its; aham—I; nigraham—control; manye—think; vāyoḥ—of the wind; iva—like; su-duṣhkaram—difficult to perform",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "My Lord! Verily, the mind is fickle and turbulent, obstinate, and strong; indeed, it is extremely difficult to control, like the wind.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 35,
+      "sanskrit": {
+        "text": "श्री भगवानुवाच\n\nअसंशयं महाबाहो मनो दुर्निग्रहं चलं।\n\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते।।6.35।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhrī bhagavān uvācha\nasanśhayaṁ mahā-bāho mano durnigrahaṁ chalam\nabhyāsena tu kaunteya vairāgyeṇa cha gṛihyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhrī-bhagavān uvācha—Lord Krishna said; asanśhayam—undoubtedly; mahā-bāho—mighty-armed one; manaḥ—the mind; durnigraham—difficult to restrain; chalam—restless; abhyāsena—by practice; tu—but; kaunteya—Arjun, the son of Kunti; vairāgyeṇa—by detachment; cha—and; gṛihyate—can be controlled",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna replied: Doubtless, O Mighty One, the mind is fickle and exceedingly difficult to restrain; however, O Son of Kunti, with practice and renunciation, it can be done.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 36,
+      "sanskrit": {
+        "text": "असंयतात्मना योगो दुष्प्राप इति मे मतिः।\n\nवश्यात्मना तु यतता शक्योऽवाप्तुमुपायतः।।6.36।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "asaṅyatātmanā yogo duṣhprāpa iti me matiḥ\nvaśhyātmanā tu yatatā śhakyo ’vāptum upāyataḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "asanyata-ātmanā—one whose mind is unbridled; yogaḥ—Yog; duṣhprāpaḥ—difficult to attain; iti—thus; me—my; matiḥ—opinion; vaśhya-ātmanā—by one whose mind is controlled; tu—but; yatatā—one who strives; śhakyaḥ—possible; avāptum—to achieve; upāyataḥ—by right means",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "It is not possible to attain Self-Realization unless one knows how to control oneself; however, for one who, striving by the proper means, learns such control, it is possible.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 37,
+      "sanskrit": {
+        "text": "अर्जुन उवाच\n\nअयतिः श्रद्धयोपेतो योगाच्चलितमानसः।\n\nअप्राप्य योगसंसिद्धिं कां गतिं कृष्ण गच्छति।।6.37।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "arjuna uvācha\nayatiḥ śhraddhayopeto yogāch chalita-mānasaḥ\naprāpya yoga-sansiddhiṁ kāṅ gatiṁ kṛiṣhṇa gachchhati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "arjunaḥ uvācha—Arjun said; ayatiḥ—lax; śhraddhayā—with faith; upetaḥ—possessed; yogāt—from Yog; chalita-mānasaḥ—whose mind becomes deviated; aprāpya—failing to attain; yoga-sansiddhim—the highest perfection in yog; kām—which; gatim—destination; kṛiṣhṇa—Shree Krishna; gachchhati—goes",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Arjuna asked: What of him who fails to control himself, whose mind falls from spiritual contemplation, yet retains his faith and does not attain perfection?",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 38,
+      "sanskrit": {
+        "text": "कच्चिन्नोभयविभ्रष्टश्छिन्नाभ्रमिव नश्यति।\n\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मणः पथि।।6.38।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "kachchin nobhaya-vibhraṣhṭaśh chhinnābhram iva naśhyati\napratiṣhṭho mahā-bāho vimūḍho brahmaṇaḥ pathi",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "kachchit—whether; na—not; ubhaya—both; vibhraṣhṭaḥ—deviated from; chhinna—broken; abhram—cloud; iva—like; naśhyati—perishes; apratiṣhṭhaḥ—without any support; mahā-bāho—mighty-armed Krishna; vimūḍhaḥ—bewildered; brahmaṇaḥ—of God-realization; pathi—one on the path",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Having failed in both, my Lord, is he without hope, like a riven cloud with no support, lost on the spiritual path?",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 39,
+      "sanskrit": {
+        "text": "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषतः।\n\nत्वदन्यः संशयस्यास्य छेत्ता न ह्युपपद्यते।।6.39।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "etan me sanśhayaṁ kṛiṣhṇa chhettum arhasyaśheṣhataḥ\ntvad-anyaḥ sanśhayasyāsya chhettā na hyupapadyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "etat—this; me—my; sanśhayam—doubt; kṛiṣhṇa—Krishna; chhettum—to dispel; arhasi—you can; aśheṣhataḥ—completely; tvat—than you; anyaḥ—other; sanśhayasya—of doubt; asya—this; chhettā—a dispeller; na—never; hi—certainly; upapadyate—is fit",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "My Lord! You are worthy to solve this doubt once and for all; there is no one else competent to do so, save Yourself.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 40,
+      "sanskrit": {
+        "text": "श्री भगवानुवाच\n\nपार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते।\n\nनहि कल्याणकृत्कश्िचद्दुर्गतिं तात गच्छति।।6.40।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "śhrī bhagavān uvācha\npārtha naiveha nāmutra vināśhas tasya vidyate\nna hi kalyāṇa-kṛit kaśhchid durgatiṁ tāta gachchhati",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "śhrī-bhagavān uvācha—the Supreme Lord said; pārtha—Arjun, the son of Pritha; na eva—never; iha—in this world; na—never; amutra—in the next world; vināśhaḥ—destruction; tasya—his; vidyate—exists; na—never; hi—certainly; kalyāṇa-kṛit—one who strives for God-realization; kaśhchit—anyone; durgatim—evil destination; tāta—my friend; gachchhati—goes",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Lord Shri Krishna replied: My beloved child! There is no destruction for him, either in this world or the next. No evil fate awaits him who treads the path of righteousness.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 41,
+      "sanskrit": {
+        "text": "प्राप्य पुण्यकृतां लोकानुषित्वा शाश्वतीः समाः।\n\nशुचीनां श्रीमतां गेहे योगभ्रष्टोऽभिजायते।।6.41।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "prāpya puṇya-kṛitāṁ lokān uṣhitvā śhāśhvatīḥ samāḥ\nśhuchīnāṁ śhrīmatāṁ gehe yoga-bhraṣhṭo’bhijāyate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "prāpya—attain; puṇya-kṛitām—of the virtuous; lokān—abodes; uṣhitvā—after dwelling; śhāśhvatīḥ—many; samāḥ—ages; śhuchīnām—of the pious; śhrī-matām—of the prosperous; gehe—in the house; yoga-bhraṣhṭaḥ—the unsuccessful yogis; abhijāyate—take birth;",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Having reached the worlds where the righteous dwell, and having remained there for many years, he who has strayed from the path of spirituality will be born again into the family of the pure, benevolent, and prosperous.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 42,
+      "sanskrit": {
+        "text": "अथवा योगिनामेव कुले भवति धीमताम्।\n\nएतद्धि दुर्लभतरं लोके जन्म यदीदृशम्।।6.42।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "atha vā yoginām eva kule bhavati dhīmatām\netad dhi durlabhataraṁ loke janma yad īdṛiśham",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "atha vā—else; yoginām—of those endowed with divine wisdom; eva—certainly; kule—in the family; bhavati—take birth; dhī-matām—of the wise; etat—this; hi—certainly; durlabha-taram—very rare; loke—in this world; janma—birth; yat—which; īdṛiśham—like this",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Or, he may be born in the family of wise sages, though such a birth is indeed very difficult to obtain.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 43,
+      "sanskrit": {
+        "text": "तत्र तं बुद्धिसंयोगं लभते पौर्वदेहिकम्।\n\nयतते च ततो भूयः संसिद्धौ कुरुनन्दन।।6.43।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tatra taṁ buddhi-sanyogaṁ labhate paurva-dehikam\nyatate cha tato bhūyaḥ sansiddhau kuru-nandana",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tatra—there; tam—that; buddhi-sanyogam—reawaken their wisdom; labhate—obtains; paurva-dehikam—from the previous lives; yatate—strives; cha—and; tataḥ—thereafter; bhūyaḥ—again; sansiddhau—for perfection; kuru-nandana—Arjun, descendant of the Kurus",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Then, the experience acquired in his former life will revive, and with it, he will more eagerly strive for perfection than before.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 44,
+      "sanskrit": {
+        "text": "पूर्वाभ्यासेन तेनैव ह्रियते ह्यवशोऽपि सः।\n\nजिज्ञासुरपि योगस्य शब्दब्रह्मातिवर्तते।।6.44।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "pūrvābhyāsena tenaiva hriyate hyavaśho ’pi saḥ\njijñāsur api yogasya śhabda-brahmātivartate",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "pūrva—past; abhyāsena—discipline; tena—by that; eva—certainly; hriyate—is attracted; hi—surely; avaśhaḥ—helplessly; api—although; saḥ—that person; jijñāsuḥ—inquisitive; api—even; yogasya—about yog; śhabda-brahma—fruitive portion of the Vedas; ativartate—transcends",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Unconsciously, he will return to the practices of his old life; thus, one who strives to attain spiritual consciousness is certainly superior to one who merely talks about it.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 45,
+      "sanskrit": {
+        "text": "प्रयत्नाद्यतमानस्तु योगी संशुद्धकिल्बिषः।\n\nअनेकजन्मसंसिद्धस्ततो याति परां गतिम्।।6.45।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "prayatnād yatamānas tu yogī sanśhuddha-kilbiṣhaḥ\naneka-janma-sansiddhas tato yāti parāṁ gatim",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "prayatnāt—with great effort; yatamānaḥ—endeavoring; tu—and; yogī—a yogi; sanśhuddha—purified; kilbiṣhaḥ—from material desires; aneka—after many, many; janma—births; sansiddhaḥ—attain perfection; tataḥ—then; yāti—attains; parām—the highest; gatim—path",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "Then, after many lives of earnest striving and absolution of sins, the student of spirituality attains perfection and reaches the Supreme.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 46,
+      "sanskrit": {
+        "text": "तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः।\n\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन।।6.46।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "tapasvibhyo ’dhiko yogī\njñānibhyo ’pi mato ’dhikaḥ\nkarmibhyaśh chādhiko yogī\ntasmād yogī bhavārjuna",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "tapasvibhyaḥ—than the ascetics; adhikaḥ—superior; yogī—a yogi; jñānibhyaḥ—than the persons of learning; api—even; mataḥ—considered; adhikaḥ—superior; karmibhyaḥ—than the ritualistic performers; cha—and; adhikaḥ—superior; yogī—a yogi; tasmāt—therefore; yogī—a yogi; bhava—just become; arjuna—Arjun",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "The wise person is superior to the ascetic, the scholar, and the man of action; therefore, be thou a wise person, O Arjuna!",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    },
+    {
+      "chapterNumber": 6,
+      "verseNumber": 47,
+      "sanskrit": {
+        "text": "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना।\n\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः।।6.47।।",
+        "lang": "sa",
+        "contentType": "sanskrit",
+        "sourceId": "sanskrit-classical"
+      },
+      "transliteration": {
+        "text": "yoginām api sarveṣhāṁ mad-gatenāntar-ātmanā\nśhraddhāvān bhajate yo māṁ sa me yuktatamo mataḥ",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "wordMeaning": {
+        "text": "yoginām—of all yogis; api—however; sarveṣhām—all types of; mat-gatena—absorbed in me (God); antaḥ—inner; ātmanā—with the mind; śhraddhā-vān—with great faith; bhajate—engage in devotion; yaḥ—who; mām—to me; saḥ—he; me—by me; yukta-tamaḥ—the highest yogi; mataḥ—is considered",
+        "lang": "en",
+        "contentType": "transliteration",
+        "sourceId": "gita-gita-editorial"
+      },
+      "translations": [
+        {
+          "text": "I look upon him as the best of mystics, who, full of faith, worships Me and abides in Me.",
+          "lang": "en",
+          "contentType": "translation",
+          "sourceId": "purohit-swami-1935"
+        }
+      ],
+      "commentaries": [],
+      "literalTranslation": null,
+      "explanation": null,
+      "deeperMeaning": null,
+      "practicalApplication": null,
+      "importantConcepts": [],
+      "keywords": [],
+      "relatedVerses": []
+    }
+  ]
+}

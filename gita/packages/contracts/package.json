@@ -1,0 +1,14 @@
+{
+  "name": "@gita/contracts",
+  "version": "0.0.0",
+  "description": "Shared zod schemas + types for the Gita content model (single source of truth, app <-> api).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "gita-learning-companion",
+  "private": true,
+  "version": "0.0.0",
+  "description": "AI-powered Bhagavad Gita learning companion — monorepo root",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "ingest": "npm run ingest -w @gita/content",
+    "validate": "npm run validate -w @gita/content",
+    "typecheck": "tsc -p tsconfig.json && npm run typecheck -w @gita/mobile && npm run typecheck -w @gita/api",
+    "test": "npm run validate && npm test -w @gita/core && npm test -w @gita/audio && npm test -w @gita/ai && npm test -w @gita/rag && npm run typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

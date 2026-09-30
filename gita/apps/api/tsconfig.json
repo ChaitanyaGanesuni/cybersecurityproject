@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["node"],
+    "paths": {
+      "@gita/ai": ["../../packages/ai/src/index.ts"],
+      "@gita/rag": ["../../packages/rag/src/index.ts"],
+      "@gita/core": ["../../packages/core/src/index.ts"],
+      "@gita/content": ["../../packages/gita-content/src/index.ts"],
+      "@gita/contracts": ["../../packages/contracts/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
