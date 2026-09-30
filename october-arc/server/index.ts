@@ -5,7 +5,8 @@
 //   PORT               default 8787
 //   OA_DATA_DIR        default ./server/data
 //   OA_DATA_KEY        base64 32-byte key for encryption at rest (else generated)
-//   OA_CORS_ORIGIN     allowed origin if the app is hosted elsewhere (default: same-origin only)
+//   OA_CORS_ORIGIN     comma-separated origins allowed to call the API, e.g. https://localhost
+//                      for the Android app (default: same-origin only)
 //   ANTHROPIC_API_KEY  enables the cloud assistant
 //   OA_MODEL           Claude model id (default claude-opus-5-5)
 
@@ -20,7 +21,8 @@ const here = fileURLToPath(new URL('.', import.meta.url));
 const PORT = Number(process.env.PORT ?? 8787);
 const store = new Store(process.env.OA_DATA_DIR ?? join(here, 'data'));
 const DIST = resolve(here, '../dist');
-const CORS = process.env.OA_CORS_ORIGIN;
+// Comma-separated. The Android app's origin is https://localhost.
+const CORS_ORIGINS = (process.env.OA_CORS_ORIGIN ?? '').split(',').map((o) => o.trim()).filter(Boolean);
 
 class HttpError extends Error {
   constructor(public status: number, message: string) {
@@ -170,10 +172,11 @@ const server = createServer(async (req, res) => {
   res.setHeader(
     'content-security-policy',
     // Google Identity Services + Fitness API are only used by the optional Google Fit step import.
-    "default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client; frame-src https://accounts.google.com; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; connect-src 'self' https://www.googleapis.com https://accounts.google.com" + (CORS ? ` ${CORS}` : '') + "; frame-ancestors 'none'",
+    "default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client; frame-src https://accounts.google.com; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; connect-src 'self' https://www.googleapis.com https://accounts.google.com" + (CORS_ORIGINS.length ? ` ${CORS_ORIGINS.join(' ')}` : '') + "; frame-ancestors 'none'",
   );
-  if (CORS && req.headers.origin === CORS) {
-    res.setHeader('access-control-allow-origin', CORS);
+  const origin = req.headers.origin;
+  if (origin && CORS_ORIGINS.includes(origin)) {
+    res.setHeader('access-control-allow-origin', origin);
     res.setHeader('access-control-allow-headers', 'authorization, content-type');
     res.setHeader('access-control-allow-methods', 'GET, POST, DELETE');
     res.setHeader('vary', 'origin');

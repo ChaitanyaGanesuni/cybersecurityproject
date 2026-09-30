@@ -8,6 +8,9 @@ import { getSyncStatus, subscribeSync, syncNow, type SyncStatus } from '../data/
 import { HEALTH_PROVIDERS, type HealthStatus } from '../integrations/health';
 import { disconnectGoogleFit, isConnected as fitConnected } from '../integrations/googleFit';
 import { webChannel } from '../integrations/notify';
+import { isNative } from '../native/platform';
+import { nativeChannel, nativePermission } from '../native/notifications';
+import { HealthConnect, autoImportHealth } from '../native/health';
 import { FOOD_FLAGS, HABIT_SUGGESTIONS, PRIMARY_GOALS, CATEGORY_META } from '../domain/defaults';
 import { SCORE_KEYS, type Habit, type Settings, type StreakPolicy } from '../domain/types';
 import { Field, Sheet, num, toast, useRoute } from '../ui/kit';
@@ -287,7 +290,10 @@ function RemindersSection() {
   const { settings: s } = useApp();
   const r = s.reminders;
   const setR = (p: Partial<Settings['reminders']>) => void saveSettings({ reminders: { ...r, ...p } });
-  const [perm, setPerm] = useState(webChannel.permission());
+  const channel = isNative ? nativeChannel : webChannel;
+  const [perm, setPerm] = useState<NotificationPermission | 'unsupported'>(isNative ? 'default' : webChannel.permission());
+  const refreshPerm = async () => setPerm(isNative ? await nativePermission() : webChannel.permission());
+  useEffect(() => void refreshPerm(), []);
   const slots: [keyof Settings['reminders'], string][] = [['morning', '☀️ Morning'], ['afternoon', '💧 Afternoon'], ['evening', '🔥 Evening'], ['night', '🌙 Night check-in']];
   return (
     <Section id="reminders" title="🔔 Reminders">
@@ -297,16 +303,18 @@ function RemindersSection() {
           checked={r.enabled}
           onChange={async (e) => {
             if (e.target.checked && perm !== 'granted') {
-              const ok = await webChannel.requestPermission();
-              setPerm(webChannel.permission());
+              const ok = await channel.requestPermission();
+              await refreshPerm();
               if (!ok) toast('Notifications blocked — in-app nudges still work.');
             }
             setR({ enabled: e.target.checked });
           }}
         />
-        Enable reminders {perm === 'denied' ? '(blocked in browser settings)' : perm === 'unsupported' ? '(not supported here)' : ''}
+        Enable reminders {perm === 'denied' ? (isNative ? '(blocked — allow notifications for October Arc in Android settings)' : '(blocked in browser settings)') : perm === 'unsupported' ? '(not supported here)' : ''}
       </label>
-      <p className="tiny muted">Reminders only fire when there's something useful to say, at most {r.maxPerDay} a day, never during quiet hours. In the web app they're delivered while the app is open or recently used; the native app can schedule them in the background.</p>
+      <p className="tiny muted">Reminders only fire when there's something useful to say, at most {r.maxPerDay} a day, never during quiet hours.{isNative
+          ? ' They are scheduled on your phone, so they arrive even when the app is closed.'
+          : " In the web app they're delivered while the app is open or recently used; the Android app schedules them in the background."}</p>
       {r.enabled && (
         <>
           {slots.map(([k, l]) => (
@@ -332,7 +340,7 @@ function RemindersSection() {
             </select>
           </div>
           <p className="tiny muted" style={{ margin: '4px 0 0' }}>
-            Only while your water goal is open, between your wake-up time and 30 min before bed. Logging water resets the timer. Tap “+250 ml” on the notification to log without opening the app (Android/desktop Chrome).
+            Only while your water goal is open, between your wake-up time and 30 min before bed. Logging water resets the timer. Tap “+250 ml” on the notification to log it{isNative ? '.' : ' without opening the app (Chrome on Android and desktop).'}
           </p>
           <label className="row small" style={{ marginTop: 10 }}>
             <input type="checkbox" checked={r.habitReminders} onChange={(e) => setR({ habitReminders: e.target.checked })} /> Habit reminders at each habit's time
@@ -342,7 +350,7 @@ function RemindersSection() {
             <Field label="Quiet from"><input type="time" value={r.quietStart} onChange={(e) => setR({ quietStart: e.target.value })} /></Field>
             <Field label="Quiet until"><input type="time" value={r.quietEnd} onChange={(e) => setR({ quietEnd: e.target.value })} /></Field>
           </div>
-          <button className="btn ghost sm" style={{ marginTop: 10 }} onClick={() => void webChannel.show({ type: 'test', title: '🔔 October Arc', body: 'Reminders are working.' }).then((ok) => !ok && toast('Permission needed'))}>
+          <button className="btn ghost sm" style={{ marginTop: 10 }} onClick={() => void channel.show({ type: 'test', title: '🔔 October Arc', body: 'Reminders are working.' }).then((ok) => !ok && toast('Permission needed'))}>
             Send test notification
           </button>
         </>
@@ -364,6 +372,29 @@ function HealthStatusList() {
           <div className="grow">
             <b>{p.name}</b> <span className="tiny" style={{ color: st[p.id] === 'available' ? 'var(--good)' : 'var(--muted)' }}>{st[p.id] === 'available' ? '● Available' : '○ Not available'}</span>
             <div className="tiny muted">{p.requirement}</div>
+            {p.id === 'health-connect' && st[p.id] === 'available' && (
+              <div className="row wrap" style={{ marginTop: 8, gap: 8 }}>
+                <button
+                  className="btn sm"
+                  onClick={async () => {
+                    try {
+                      if (await p.requestAccess()) {
+                        await autoImportHealth();
+                        toast('Health Connect connected — steps and sleep import automatically');
+                      } else toast('Permission not granted');
+                    } catch (e) {
+                      toast((e as Error).message);
+                    }
+                  }}
+                >
+                  Connect Health Connect
+                </button>
+                <button className="btn ghost sm" onClick={() => void HealthConnect.openHealthConnect()}>Manage permissions</button>
+              </div>
+            )}
+            {p.id === 'health-connect' && isNative && st[p.id] !== 'available' && (
+              <button className="btn sm" style={{ marginTop: 8 }} onClick={() => void HealthConnect.openHealthConnect()}>Install / update Health Connect</button>
+            )}
             {p.id === 'google-fit' && st[p.id] === 'available' && (
               <button
                 className="btn sm"
@@ -389,7 +420,11 @@ function HealthStatusList() {
           </div>
         </div>
       ))}
-      <p className="tiny muted" style={{ marginBottom: 0 }}>Google Fit only reads your step count (read-only access). The Google token stays in this browser and is never sent to the October Arc server. Manual step entry always works.</p>
+      <p className="tiny muted" style={{ marginBottom: 0 }}>
+        {isNative
+          ? 'Health Connect access is read-only (steps and sleep) and stays on this phone. Google Fit, Samsung Health and most watches share their data through Health Connect. Manual entry always works.'
+          : 'Google Fit only reads your step count (read-only access). The Google token stays in this browser and is never sent to the October Arc server. Manual step entry always works.'}
+      </p>
     </>
   );
 }
@@ -447,14 +482,14 @@ export function AccountSection() {
       ) : (
         <>
           <p className="small sub" style={{ marginTop: -4 }}>Optional. Back up and sync across devices through your own October Arc server. Everything works offline without it.</p>
-          <Field label="Server URL" hint="Leave blank if this app is served by the October Arc server itself."><input type="url" placeholder="https://arc.example.com" value={server} onChange={(e) => setServer(e.target.value)} /></Field>
+          <Field label="Server URL" hint={isNative ? 'The https:// address of your October Arc server.' : 'Leave blank if this app is served by the October Arc server itself.'}><input type="url" placeholder="https://arc.example.com" value={server} onChange={(e) => setServer(e.target.value)} /></Field>
           <div className="grid2" style={{ marginTop: 10 }}>
             <Field label="Email"><input type="email" autoComplete="username" value={email} onChange={(e) => setEmail(e.target.value)} /></Field>
             <Field label="Password (10+ chars)"><input type="password" autoComplete="current-password" value={pw} onChange={(e) => setPw(e.target.value)} /></Field>
           </div>
           <div className="grid2" style={{ marginTop: 12 }}>
-            <button className="btn primary" disabled={busy || !email || pw.length < 10} onClick={() => void go(false)}>Sign in</button>
-            <button className="btn" disabled={busy || !email || pw.length < 10} onClick={() => void go(true)}>Create account</button>
+            <button className="btn primary" disabled={busy || !email || pw.length < 10 || (isNative && !server)} onClick={() => void go(false)}>Sign in</button>
+            <button className="btn" disabled={busy || !email || pw.length < 10 || (isNative && !server)} onClick={() => void go(true)}>Create account</button>
           </div>
         </>
       )}

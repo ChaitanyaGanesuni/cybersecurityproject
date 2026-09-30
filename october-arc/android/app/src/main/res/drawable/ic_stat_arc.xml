@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Status-bar notification icon: white on transparent, as Android requires. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <path
+        android:pathData="M136,360a140,140 0,1 1,240 0"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="52"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M346,360a30,30 0,1 0,60 0a30,30 0,1 0,-60 0"
+        android:fillColor="#FFFFFFFF" />
+</vector>

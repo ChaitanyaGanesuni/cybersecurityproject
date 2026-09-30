@@ -4,8 +4,8 @@
 import type { DayEval, Habit, NotificationLog, Settings } from './types';
 import { hm, minutesToHM } from './dates';
 import { fmtDuration, fmtInt, fmtLiters, roundTo } from './format';
-import type { DayClock, Nudge } from './nudges';
-import { nextAction, sortNudges } from './nudges';
+import type { DayClock, History, Nudge } from './nudges';
+import { computeNudges, dayClock, nextAction, sortNudges } from './nudges';
 
 export type Slot = 'morning' | 'afternoon' | 'evening' | 'night';
 export const SLOTS: Slot[] = ['morning', 'afternoon', 'evening', 'night'];
@@ -181,4 +181,63 @@ export function composeSlot(
       };
     }
   }
+}
+
+export interface Scheduled {
+  at: Date;
+  date: string; // local day the notification belongs to
+  n: PlannedNotification;
+}
+
+/**
+ * Plan every notification from `now` to the end of today, plus the next
+ * mornings, for platforms that can schedule ahead (the Android app). It replays
+ * the exact live rules — dueNotifications — minute by minute, assuming nothing
+ * else is logged, so web and Android behave identically. Re-plan whenever data
+ * changes: logging water pushes the next water reminder back, finishing the
+ * day drops the evening nudge, and so on.
+ */
+export function planSchedule(args: {
+  settings: Settings;
+  now: Date;
+  today: DayEval;
+  habits: Habit[];
+  history: History;
+  streakAlive: boolean;
+  streak: number;
+  /** Today's notifications already delivered (or scheduled in the past). */
+  sentToday: NotificationLog[];
+  lastDrinkAt: number | null;
+  daysAhead?: number;
+}): Scheduled[] {
+  const s = args.settings;
+  if (!s.reminders.enabled) return [];
+  const out: Scheduled[] = [];
+  const sent = [...args.sentToday];
+  const t = new Date(args.now);
+  t.setSeconds(0, 0);
+  t.setMinutes(t.getMinutes() + 1);
+  const end = new Date(args.now);
+  end.setHours(23, 59, 0, 0);
+  for (; t <= end; t.setMinutes(t.getMinutes() + 1)) {
+    const clock = dayClock(t, s);
+    const nudges = computeNudges(args.today, s, args.habits, clock, args.history, args.streakAlive);
+    const due = dueNotifications({ settings: s, clock, today: args.today, nudges, habits: args.habits, sentToday: sent, streak: args.streak, now: t, lastDrinkAt: args.lastDrinkAt });
+    for (const n of due) {
+      out.push({ at: new Date(t), date: args.today.date, n });
+      sent.push({ id: `plan:${n.type}`, updatedAt: 0, date: args.today.date, type: n.type, scheduledAt: t.getTime(), sentAt: t.getTime(), status: 'sent', title: n.title, body: n.body });
+    }
+  }
+  // Upcoming mornings: progress isn't known yet, so a simple targets reminder.
+  const morning = s.reminders.morning;
+  if (morning && !inQuietHours(hm(morning), s.reminders)) {
+    for (let d = 1; d <= (args.daysAhead ?? 3); d++) {
+      const at = new Date(args.now);
+      at.setDate(at.getDate() + d);
+      at.setHours(Math.floor(hm(morning) / 60), hm(morning) % 60, 0, 0);
+      const date = `${at.getFullYear()}-${String(at.getMonth() + 1).padStart(2, '0')}-${String(at.getDate()).padStart(2, '0')}`;
+      out.push({ at, date, n: composeSlot('morning', s, args.today, [], 0)! });
+    }
+  }
+  return out;
 }

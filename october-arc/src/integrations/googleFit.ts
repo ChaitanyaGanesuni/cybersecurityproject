@@ -16,6 +16,7 @@
 // memory only (never stored, never sent to the October Arc server).
 
 import type { HealthProvider, HealthStatus } from './health';
+import { isNative } from '../native/platform';
 
 const CLIENT_ID: string | undefined = import.meta.env.VITE_GOOGLE_FIT_CLIENT_ID;
 const SCOPE = 'https://www.googleapis.com/auth/fitness.activity.read';
@@ -165,6 +166,9 @@ export const googleFitProvider: HealthProvider = {
   requirement:
     'Needs a Google OAuth client ID (VITE_GOOGLE_FIT_CLIENT_ID) from a project with the Fitness API enabled. Google closed new Fit API sign-ups in May 2024 and plans to end the API in 2026.',
   async status(): Promise<HealthStatus> {
+    // Google blocks OAuth sign-in inside app WebViews; the Android app uses
+    // Health Connect instead (Google Fit data flows into it).
+    if (isNative) return 'unavailable';
     return CLIENT_ID ? 'available' : 'unavailable';
   },
   async requestAccess() {

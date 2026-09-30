@@ -39,8 +39,8 @@ export interface NativeHealthBridge {
   platform: 'healthkit' | 'health-connect';
   isAvailable(): Promise<boolean>;
   requestAuthorization(scopes: ('steps' | 'sleep' | 'workouts')[]): Promise<boolean>;
-  /** Sum of steps between two ISO timestamps. */
-  getSteps(startISO: string, endISO: string): Promise<number>;
+  /** Sum of steps between two ISO timestamps, or null if there is no data. */
+  getSteps(startISO: string, endISO: string): Promise<number | null>;
 }
 
 declare global {
@@ -61,7 +61,7 @@ function bridgeProvider(platform: NativeHealthBridge['platform'], name: string, 
     },
     async requestAccess() {
       const b = bridge();
-      return b ? b.requestAuthorization(['steps']) : false;
+      return b ? b.requestAuthorization(['steps', 'sleep']) : false;
     },
     async readSteps(date) {
       const b = bridge();
@@ -78,7 +78,7 @@ export const HEALTH_PROVIDERS: HealthProvider[] = [
   bridgeProvider(
     'health-connect',
     'Android Health Connect',
-    'Needs the October Arc Android app (native shell) with Health Connect step-read permission. Not available in a browser.',
+    'Available in the October Arc Android app (steps and sleep, read-only). Not available in a browser.',
   ),
   bridgeProvider(
     'healthkit',

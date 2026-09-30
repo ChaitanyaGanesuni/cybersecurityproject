@@ -8,7 +8,7 @@ import { db } from './db';
 import { defaultSettings } from '../domain/defaults';
 import { emptyRawDay, evaluateDay, type RawDay } from '../domain/scoring';
 import { computeAllStreaks, protectableDate, type AllStreaks } from '../domain/streaks';
-import { buildHistory, computeNudges, dayClock, riskSummary, type DayClock, type Nudge, type RiskSummary } from '../domain/nudges';
+import { buildHistory, computeNudges, dayClock, riskSummary, type DayClock, type History, type Nudge, type RiskSummary } from '../domain/nudges';
 import { addDays, dateRange, daysBetween, toISODate } from '../domain/dates';
 import type {
   Arc, CheckIn, DayEval, DaySummary, Habit, Meal, MealTemplate, Settings, WeightEntry, Workout,
@@ -39,6 +39,10 @@ export interface AppState {
   protectionsLeft: number;
   protectable: string | null;
   nudges: Nudge[];
+  /** Patterns from the last 14 days, used by the reminder engine. */
+  history: History;
+  /** A streak is running into today (from yesterday). */
+  streakAlive: boolean;
   risk: RiskSummary;
   checkins: Map<string, CheckIn>;
   meals: Meal[];
@@ -154,7 +158,8 @@ export function AppProvider({ children, fallback }: { children: ReactNode; fallb
     const recent = dates.slice(-15, -1).map((d) => evals.get(d)!);
     const aliveFromYesterday = streaks.overall.current - (streaks.overall.todayDone ? 1 : 0);
     const activeHabits = habits.filter((h) => h.active);
-    const nudges = computeNudges(todayEval, settings, activeHabits, clock, buildHistory(recent), aliveFromYesterday > 0);
+    const history = buildHistory(recent);
+    const nudges = computeNudges(todayEval, settings, activeHabits, clock, history, aliveFromYesterday > 0);
     const risk = riskSummary(todayEval, settings, aliveFromYesterday, clock);
 
     return {
@@ -180,6 +185,8 @@ export function AppProvider({ children, fallback }: { children: ReactNode; fallb
       protectionsLeft: arc ? Math.max(0, arc.protectionsTotal - used) : 0,
       protectable: protectable && arc && protectable >= arc.startDate && used < arc.protectionsTotal ? protectable : null,
       nudges,
+      history,
+      streakAlive: aliveFromYesterday > 0,
       risk,
       checkins: new Map(data.checkins.map((c) => [c.date, c])),
       meals: data.meals,

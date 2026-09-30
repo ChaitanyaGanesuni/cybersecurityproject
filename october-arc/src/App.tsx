@@ -1,11 +1,15 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { AppProvider, useApp } from './data/store';
 import { db } from './data/db';
 import { startSyncLoop, syncNow } from './data/sync';
 import { deliver } from './integrations/notify';
-import { dueNotifications } from './domain/reminders';
+import { dueNotifications, planSchedule } from './domain/reminders';
+import { isNative } from './native/platform';
+import { initNativeNotifications, reschedule } from './native/notifications';
+import { autoImportHealth } from './native/health';
+import { App as CapApp } from '@capacitor/app';
 import { SCORE_KEYS, type ScoreKey, type WaterEntry } from './domain/types';
-import { Overlays, celebrate, toast, useRoute } from './ui/kit';
+import { Overlays, celebrate, go, toast, useRoute } from './ui/kit';
 import { Home } from './pages/Home';
 import { Today } from './pages/Today';
 import { Food } from './pages/Food';
@@ -76,12 +80,67 @@ function useNotificationActions() {
   }, []);
 }
 
-/** Checks for due reminders whenever the clock ticks (every ~30s while open). */
+/**
+ * Android app: hand the rest of today's reminders (and the next mornings) to
+ * the OS, re-planning whenever the day's data or settings change and when the
+ * app comes back to the foreground.
+ */
+function useNativeSchedule() {
+  const { settings, todayEval, activeHabits, streaks, today, history, streakAlive } = useApp();
+  const [resumes, setResumes] = useState(0);
+  useEffect(() => {
+    if (!isNative) return;
+    void initNativeNotifications(go, (ml) => toast(`💧 +${ml} ml logged`));
+    const sub = CapApp.addListener('resume', () => setResumes((n) => n + 1));
+    return () => void sub.then((h) => h.remove());
+  }, []);
+  useEffect(() => {
+    if (!isNative) return;
+    const t = setTimeout(() => {
+      void reschedule(async () => {
+        const now = new Date();
+        const log = await db.notifications.where('date').equals(today).toArray();
+        const sentToday = log
+          .filter((n) => n.status !== 'scheduled' || n.scheduledAt <= now.getTime())
+          .map((n) => (n.status === 'scheduled' ? { ...n, status: 'sent' as const, sentAt: n.scheduledAt } : n));
+        const drinks = await db.water.where('date').equals(today).toArray();
+        return planSchedule({
+          settings,
+          now,
+          today: todayEval,
+          habits: activeHabits,
+          history,
+          streakAlive,
+          streak: streaks.overall.current,
+          sentToday,
+          lastDrinkAt: drinks.length ? Math.max(...drinks.map((w) => w.at)) : null,
+        });
+      });
+    }, 1500);
+    return () => clearTimeout(t);
+  }, [settings, todayEval, activeHabits, streaks.overall.current, today, history, streakAlive, resumes]);
+}
+
+/** Android app: pull steps and sleep from Health Connect on open, on resume and every 15 minutes. */
+function useHealthAutoImport() {
+  useEffect(() => {
+    if (!isNative) return;
+    void autoImportHealth();
+    const sub = CapApp.addListener('resume', () => void autoImportHealth());
+    const id = setInterval(() => void autoImportHealth(), 15 * 60_000);
+    return () => {
+      clearInterval(id);
+      void sub.then((h) => h.remove());
+    };
+  }, []);
+}
+
+/** Web: checks for due reminders whenever the clock ticks (every ~30s while open). */
 function useReminders() {
   const app = useApp();
   const { settings, clock, todayEval, nudges, activeHabits, streaks, today, now } = app;
   useEffect(() => {
-    if (!settings.reminders.enabled) return;
+    if (isNative || !settings.reminders.enabled) return;
     let cancelled = false;
     void (async () => {
       if (reminderRunning) return; // a slow delivery must not overlap the next tick
@@ -109,6 +168,8 @@ function Shell() {
   useCelebrations();
   useReminders();
   useNotificationActions();
+  useNativeSchedule();
+  useHealthAutoImport();
   const top = route.path[0] ?? '';
 
   if (!app.settings.onboarded) {

@@ -240,7 +240,8 @@ export interface NotificationLog extends Rec {
   type: string;
   scheduledAt: number;
   sentAt: number | null;
-  status: 'sent' | 'skipped' | 'failed';
+  /** 'scheduled' = handed to the OS to fire at scheduledAt (native app). */
+  status: 'sent' | 'skipped' | 'failed' | 'scheduled';
   title: string;
   body: string;
 }

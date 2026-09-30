@@ -3,7 +3,8 @@ import { defaultSettings } from './defaults';
 import { emptyRawDay, evaluateDay, type RawDay } from './scoring';
 import { computeStreak, computeAllStreaks, protectableDate } from './streaks';
 import { computeNudges, dayClock, riskSummary, walkMinutes, nextAction } from './nudges';
-import { dueNotifications, dueWaterReminder, inQuietHours } from './reminders';
+import { dueNotifications, dueWaterReminder, inQuietHours, planSchedule } from './reminders';
+import { pickNight } from './sleep';
 import { arcScore, insights, sleepStats } from './analytics';
 import { dateRange, sleepMinutes, addDays } from './dates';
 import { localAnswer, MEDICAL_NOTE, type AssistantContext } from './assistant';
@@ -261,5 +262,58 @@ describe('assistant', () => {
     };
     expect(localAnswer('I have chest pain when running', ctx)).toBe(MEDICAL_NOTE);
     expect(localAnswer('How much water do I have left?', ctx)).toContain('1.2 L left');
+  });
+});
+
+describe('native schedule planning', () => {
+  const at = (h: number, m = 0) => new Date(2026, 9, 12, h, m);
+  const plan = (ml: number, now: Date, extra: Partial<Parameters<typeof planSchedule>[0]> = {}) => {
+    const s = S();
+    s.reminders.enabled = true;
+    s.reminders.waterEveryMin = 120;
+    const e = evaluateDay(day('2026-10-12', { water: ml }), s, []);
+    return planSchedule({ settings: s, now, today: e, habits: [], history: { typicalWorkoutMin: null }, streakAlive: true, streak: 5, sentToday: [], lastDrinkAt: at(12).getTime(), ...extra });
+  };
+  const fmt = (xs: ReturnType<typeof planSchedule>) => xs.map((x) => `${x.date} ${String(x.at.getHours()).padStart(2, '0')}:${String(x.at.getMinutes()).padStart(2, '0')} ${x.n.type}`);
+
+  it('lays out the rest of the day with the live rules, then the next mornings', () => {
+    expect(fmt(plan(1200, at(12, 30)))).toEqual([
+      '2026-10-12 14:00 water:14:00',
+      '2026-10-12 14:30 afternoon',
+      '2026-10-12 16:30 water:16:30',
+      '2026-10-12 18:30 water:18:30',
+      '2026-10-12 19:30 evening',
+      '2026-10-12 21:30 night',
+      '2026-10-13 08:00 morning',
+      '2026-10-14 08:00 morning',
+      '2026-10-15 08:00 morning',
+    ]);
+  });
+
+  it('skips slots already delivered and water once the goal is met', () => {
+    const delivered = [{ id: 'a', updatedAt: 0, date: '2026-10-12', type: 'afternoon', scheduledAt: at(14, 30).getTime(), sentAt: at(14, 30).getTime(), status: 'sent' as const, title: '', body: '' }];
+    const out = fmt(plan(3000, at(15), { sentToday: delivered }));
+    expect(out.filter((x) => x.includes('water') || x.includes('afternoon'))).toEqual([]);
+    expect(out.slice(0, 2)).toEqual(['2026-10-12 19:30 evening', '2026-10-12 21:30 night']); // other goals still open
+  });
+
+  it('plans nothing when reminders are off', () => {
+    const s = S();
+    const e = evaluateDay(day('2026-10-12'), s, []);
+    expect(planSchedule({ settings: s, now: at(9), today: e, habits: [], history: { typicalWorkoutMin: null }, streakAlive: false, streak: 0, sentToday: [], lastDrinkAt: null })).toEqual([]);
+  });
+});
+
+describe('health import: last night from sleep sessions', () => {
+  it('takes the longest session that ended this morning', () => {
+    const iso = (d: number, h: number, m = 0) => new Date(2026, 9, d, h, m).toISOString();
+    expect(
+      pickNight('2026-10-12', [
+        { start: iso(11, 15), end: iso(11, 15, 40) }, // yesterday's nap
+        { start: iso(11, 23, 20), end: iso(12, 6, 50) },
+        { start: iso(12, 13), end: iso(12, 13, 30) }, // today's nap
+      ]),
+    ).toEqual({ bedtime: '23:20', wakeTime: '06:50' });
+    expect(pickNight('2026-10-12', [])).toBeNull();
   });
 });

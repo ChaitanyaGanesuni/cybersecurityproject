@@ -1,0 +1,66 @@
+name: October Arc — Android APK
+
+on:
+  push:
+    paths:
+      - 'october-arc/**'
+      - '.github/workflows/october-arc-android.yml'
+  pull_request:
+    paths:
+      - 'october-arc/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: october-arc-android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: october-arc
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: october-arc/package-lock.json
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Build web app
+        run: npm run build
+        env:
+          # Optional; set as a repository variable to enable Google Fit in the web build.
+          VITE_GOOGLE_FIT_CLIENT_ID: ${{ vars.VITE_GOOGLE_FIT_CLIENT_ID }}
+
+      - name: Copy web app into the Android project
+        run: npx cap sync android
+
+      - name: Build debug APK
+        working-directory: october-arc/android
+        run: ./gradlew assembleDebug --no-daemon --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: october-arc-debug-apk
+          path: october-arc/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error

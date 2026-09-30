@@ -148,7 +148,7 @@ function StepsSection({ date, steps }: { date: string; steps: number }) {
           ⟳ Sync from {provider.name}
         </button>
       )}
-      {synced && <p className="tiny muted" style={{ marginBottom: 0 }}>Last value imported from {synced === 'google-fit' ? 'Google Fit' : synced}. Saving a number above replaces it.</p>}
+      {synced && <p className="tiny muted" style={{ marginBottom: 0 }}>Last value imported from {synced === 'google-fit' ? 'Google Fit' : synced === 'health-connect' ? 'Health Connect (updates automatically)' : synced}. Saving a number above replaces it.</p>}
       {!provider && <p className="tiny muted" style={{ marginBottom: 0 }}>Automatic step import isn't set up (Google Fit, Health Connect or Apple Health — see Settings → Health data). Enter your total from your phone or watch.</p>}
     </section>
   );

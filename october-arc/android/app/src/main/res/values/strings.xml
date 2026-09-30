@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">October Arc</string>
+    <string name="title_activity_main">October Arc</string>
+    <string name="package_name">app.octoberarc</string>
+    <string name="custom_url_scheme">app.octoberarc</string>
+    <string name="health_privacy_policy">October Arc and your health data\n\nOctober Arc reads your step count and sleep sessions from Health Connect only to show your daily progress, streaks and reminders.\n\n• Read-only: October Arc never writes to Health Connect.\n• Your data stays on this phone. It is only sent to a server if you turn on sync in Settings, where it is encrypted at rest.\n• No ads, analytics or third-party trackers. Your data is never sold or shared.\n• You can revoke access at any time in Health Connect, and delete all October Arc data in Settings → Privacy.\n\nOctober Arc is not a medical device and does not provide medical advice.</string>
+</resources>
