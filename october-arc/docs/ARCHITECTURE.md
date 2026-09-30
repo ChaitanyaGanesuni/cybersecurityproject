@@ -11,7 +11,7 @@ October Arc is a personal accountability system for a 30/31-day fitness and well
 | Business logic | **Pure TypeScript modules** in `src/domain/` | Scoring, streaks, reminders, insights and the assistant are plain functions: deterministic and unit-tested (Vitest). The server can reuse them. |
 | Server (optional) | **Node 22, `node:http` + `node:sqlite`** | Accounts, encrypted sync, the Claude proxy and static hosting, with no framework and one small process. |
 | AI | **Claude (`claude-opus-5-5`) via `@anthropic-ai/sdk`**, called only from the server | The API key never reaches the browser. |
-| Native (future) | **Capacitor shell** around the same PWA | Needed only for Apple Health, Health Connect and background local notifications (see §5 and §4). |
+| Android app | **Capacitor 8** project in `android/` around the same web app, with a small Kotlin plugin | Adds Health Connect and on-time background reminders (see §5 and §4). An iOS build would follow the same pattern. |
 
 ## 2. Architecture
 
@@ -75,7 +75,11 @@ The same record shapes are used on the device (IndexedDB) and in sync payloads. 
 2. **Delivery is a channel** (`integrations/notify.ts`, `NotificationChannel`). The web channel uses `ServiceWorkerRegistration.showNotification`. Every attempt is written to the `notifications` log, which is how deduplication works.
    * **Action buttons.** Water reminders carry "+250 ml" and "+N ml" buttons. The service worker handles the tap and writes the water entry plus its outbox row directly to IndexedDB, so it works with the app closed. It then shows a confirmation with the new total, or "Daily hydration goal completed!". Open tabs re-save the record through Dexie so the UI updates, and sync runs. Action buttons work in Chrome on Android and desktop; iOS doesn't support them, so tapping the notification opens the Water card instead.
 3. **Triggering.** While the app is open or resumed, the store's clock ticks every 30 s and `useReminders` re-plans.
-4. **Background delivery** is not possible from a web page alone. It needs one of two things:
+4. **Android app: scheduled ahead of time.** `planSchedule()` replays `dueNotifications()` minute by minute from now to midnight, assuming nothing else is logged, and adds simple targets reminders for the next three mornings. `native/notifications.ts` hands the result to Android with `@capacitor/local-notifications` (`allowWhileIdle`), so reminders fire with the app closed.
+   * **Re-planning:** whenever the day's data, settings or habits change, and when the app returns to the foreground, all pending notifications are cancelled and re-planned. Logging water pushes the next water reminder back, and finishing the day drops the evening nudge.
+   * **No duplicates:** planned items are written to the log as `scheduled`. Past ones count as delivered on the next plan; future ones are replaced.
+   * **Buttons:** water reminders use the `WATER` action type (+250 / +500 ml). Tapping one opens the app and logs the drink.
+5. **Background delivery in the web version** is not possible from a web page alone. It needs one of two things:
    * **Web Push:** the server stores a push subscription and pushes at planned slot times. This needs VAPID keys, and on iOS the PWA must be installed.
    * **Capacitor Local Notifications:** schedule the day's slots on the device.
 
@@ -93,6 +97,12 @@ The same record shapes are used on the device (IndexedDB) and in sync payloads. 
   * **Setup:** a Google Cloud OAuth *Web application* client ID in `VITE_GOOGLE_FIT_CLIENT_ID` at build time. The app's origin must be listed under Authorized JavaScript origins, and you must be a test user on the consent screen. Fitness scopes are sensitive, so the app isn't verified for the public.
   * **Caveats:** Google closed Fit API sign-ups to new developers on May 1, 2024, so the project must already have Fit access. Google has also announced the Fit APIs end in 2026. When Google refuses the call, the user sees the error and manual entry still works.
   * **Long-term path:** Health Connect.
+
+**Android app:** the Kotlin `HealthConnectPlugin` (`android/app/src/main/java/app/octoberarc/`) implements `isAvailable`, `hasPermissions`, `requestAuthorization`, `getSteps` (an `aggregate` on `StepsRecord.COUNT_TOTAL`, de-duplicated by Health Connect) and `getSleepSessions`. `native/health.ts` exposes it as the `window.OctoberArcHealth` bridge.
+* **Automatic import** runs on open, on resume and every 15 minutes: today's steps, plus last night's sleep (the longest session that ended between midnight and 2 PM).
+* **Manual entries win:** a manually entered step count is only replaced by a higher Health Connect value, and a manually logged night is never overwritten.
+* **Manifest:** declares `READ_STEPS` and `READ_SLEEP`, the Health Connect package query, and the permissions-rationale activity plus the Android 14 `VIEW_PERMISSION_USAGE` alias that Health Connect requires. minSdk is 26.
+* **Google Fit** is hidden in the Android app, because Google blocks OAuth inside app WebViews and Fit data reaches the app through Health Connect anyway.
 
 In the web build, the two native providers report "Not available" in Settings → Health data. Google Fit shows a Connect button when a client ID is configured. Whenever a provider is available, the Steps card shows a "Sync from …" button (tapping it is required, because Google's sign-in popup needs a user gesture). It asks for permission and writes the day's total with `source` set to the provider.
 

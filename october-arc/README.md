@@ -18,7 +18,7 @@ npm run build && npm run server            # http://localhost:8787
 ANTHROPIC_API_KEY=... npm run server       # enables the Claude-powered assistant
 ```
 
-Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 bytes), `OA_CORS_ORIGIN`, `ANTHROPIC_API_KEY`, `OA_MODEL`. If `OA_DATA_KEY` is not set, the server generates a key file in the data dir. Back it up.
+Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 bytes), `OA_CORS_ORIGIN` (comma-separated; `https://localhost` for the Android app), `ANTHROPIC_API_KEY`, `OA_MODEL`. If `OA_DATA_KEY` is not set, the server generates a key file in the data dir. Back it up.
 
 ## What's in the MVP
 
@@ -42,6 +42,36 @@ Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 b
 * **Assistant:** answers on the device by default; opt in to Claude through your own server.
 * **Privacy:** export, delete device data, delete server account. No trackers.
 
+## Android app
+
+The `android/` folder is a Capacitor project that wraps this same app as a native Android app (Android 8.0+). On top of the web version it adds:
+
+* **Health Connect**, read-only: today's steps and last night's sleep import automatically when the app opens and every 15 minutes. Google Fit, Samsung Health and most watches write into Health Connect.
+* **Reminders that arrive with the app closed.** The rest of the day's reminders are scheduled on the phone, using the same rules as the web app. They are re-planned whenever you log something.
+* **+250 ml / +500 ml** buttons on water reminders.
+
+**Get the APK without installing anything:**
+
+1. Open the repository's **Actions** tab and choose the latest **October Arc — Android APK** run. Every push that touches `october-arc/` triggers it; you can also start one with **Run workflow**.
+2. Download the **october-arc-debug-apk** artifact and unzip it.
+3. Copy `app-debug.apk` to your phone and open it. Allow "install unknown apps" for your file manager or browser when Android asks.
+
+**Build it yourself** (needs Android Studio or the Android SDK, and JDK 21):
+
+```bash
+npm run build && npx cap sync android
+cd android && ./gradlew assembleDebug      # -> app/build/outputs/apk/debug/app-debug.apk
+# or: npx cap open android                 # opens Android Studio
+```
+
+**First run on the phone:**
+
+1. Settings → Reminders → Enable. Android asks for notification permission.
+2. Settings → Health data → Connect Health Connect, and allow Steps and Sleep.
+3. For sync, run the server with `OA_CORS_ORIGIN=https://localhost` (the Android app's origin), enter its `https://` address in Settings, and sign in.
+
+The debug APK is fine for personal use. A Play Store release would need a signing key and Google's Health Connect permission declaration.
+
 ## Google Fit step import
 
 Build with a Google OAuth **Web application** client ID from a Google Cloud project that has the **Fitness API** enabled:
@@ -61,5 +91,5 @@ Then use **Settings → Health data → Connect Google Fit**, and **Sync from Go
 
 ## Needs platform setup (interfaces are in place, not faked)
 
-* **Apple Health / Health Connect (native):** need a native shell (e.g. Capacitor) that implements `window.OctoberArcHealth` (see `src/integrations/health.ts`) with the platform permissions.
-* **Background notifications:** need Web Push (VAPID keys + server scheduling) or native local notifications. In the web build, reminders fire while the app is open or recently used.
+* **Apple Health:** needs an iOS build (Capacitor iOS plus a HealthKit plugin implementing `window.OctoberArcHealth`). The Android app already covers Health Connect.
+* **Background notifications in the web version:** need Web Push (VAPID keys plus server scheduling). The Android app already schedules them on the phone; in the web version, reminders fire while the app is open or recently used.
