@@ -141,7 +141,7 @@ In the web build, the two native providers report "Not available" in Settings �
 ### AI food logging
 
 * **Endpoint:** `POST /api/food/analyze` (`server/food.ts`). Requires sign-in, is rate-limited, and validates input: at most 1000 characters of text, and JPEG/PNG/WebP photos up to about 3 MB. The app downsizes photos to 720 px first.
-* **Provider** (`server/ai-provider.ts`): Google Gemini (`GEMINI_API_KEY`, free tier, model `gemini-flash-latest` by default) or Claude (`ANTHROPIC_API_KEY`). Gemini wins when both keys are set, unless `OA_AI_PROVIDER` says otherwise. The cloud assistant uses the same provider.
+* **Provider** (`server/ai-provider.ts`): Google Gemini (`GEMINI_API_KEY`, free tier, models `gemini-3.8-flash` → `gemini-3.6-flash` → `gemini-2.5-flash` by default, moving down the list when a model is busy (503), out of quota (429) or times out) or Claude (`ANTHROPIC_API_KEY`). Gemini wins when both keys are set, unless `OA_AI_PROVIDER` says otherwise. The cloud assistant uses the same provider.
 * **Step 1, AI parse:** the model returns JSON matching `FoodAnalysisSchema`.
   * Gemini gets it as `responseJsonSchema` (`z.toJSONSchema`).
   * Claude gets it through structured outputs (`betaZodOutputFormat`), at `effort: "low"` with `fallbacks: "default"`.

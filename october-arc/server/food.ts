@@ -16,7 +16,7 @@ import { ApiError as GeminiApiError } from '@google/genai';
 import { z } from 'zod';
 import { NUTRIENTS, NUTRIENT_KEYS, type NutrientKey } from '../src/domain/nutrients';
 import { AssistantError } from './assistant';
-import { GEMINI_MODEL, aiProvider, geminiClient } from './ai-provider';
+import { aiProvider, geminiGenerate } from './ai-provider';
 import { per100g, searchFood, usdaEnabled } from './usda';
 
 const CLAUDE_MODEL = process.env.OA_MODEL ?? 'claude-opus-5-5';
@@ -134,8 +134,7 @@ async function analyzeWithGemini(req: FoodRequest): Promise<FoodAnalysis> {
   parts.push({ text: userText(req) });
   let text: string | undefined;
   try {
-    const res = await geminiClient().models.generateContent({
-      model: GEMINI_MODEL,
+    const res = await geminiGenerate({
       contents: [{ role: 'user', parts }],
       config: { systemInstruction: SYSTEM, responseMimeType: 'application/json', responseJsonSchema: geminiSchema() },
     });
@@ -143,7 +142,10 @@ async function analyzeWithGemini(req: FoodRequest): Promise<FoodAnalysis> {
     text = res.text;
   } catch (e) {
     if (e instanceof AssistantError) throw e;
+    // Server-side log for diagnosis (Gemini error messages don't contain the key).
+    console.warn('[gemini] food analysis failed:', (e as { status?: number }).status ?? '', String((e as Error).message).slice(0, 500));
     if (e instanceof GeminiApiError) {
+      if (e.status === 503 || e.status === 500) throw new AssistantError(503, 'Gemini is busy right now — try again in a minute, or log this one manually');
       if (e.status === 429) throw new AssistantError(429, 'The free Gemini quota is used up for now — try again later, or log this one manually');
       if (e.status === 400 || e.status === 401 || e.status === 403) throw new AssistantError(503, `Gemini rejected the request (${e.status}) — check GEMINI_API_KEY and GEMINI_MODEL`);
       throw new AssistantError(502, 'Gemini service error');

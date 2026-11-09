@@ -29,7 +29,7 @@ Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 b
 |---|---|---|
 | `GEMINI_API_KEY` | Turns on AI food logging (text and photos) and the cloud assistant, using Google Gemini | aistudio.google.com → **Get API key** |
 | `USDA_API_KEY` | Swaps AI guesses for **USDA FoodData Central lab values** on standard foods (eggs, bread, rice, milk, fruit…) | fdc.nal.usda.gov/api-key-signup |
-| `GEMINI_MODEL` | Optional. Defaults to `gemini-flash-latest`; try `gemini-flash-lite-latest` if you hit the free daily limit | — |
+| `GEMINI_MODEL` | Optional, comma-separated models tried in order. The default `gemini-3.8-flash,gemini-3.6-flash,gemini-2.5-flash` moves on to the next model when one is busy or out of free quota | — |
 
 How a logged meal is worked out:
 
