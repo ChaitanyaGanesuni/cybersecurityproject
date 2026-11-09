@@ -16,6 +16,7 @@ import { extname, join, normalize, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Store, SYNCED_TABLES, type Change } from './store';
 import { AssistantError, ask, assistantEnabled, validateChat } from './assistant';
+import { analyzeFood, validateFoodRequest } from './food';
 
 const here = fileURLToPath(new URL('.', import.meta.url));
 const PORT = Number(process.env.PORT ?? 8787);
@@ -140,6 +141,13 @@ async function api(req: IncomingMessage, res: ServerResponse, path: string) {
     limit(`ai:${userId}`, 30, 60 * 60_000);
     const { messages, context } = validateChat(await readJson(req, 100_000));
     return send(res, 200, { reply: await ask(messages, context) });
+  }
+
+  if (m === 'POST' && path === '/api/food/analyze') {
+    const { userId } = auth(req);
+    limit(`food:${userId}`, 60, 60 * 60_000);
+    const input = validateFoodRequest(await readJson(req, 6_000_000));
+    return send(res, 200, await analyzeFood(input));
   }
 
   throw new HttpError(404, 'Not found');

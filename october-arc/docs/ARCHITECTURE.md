@@ -138,6 +138,22 @@ In the web build, the two native providers report "Not available" in Settings â†
   * The local assistant detects medical topics and recommends a qualified professional.
   * The system prompt forbids diagnosis, supplement doses and aggressive deficits, requires data-grounded answers, and bans shaming language.
 
+### AI food logging
+
+* **Endpoint:** `POST /api/food/analyze` (`server/food.ts`). Requires sign-in, is rate-limited, and validates input: at most 1000 characters of text, and JPEG/PNG/WebP photos up to about 3 MB. The app downsizes photos to 720 px first.
+* **Request:** `claude-opus-5-5` at `effort: "low"` with `fallbacks: "default"`, using **structured outputs** (`betaZodOutputFormat` of `FoodAnalysisSchema`). The reply is always schema-valid JSON:
+  * `kind` (meal, exercise or unclear), a title and a meal type;
+  * per-item calories, protein, carbs and fat;
+  * the nutrient keys from `domain/nutrients.ts`, with null where a value is unknown;
+  * a confidence level and stated assumptions.
+* **Context sent:** the user's local time, and their latest logged body weight (only used for exercise calorie estimates). The system prompt is cached.
+* **Never silently saved:**
+  * A meal opens the normal meal editor pre-filled, with an "AI estimate â€” check it before saving" banner.
+  * Saved items carry `estimated: true` and the meal keeps `source: 'ai'` plus the original text.
+  * An exercise becomes a confirm card.
+  * Photos are sent once for analysis and never stored on the server.
+* **Day Summary** sums nutrients with `sumNutrients()`. It says how many items have detailed data, and compares totals with US food-label reference daily values as a rough guide, not a personal requirement.
+
 ## 9. How streak calculations work (`domain/scoring.ts`, `domain/streaks.ts`)
 
 1. **Category progress** runs from 0 to 1 and a category is complete at 1:

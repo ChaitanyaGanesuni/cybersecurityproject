@@ -133,6 +133,10 @@ export interface FoodItem {
   protein?: number;
   carbs?: number;
   fat?: number;
+  /** Detailed nutrients (see domain/nutrients.ts); only present when known or AI-estimated. */
+  nutrients?: Partial<Record<import('./nutrients').NutrientKey, number>>;
+  /** True when the numbers are an AI estimate rather than label/known values. */
+  estimated?: boolean;
 }
 
 export interface Meal extends Rec {
@@ -143,6 +147,12 @@ export interface Meal extends Rec {
   /** Local-only data URL. Never synced. */
   photo?: string;
   at: number;
+  /** 'ai' when the items came from the AI estimator (and were reviewed by the user). */
+  source?: 'manual' | 'ai';
+  /** What the user typed for an AI-logged meal, e.g. "3 boiled eggs, 2 bread slices". */
+  input?: string;
+  /** Short title, e.g. "Boiled Eggs and Bread". */
+  title?: string;
 }
 
 export interface MealTemplate extends Rec {

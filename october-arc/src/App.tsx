@@ -16,6 +16,7 @@ import { Food } from './pages/Food';
 import { Calendar, DayDetail } from './pages/Calendar';
 import { Progress } from './pages/Progress';
 import { Body } from './pages/Body';
+import { Nutrition } from './pages/Nutrition';
 import { CheckIn } from './pages/CheckIn';
 import { Assistant } from './pages/Assistant';
 import { SettingsPage } from './pages/Settings';
@@ -190,6 +191,7 @@ function Shell() {
     case 'day': page = <DayDetail date={route.path[1]} />; break;
     case 'progress': page = <Progress />; break;
     case 'body': page = <Body />; break;
+    case 'nutrition': page = <Nutrition />; break;
     case 'checkin': page = <CheckIn />; break;
     case 'assistant': page = <Assistant />; break;
     case 'settings': page = <SettingsPage />; break;

@@ -33,6 +33,7 @@ Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 b
   * Meals with items and optional macros; unknown values stay unknown.
   * Photos, stored on the device only.
   * Quick-add meals, daily totals, food-quality flags.
+* **✨ AI food logging:** type "3 boiled eggs, 2 bread slices" or snap a photo in the "What did you eat or exercise?" box. Claude returns each item with calories, macros and about 30 detailed nutrients (vitamins, minerals, fiber, fats). You **review and edit the estimate before saving**, and estimated items stay marked ✨. Exercise ("40 min walk") becomes a workout to confirm. **Day Summary** (`#/nutrition`) shows macros against your targets, meals, and nutrients against reference daily values. This needs the server running with `ANTHROPIC_API_KEY` and a signed-in account. Manual logging never estimates anything.
 * **Calendar:** month view with Excellent / Partial / Missed / Protected days. Tap a day for its full record.
 * **Progress:** arc score with editable weights, per-category and per-habit streaks (current, longest, previous), weekly and arc stats, charts, sleep statistics. There is also a weight and body page.
 * **Check-in:** goals ✓/○, score, streak message, mood and a journal note, plus an auto-generated reflection.
