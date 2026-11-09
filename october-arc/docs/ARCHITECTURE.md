@@ -141,15 +141,22 @@ In the web build, the two native providers report "Not available" in Settings â†
 ### AI food logging
 
 * **Endpoint:** `POST /api/food/analyze` (`server/food.ts`). Requires sign-in, is rate-limited, and validates input: at most 1000 characters of text, and JPEG/PNG/WebP photos up to about 3 MB. The app downsizes photos to 720 px first.
-* **Request:** `claude-opus-5-5` at `effort: "low"` with `fallbacks: "default"`, using **structured outputs** (`betaZodOutputFormat` of `FoodAnalysisSchema`). The reply is always schema-valid JSON:
-  * `kind` (meal, exercise or unclear), a title and a meal type;
-  * per-item calories, protein, carbs and fat;
-  * the nutrient keys from `domain/nutrients.ts`, with null where a value is unknown;
-  * a confidence level and stated assumptions.
-* **Context sent:** the user's local time, and their latest logged body weight (only used for exercise calorie estimates). The system prompt is cached.
+* **Provider** (`server/ai-provider.ts`): Google Gemini (`GEMINI_API_KEY`, free tier, model `gemini-flash-latest` by default) or Claude (`ANTHROPIC_API_KEY`). Gemini wins when both keys are set, unless `OA_AI_PROVIDER` says otherwise. The cloud assistant uses the same provider.
+* **Step 1, AI parse:** the model returns JSON matching `FoodAnalysisSchema`.
+  * Gemini gets it as `responseJsonSchema` (`z.toJSONSchema`).
+  * Claude gets it through structured outputs (`betaZodOutputFormat`), at `effort: "low"` with `fallbacks: "default"`.
+  * Gemini's output is also validated with Zod before use (`parseModelJson`).
+  * Per item, the JSON holds: name, quantity, **grams**, a USDA-style **search term** (null for composite or regional dishes), the model's estimate of calories, macros and the `domain/nutrients.ts` keys, and a confidence level. The whole entry also carries `kind` (meal, exercise or unclear), a title, a meal type and the model's stated assumptions.
+* **Step 2, USDA grounding** (`server/usda.ts`, `groundWithUsda`): each search term is sent to FoodData Central's `foods/search`. Only the generic Foundation and SR Legacy data are searched, and results are cached.
+  * **Match check:** a result is accepted only if it names the same main food, so "Bread" never matches "Breadfruit".
+  * **Values:** USDA nutrient numbers are mapped to our keys, with units converted. Energy falls back to the Atwater values for Foundation foods, and omega-3 is summed from ALA, EPA, DPA and DHA.
+  * **Scaling:** values are scaled from per 100 g to the item's grams, and the item is labelled `source: "usda"` with its FDC id.
+  * **USDA-only:** a USDA item carries only USDA's own figures, never mixed with AI guesses.
+  * **Fallback:** if there's no match, the USDA key is missing, or the lookup fails, the AI estimate is kept and labelled `"estimate"`.
+* **Context sent:** the user's local time, and their latest logged body weight (only used for exercise calorie estimates).
 * **Never silently saved:**
-  * A meal opens the normal meal editor pre-filled, with an "AI estimate â€” check it before saving" banner.
-  * Saved items carry `estimated: true` and the meal keeps `source: 'ai'` plus the original text.
+  * A meal opens the normal meal editor pre-filled, with a banner saying how many items use USDA data.
+  * Saved items carry either `usda: {fdcId, description}` or `estimated: true`, and the meal keeps `source: 'ai'` plus the original text. Editing a USDA item's portion or numbers turns it into an estimate.
   * An exercise becomes a confirm card.
   * Photos are sent once for analysis and never stored on the server.
 * **Day Summary** sums nutrients with `sumNutrients()`. It says how many items have detailed data, and compares totals with US food-label reference daily values as a rough guide, not a personal requirement.

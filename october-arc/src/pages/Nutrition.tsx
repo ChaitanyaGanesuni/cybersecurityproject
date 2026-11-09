@@ -58,7 +58,7 @@ export function Nutrition() {
             <div key={m.id} className="list-item small">
               <div className="grow">
                 <b>{m.title ?? m.items.map((i) => i.name).join(', ')}</b>
-                <div className="tiny muted">{new Date(m.at).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}{m.items.some((i) => i.estimated) ? ' · ✨ estimate' : ''}</div>
+                <div className="tiny muted">{new Date(m.at).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}{m.items.some((i) => i.estimated) ? ' · ✨ includes estimates' : m.items.some((i) => i.usda) ? ' · 📗 USDA data' : ''}</div>
               </div>
               <span>{kcal ? `${fmtInt(kcal)} kcal` : '—'}</span>
             </div>
@@ -75,7 +75,7 @@ export function Nutrition() {
         ) : (
           <p className="tiny muted" style={{ marginTop: -4 }}>
             Based on {n.itemsWithDetail} of {n.items} food item{n.items === 1 ? '' : 's'}
-            {n.estimatedItems ? ', mostly AI estimates' : ''}. Percentages compare with general adult reference daily values used on food labels — a rough guide, not a personal requirement or medical advice.
+            {n.usdaItems || n.estimatedItems ? ` (${[n.usdaItems ? `${n.usdaItems} from USDA lab data` : '', n.estimatedItems ? `${n.estimatedItems} AI estimate${n.estimatedItems === 1 ? '' : 's'}` : ''].filter(Boolean).join(', ')})` : ''}. Percentages compare with general adult reference daily values used on food labels — a rough guide, not a personal requirement or medical advice.
           </p>
         )}
         {n.itemsWithDetail > 0 &&

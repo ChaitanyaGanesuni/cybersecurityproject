@@ -1,7 +1,10 @@
 // Cloud assistant: proxies a question plus the user's compact data summary to
-// Claude. The API key lives only on the server (ANTHROPIC_API_KEY).
+// the configured AI provider (Gemini or Claude; see ai-provider.ts). API keys
+// live only on the server.
 
 import Anthropic from '@anthropic-ai/sdk';
+import { ApiError as GeminiApiError } from '@google/genai';
+import { GEMINI_MODEL, aiProvider, geminiClient } from './ai-provider';
 
 const MODEL = process.env.OA_MODEL ?? 'claude-opus-5-5';
 
@@ -17,7 +20,7 @@ How to answer:
 - Streak rules for this user are in streak_rules: categories with policy "breaks" must be complete and the day score must reach min_day_score for the overall streak to continue.`;
 
 let client: Anthropic | null = null;
-export const assistantEnabled = () => !!process.env.ANTHROPIC_API_KEY;
+export const assistantEnabled = () => aiProvider() !== null;
 
 export interface ChatTurn {
   role: 'user' | 'assistant';
@@ -50,8 +53,37 @@ export function validateChat(body: unknown): { messages: ChatTurn[]; context: un
   return { messages, context: b.context ?? {} };
 }
 
+const dataBlock = (context: unknown) => `User data (JSON, today is ${new Date().toISOString().slice(0, 10)}):\n${JSON.stringify(context)}`;
+const EMPTY = "Sorry, I couldn't come up with an answer. Try rephrasing?";
+
 export async function ask(messages: ChatTurn[], context: unknown): Promise<string> {
-  if (!assistantEnabled()) throw new AssistantError(503, 'Cloud assistant is not configured on this server');
+  const provider = aiProvider();
+  if (!provider) throw new AssistantError(503, 'Cloud assistant is not configured on this server');
+  return provider === 'gemini' ? askGemini(messages, context) : askClaude(messages, context);
+}
+
+async function askGemini(messages: ChatTurn[], context: unknown): Promise<string> {
+  try {
+    const res = await geminiClient().models.generateContent({
+      model: GEMINI_MODEL,
+      contents: messages.map((m) => ({ role: m.role === 'assistant' ? 'model' : 'user', parts: [{ text: m.content }] })),
+      config: { systemInstruction: `${SYSTEM}\n\n${dataBlock(context)}` },
+    });
+    if (res.promptFeedback?.blockReason) {
+      return "I can't help with that one. For health concerns, please check with a qualified professional. I'm happy to help with your logged goals, streaks and routines.";
+    }
+    return res.text?.trim() || EMPTY;
+  } catch (e) {
+    if (e instanceof GeminiApiError) {
+      if (e.status === 429) throw new AssistantError(429, 'The free Gemini quota is used up for now — the on-device assistant still works');
+      if (e.status === 400 || e.status === 401 || e.status === 403) throw new AssistantError(503, `Gemini rejected the request (${e.status}) — check GEMINI_API_KEY and GEMINI_MODEL`);
+      throw new AssistantError(502, 'Gemini service error');
+    }
+    throw new AssistantError(502, 'Could not reach Gemini');
+  }
+}
+
+async function askClaude(messages: ChatTurn[], context: unknown): Promise<string> {
   client ??= new Anthropic();
   try {
     const res = await client.beta.messages.create({
@@ -62,7 +94,7 @@ export async function ask(messages: ChatTurn[], context: unknown): Promise<strin
       output_config: { effort: 'low' },
       system: [
         { type: 'text', text: SYSTEM, cache_control: { type: 'ephemeral' } },
-        { type: 'text', text: `User data (JSON, today is ${new Date().toISOString().slice(0, 10)}):\n${JSON.stringify(context)}` },
+        { type: 'text', text: dataBlock(context) },
       ],
       messages,
     });
@@ -70,7 +102,7 @@ export async function ask(messages: ChatTurn[], context: unknown): Promise<strin
       return "I can't help with that one. For health concerns, please check with a qualified professional. I'm happy to help with your logged goals, streaks and routines.";
     }
     const text = res.content.flatMap((b) => (b.type === 'text' ? [b.text] : [])).join('\n').trim();
-    return text || "Sorry, I couldn't come up with an answer. Try rephrasing?";
+    return text || EMPTY;
   } catch (e) {
     if (e instanceof Anthropic.RateLimitError) throw new AssistantError(429, 'Assistant is busy — try again in a moment');
     if (e instanceof Anthropic.AuthenticationError) throw new AssistantError(503, 'Assistant API key is invalid');

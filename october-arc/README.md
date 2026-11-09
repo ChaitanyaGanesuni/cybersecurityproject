@@ -13,12 +13,39 @@ npm run dev          # app on http://localhost:5173 (fully usable offline, no se
 npm test             # domain unit tests
 npm run build        # production PWA -> dist/
 
-# Optional server: accounts, encrypted sync, cloud assistant, and it serves dist/
+# Optional server: accounts, encrypted sync, AI features, and it serves dist/
 npm run build && npm run server            # http://localhost:8787
-ANTHROPIC_API_KEY=... npm run server       # enables the Claude-powered assistant
+
+# AI food logging + cloud assistant with free keys (see "Free AI setup" below):
+cp .env.example .env    # paste GEMINI_API_KEY and USDA_API_KEY into .env (git-ignored)
+npm run server
 ```
 
-Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 bytes), `OA_CORS_ORIGIN` (comma-separated; `https://localhost` for the Android app), `ANTHROPIC_API_KEY`, `OA_MODEL`. If `OA_DATA_KEY` is not set, the server generates a key file in the data dir. Back it up.
+Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 bytes), `OA_CORS_ORIGIN` (comma-separated; `https://localhost` for the Android app). If `OA_DATA_KEY` is not set, the server generates a key file in the data dir. Back it up.
+
+### Free AI setup (Gemini + USDA)
+
+| Variable | What it does | Where to get it (free) |
+|---|---|---|
+| `GEMINI_API_KEY` | Turns on AI food logging (text and photos) and the cloud assistant, using Google Gemini | aistudio.google.com → **Get API key** |
+| `USDA_API_KEY` | Swaps AI guesses for **USDA FoodData Central lab values** on standard foods (eggs, bread, rice, milk, fruit…) | fdc.nal.usda.gov/api-key-signup |
+| `GEMINI_MODEL` | Optional. Defaults to `gemini-flash-latest`; try `gemini-flash-lite-latest` if you hit the free daily limit | — |
+
+How a logged meal is worked out:
+
+1. Gemini splits your text or photo into foods with gram weights.
+2. Each standard food is looked up in USDA FoodData Central and scaled to its grams. The app labels it 📗 USDA data.
+3. Dishes USDA doesn't list keep Gemini's estimate, labelled ✨ AI estimate. Many Indian home dishes fall here.
+4. You review and edit before anything is saved.
+
+Things to know:
+
+* **Free-tier limits** are set per Google project and shown in AI Studio. They change, so check yours there.
+* **Data use:** some sources say Google may use free-tier inputs to improve its products. Check Google's current Gemini API terms if that matters to you.
+* **USDA's free key** allows 1,000 lookups an hour, and the server caches results.
+* Without `USDA_API_KEY`, everything still works, with AI estimates for every food.
+
+Prefer Claude? Set `ANTHROPIC_API_KEY` instead, optionally with `OA_MODEL`. If both keys are set, Gemini is used unless `OA_AI_PROVIDER=claude`.
 
 ## What's in the MVP
 
@@ -33,7 +60,7 @@ Server environment variables: `PORT`, `OA_DATA_DIR`, `OA_DATA_KEY` (base64, 32 b
   * Meals with items and optional macros; unknown values stay unknown.
   * Photos, stored on the device only.
   * Quick-add meals, daily totals, food-quality flags.
-* **✨ AI food logging:** type "3 boiled eggs, 2 bread slices" or snap a photo in the "What did you eat or exercise?" box. Claude returns each item with calories, macros and about 30 detailed nutrients (vitamins, minerals, fiber, fats). You **review and edit the estimate before saving**, and estimated items stay marked ✨. Exercise ("40 min walk") becomes a workout to confirm. **Day Summary** (`#/nutrition`) shows macros against your targets, meals, and nutrients against reference daily values. This needs the server running with `ANTHROPIC_API_KEY` and a signed-in account. Manual logging never estimates anything.
+* **✨ AI food logging:** type "3 boiled eggs, 2 bread slices" or snap a photo in the "What did you eat or exercise?" box. Gemini (or Claude) splits the entry into foods. Standard foods get **USDA lab values** (📗) and anything else an AI estimate (✨), each with calories, macros and about 30 detailed nutrients (vitamins, minerals, fiber, fats). You **review and edit before saving**. Exercise ("40 min walk") becomes a workout to confirm. **Day Summary** (`#/nutrition`) shows macros against your targets, meals, and nutrients against reference daily values. This needs the server running with `GEMINI_API_KEY` (free) or `ANTHROPIC_API_KEY`, and a signed-in account. Manual logging never estimates anything.
 * **Calendar:** month view with Excellent / Partial / Missed / Protected days. Tap a day for its full record.
 * **Progress:** arc score with editable weights, per-category and per-habit streaks (current, longest, previous), weekly and arc stats, charts, sleep statistics. There is also a weight and body page.
 * **Check-in:** goals ✓/○, score, streak message, mood and a journal note, plus an auto-generated reflection.

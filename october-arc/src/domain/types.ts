@@ -137,6 +137,8 @@ export interface FoodItem {
   nutrients?: Partial<Record<import('./nutrients').NutrientKey, number>>;
   /** True when the numbers are an AI estimate rather than label/known values. */
   estimated?: boolean;
+  /** USDA FoodData Central food the numbers came from, when not estimated. */
+  usda?: { fdcId: number; description: string };
 }
 
 export interface Meal extends Rec {

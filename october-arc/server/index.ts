@@ -7,8 +7,12 @@
 //   OA_DATA_KEY        base64 32-byte key for encryption at rest (else generated)
 //   OA_CORS_ORIGIN     comma-separated origins allowed to call the API, e.g. https://localhost
 //                      for the Android app (default: same-origin only)
-//   ANTHROPIC_API_KEY  enables the cloud assistant
+//   GEMINI_API_KEY     enables AI food logging + cloud assistant with Google Gemini (free tier)
+//   GEMINI_MODEL       Gemini model id (default gemini-flash-latest)
+//   USDA_API_KEY       grounds AI food logging in USDA FoodData Central lab values (free)
+//   ANTHROPIC_API_KEY  alternatively, use Claude for the AI features
 //   OA_MODEL           Claude model id (default claude-opus-5-5)
+//   OA_AI_PROVIDER     force "gemini" or "claude" when both keys are set
 
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http';
 import { existsSync, readFileSync, statSync } from 'node:fs';
@@ -17,6 +21,8 @@ import { fileURLToPath } from 'node:url';
 import { Store, SYNCED_TABLES, type Change } from './store';
 import { AssistantError, ask, assistantEnabled, validateChat } from './assistant';
 import { analyzeFood, validateFoodRequest } from './food';
+import { aiProvider } from './ai-provider';
+import { usdaEnabled } from './usda';
 
 const here = fileURLToPath(new URL('.', import.meta.url));
 const PORT = Number(process.env.PORT ?? 8787);
@@ -92,7 +98,7 @@ async function api(req: IncomingMessage, res: ServerResponse, path: string) {
   const ip = req.socket.remoteAddress ?? '?';
   const m = req.method ?? 'GET';
 
-  if (m === 'GET' && path === '/api/health') return send(res, 200, { ok: true, assistant: assistantEnabled() });
+  if (m === 'GET' && path === '/api/health') return send(res, 200, { ok: true, assistant: assistantEnabled(), ai: aiProvider(), usda: usdaEnabled() });
 
   if (m === 'POST' && (path === '/api/auth/register' || path === '/api/auth/login')) {
     const { email, password } = (await readJson(req, 10_000)) as { email?: string; password?: string };
@@ -201,5 +207,5 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`[october-arc] server on http://localhost:${PORT} (assistant ${assistantEnabled() ? 'enabled' : 'disabled'})`);
+  console.log(`[october-arc] server on http://localhost:${PORT} (AI: ${aiProvider() ?? 'off'}, USDA: ${usdaEnabled() ? 'on' : 'off'})`);
 });

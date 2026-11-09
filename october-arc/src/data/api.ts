@@ -68,5 +68,5 @@ export async function deleteAccount() {
 }
 
 export async function serverInfo(serverUrl: string) {
-  return api<{ ok: boolean; assistant: boolean }>('/api/health', undefined, { session: null, serverUrl });
+  return api<{ ok: boolean; assistant: boolean; ai?: 'gemini' | 'claude' | null; usda?: boolean }>('/api/health', undefined, { session: null, serverUrl });
 }

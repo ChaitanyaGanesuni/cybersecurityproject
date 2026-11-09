@@ -72,15 +72,18 @@ export interface NutrientTotals {
   itemsWithDetail: number;
   items: number;
   estimatedItems: number;
+  /** Items whose values come from USDA FoodData Central. */
+  usdaItems: number;
 }
 
 export function sumNutrients(meals: Meal[]): NutrientTotals {
   const values: Partial<Record<NutrientKey, number>> = {};
-  let items = 0, withDetail = 0, estimated = 0;
+  let items = 0, withDetail = 0, estimated = 0, usda = 0;
   for (const m of meals) {
     for (const it of m.items as FoodItem[]) {
       items++;
       if (it.estimated) estimated++;
+      if (it.usda) usda++;
       if (!it.nutrients) continue;
       withDetail++;
       for (const k of NUTRIENT_KEYS) {
@@ -89,7 +92,7 @@ export function sumNutrients(meals: Meal[]): NutrientTotals {
       }
     }
   }
-  return { values, itemsWithDetail: withDetail, items, estimatedItems: estimated };
+  return { values, itemsWithDetail: withDetail, items, estimatedItems: estimated, usdaItems: usda };
 }
 
 export function fmtNutrient(v: number, unit: string): string {

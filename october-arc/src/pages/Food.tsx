@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useApp } from '../data/store';
 import { deleteMeal, deleteTemplate, saveMeal, saveTemplate, saveWorkout, setFoodFlag } from '../data/repo';
-import { aiLoggingAvailable, analyzeEntry, toFoodItems, type FoodAnalysis } from '../data/ai';
+import { PROVIDER_NAMES, aiLoggingAvailable, aiServerInfo, analyzeEntry, toFoodItems, type FoodAnalysis } from '../data/ai';
 import { FOOD_FLAGS, MEAL_LABELS, WORKOUT_TYPES } from '../domain/defaults';
 import { dietProgress, emptyRawDay, aggregateDay } from '../domain/scoring';
 import { addDays, minutesOfDay, minutesToHM } from '../domain/dates';
@@ -17,9 +17,10 @@ function defaultMealType(): MealType {
 const blankItem = (): ItemDraft => ({ name: '', quantity: '', calories: '', protein: '', carbs: '', fat: '' });
 interface ItemDraft {
   name: string; quantity: string; calories: string; protein: string; carbs: string; fat: string;
-  // Carried through unchanged from an AI estimate (not edited in the form).
+  // Carried through unchanged from AI logging (not edited in the form).
   nutrients?: FoodItem['nutrients'];
   estimated?: boolean;
+  usda?: FoodItem['usda'];
 }
 
 const toItem = (d: ItemDraft): FoodItem => ({
@@ -31,12 +32,21 @@ const toItem = (d: ItemDraft): FoodItem => ({
   fat: num(d.fat),
   ...(d.nutrients ? { nutrients: d.nutrients } : {}),
   ...(d.estimated ? { estimated: true } : {}),
+  ...(d.usda ? { usda: d.usda } : {}),
 });
 const toDraft = (i: FoodItem): ItemDraft => ({
   name: i.name, quantity: i.quantity,
   calories: i.calories?.toString() ?? '', protein: i.protein?.toString() ?? '', carbs: i.carbs?.toString() ?? '', fat: i.fat?.toString() ?? '',
-  nutrients: i.nutrients, estimated: i.estimated,
+  nutrients: i.nutrients, estimated: i.estimated, usda: i.usda,
 });
+
+/** Where an item's numbers came from, for the small tag under it. */
+function sourceTag(i: { usda?: FoodItem['usda']; estimated?: boolean; nutrients?: FoodItem['nutrients'] }): string | null {
+  const detail = i.nutrients && Object.keys(i.nutrients).length ? ` · ${Object.keys(i.nutrients).length} detailed nutrients` : '';
+  if (i.usda) return `📗 USDA data: ${i.usda.description}${detail}`;
+  if (i.estimated) return `✨ AI estimate${detail}`;
+  return null;
+}
 
 /** A meal being edited, optionally pre-filled by the AI estimator. */
 type MealDraft = Partial<Meal> & { aiNote?: string };
@@ -154,7 +164,11 @@ export function Food() {
                   <div className="grow">
                     {meal.title && <div className="small"><b>{meal.title}</b></div>}
                     {meal.items.map((i, k) => <div key={k} className="small">{i.name}{i.quantity ? <span className="muted"> · {i.quantity}</span> : null}</div>)}
-                    {meal.items.some((i) => i.estimated) && <span className="tiny" style={{ color: 'var(--accent)' }}>✨ AI estimate</span>}
+                    {meal.items.some((i) => i.estimated || i.usda) && (
+                      <span className="tiny" style={{ color: 'var(--accent)' }}>
+                        {meal.items.every((i) => i.usda) ? '📗 USDA data' : meal.items.some((i) => i.usda) ? '📗 USDA data + ✨ estimates' : '✨ AI estimate'}
+                      </span>
+                    )}
                     <div className="tiny muted">{tot.cal ? `${fmtInt(tot.cal)} kcal` : 'kcal unknown'}{tot.p ? ` · ${Math.round(tot.p)} g protein` : ''}{meal.notes ? ` · ${meal.notes}` : ''}</div>
                   </div>
                   <span className="muted">›</span>
@@ -177,7 +191,14 @@ function MealEditor({ meal, onClose }: { meal: MealDraft; onClose: () => void })
   const [photo, setPhoto] = useState<string | undefined>(meal.photo);
   const [asTemplate, setAsTemplate] = useState(false);
   const [templateName, setTemplateName] = useState('');
-  const update = (i: number, p: Partial<ItemDraft>) => setItems(items.map((x, k) => (k === i ? { ...x, ...p } : x)));
+  // Editing the portion or numbers of a USDA item means they are no longer the
+  // USDA values for that portion: it becomes the user's own (estimated) entry.
+  const update = (i: number, p: Partial<ItemDraft>) =>
+    setItems(items.map((x, k) => {
+      if (k !== i) return x;
+      const touchesNumbers = ['quantity', 'calories', 'protein', 'carbs', 'fat'].some((f) => f in p);
+      return x.usda && touchesNumbers ? { ...x, ...p, usda: undefined, estimated: true } : { ...x, ...p };
+    }));
 
   async function save() {
     const clean = items.filter((i) => i.name.trim()).map(toItem);
@@ -195,7 +216,12 @@ function MealEditor({ meal, onClose }: { meal: MealDraft; onClose: () => void })
     <Sheet open onClose={onClose} title={meal.id ? 'Edit meal' : meal.aiNote != null ? `✨ ${meal.title ?? 'Review meal'}` : 'Add meal'}>
       {meal.aiNote != null && (
         <div className="card tight" style={{ boxShadow: 'none', marginBottom: 12, borderColor: 'var(--accent)' }}>
-          <div className="small"><b>AI estimate — check it before saving.</b> Adjust any portion or number that looks off.</div>
+          <div className="small">
+            <b>Check it before saving.</b> {(() => {
+              const u = items.filter((x) => x.usda).length;
+              return u === items.length ? 'Nutrition from USDA lab data for the portions shown.' : u ? `${u} of ${items.length} items use USDA lab data; the rest are AI estimates.` : 'These numbers are AI estimates.';
+            })()} Adjust any portion that looks off.
+          </div>
           {meal.aiNote && <div className="tiny muted" style={{ marginTop: 4 }}>Assumed: {meal.aiNote}</div>}
         </div>
       )}
@@ -216,11 +242,11 @@ function MealEditor({ meal, onClose }: { meal: MealDraft; onClose: () => void })
             <Field label="Carbs g"><input type="number" inputMode="decimal" placeholder="?" value={it.carbs} onChange={(e) => update(i, { carbs: e.target.value })} /></Field>
             <Field label="Fat g"><input type="number" inputMode="decimal" placeholder="?" value={it.fat} onChange={(e) => update(i, { fat: e.target.value })} /></Field>
           </div>
-          {it.estimated && <div className="tiny muted" style={{ marginTop: 6 }}>✨ Estimated{it.nutrients && Object.keys(it.nutrients).length ? ` · includes ${Object.keys(it.nutrients).length} detailed nutrients` : ''}</div>}
+          {sourceTag(it) && <div className="tiny muted" style={{ marginTop: 6 }}>{sourceTag(it)}</div>}
           {items.length > 1 && <button className="btn ghost sm" style={{ marginTop: 8 }} onClick={() => setItems(items.filter((_, k) => k !== i))}>Remove item</button>}
         </div>
       ))}
-      <p className="tiny muted">{meal.aiNote != null ? 'Detailed vitamins and minerals are kept as estimated for the original portions.' : "Leave nutrition blank if you don't know it — nothing is estimated for you unless you use AI logging."}</p>
+      <p className="tiny muted">{meal.aiNote != null ? 'Vitamins and minerals are calculated for the portions shown. If you change a portion, they stay as calculated for the original amount.' : "Leave nutrition blank if you don't know it — nothing is estimated for you unless you use AI logging."}</p>
       <button className="btn ghost block" onClick={() => setItems([...items, blankItem()])}>+ Another item</button>
       <div style={{ marginTop: 12 }}><Field label="Notes"><input type="text" value={notes} onChange={(e) => setNotes(e.target.value)} /></Field></div>
       <div className="row" style={{ marginTop: 12 }}>
@@ -276,6 +302,10 @@ function AiLogBox({ date, onMeal }: { date: string; onMeal: (m: MealDraft) => vo
   const [busy, setBusy] = useState(false);
   const [workout, setWorkout] = useState<FoodAnalysis | null>(null);
   const available = aiLoggingAvailable();
+  const [info, setInfo] = useState<Awaited<ReturnType<typeof aiServerInfo>>>(null);
+  useEffect(() => {
+    if (available) void aiServerInfo().then(setInfo);
+  }, [available]);
   const latestWeight = [...app.weights].reverse().find((w) => w.weightKg)?.weightKg;
 
   async function submit() {
@@ -304,7 +334,7 @@ function AiLogBox({ date, onMeal }: { date: string; onMeal: (m: MealDraft) => vo
     return (
       <div className="card section tight">
         <b className="small">✨ AI logging</b>
-        <div className="tiny muted">Type "3 boiled eggs, 2 bread slices" or snap a photo and get calories, macros and vitamins estimated. Needs your October Arc server with an AI key — sign in under <a href="#/settings/account" style={{ color: 'var(--accent)' }}>Settings → Sync</a>.</div>
+        <div className="tiny muted">Type "3 boiled eggs, 2 bread slices" or snap a photo and get calories, macros and vitamins filled in. Needs your October Arc server with a (free) Gemini key — sign in under <a href="#/settings/account" style={{ color: 'var(--accent)' }}>Settings → Sync</a>.</div>
       </div>
     );
   }
@@ -327,7 +357,10 @@ function AiLogBox({ date, onMeal }: { date: string; onMeal: (m: MealDraft) => vo
         </div>
       )}
       {busy && <div className="small" style={{ marginTop: 8 }}>⚡ Analysing…</div>}
-      <div className="tiny muted" style={{ marginTop: 6 }}>Estimates from AI — you review them before anything is saved. Photos are sent once for analysis and not stored on the server.</div>
+      <div className="tiny muted" style={{ marginTop: 6 }}>
+        {info?.ai ? `Analysed by ${PROVIDER_NAMES[info.ai]}` : 'Analysed by AI'}
+        {info?.usda ? '; standard foods use USDA lab data' : ''}. You review everything before it's saved. Your text and photo are sent for analysis only and not stored on the server.
+      </div>
       {workout?.exercise && (() => {
         const w = workout.exercise;
         const meta = WORKOUT_TYPES.find((x) => x.id === w.type) ?? WORKOUT_TYPES[WORKOUT_TYPES.length - 1];
