@@ -8,7 +8,7 @@
 //   OA_CORS_ORIGIN     comma-separated origins allowed to call the API, e.g. https://localhost
 //                      for the Android app (default: same-origin only)
 //   GEMINI_API_KEY     enables AI food logging + cloud assistant with Google Gemini (free tier)
-//   GEMINI_MODEL       Gemini model id (default gemini-flash-latest)
+//   GEMINI_MODEL       comma-separated Gemini models tried in order (default: see ai-provider.ts)
 //   USDA_API_KEY       grounds AI food logging in USDA FoodData Central lab values (free)
 //   ANTHROPIC_API_KEY  alternatively, use Claude for the AI features
 //   OA_MODEL           Claude model id (default claude-opus-5-5)

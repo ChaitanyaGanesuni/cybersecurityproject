@@ -1,7 +1,8 @@
 import { afterEach, describe, expect, it } from 'vitest';
 import { FoodAnalysisSchema, geminiSchema, groundWithUsda, parseModelJson, validateFoodRequest, type FoodAnalysis } from '../../server/food';
 import { isMatch, per100g, type UsdaFood } from '../../server/usda';
-import { aiProvider } from '../../server/ai-provider';
+import { aiProvider, geminiGenerate, tryNextModel } from '../../server/ai-provider';
+import { ApiError } from '@google/genai';
 import { toFoodItems, type FoodAnalysis as ClientAnalysis } from '../data/ai';
 import { NUTRIENT_KEYS, sumNutrients } from './nutrients';
 import type { Meal } from './types';
@@ -146,5 +147,33 @@ describe('AI food logging pipeline', () => {
     expect(() => validateFoodRequest({ image: { media: 'image/jpeg', data: 'not base64!' } })).toThrow();
     expect(validateFoodRequest({ text: ' 3 boiled eggs ', localTime: '08:15', weightKg: 72 })).toEqual({ text: '3 boiled eggs', image: null, localTime: '08:15', weightKg: 72 });
     expect(validateFoodRequest({ text: 'run', localTime: 'evil', weightKg: 9999 })).toMatchObject({ localTime: '', weightKg: null });
+  });
+});
+
+describe('Gemini model fallback', () => {
+  const ok = (text: string) => ({ text } as unknown as import('@google/genai').GenerateContentResponse);
+  const err = (status: number) => new ApiError({ message: `status ${status}`, status });
+
+  it('moves past busy, slow, out-of-quota and retired models, with low thinking on Gemini 3', async () => {
+    const seen: string[] = [];
+    const res = await geminiGenerate({ contents: 'hi' }, ['m-busy', 'm-504', 'm-quota', 'gemini-3.6-flash'], async (p) => {
+      seen.push(`${p.model}:${JSON.stringify(p.config?.thinkingConfig ?? null)}`);
+      if (p.model === 'm-busy') throw err(503);
+      if (p.model === 'm-504') throw err(504);
+      if (p.model === 'm-quota') throw err(429);
+      return ok('{}');
+    });
+    expect(res.modelUsed).toBe('gemini-3.6-flash');
+    expect(seen).toEqual(['m-busy:null', 'm-504:null', 'm-quota:null', 'gemini-3.6-flash:{"thinkingLevel":"LOW"}']);
+  });
+
+  it('stops immediately on a bad key or bad request, and reports the last error when all are busy', async () => {
+    let calls = 0;
+    await expect(geminiGenerate({ contents: 'hi' }, ['a', 'b'], async () => { calls++; throw err(403); })).rejects.toMatchObject({ status: 403 });
+    expect(calls).toBe(1);
+    await expect(geminiGenerate({ contents: 'hi' }, ['a', 'b'], async () => { throw err(503); })).rejects.toMatchObject({ status: 503 });
+    const timeout = Object.assign(new Error('The operation was aborted'), { name: 'AbortError' });
+    expect(tryNextModel(timeout)).toBe(true);
+    expect(tryNextModel(err(400))).toBe(false);
   });
 });

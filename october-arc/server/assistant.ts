@@ -4,7 +4,7 @@
 
 import Anthropic from '@anthropic-ai/sdk';
 import { ApiError as GeminiApiError } from '@google/genai';
-import { aiProvider, geminiGenerate } from './ai-provider';
+import { aiProvider, geminiGenerate, tryNextModel } from './ai-provider';
 
 const MODEL = process.env.OA_MODEL ?? 'claude-opus-5-5';
 
@@ -74,12 +74,14 @@ async function askGemini(messages: ChatTurn[], context: unknown): Promise<string
     return res.text?.trim() || EMPTY;
   } catch (e) {
     console.warn('[gemini] assistant failed:', (e as { status?: number }).status ?? '', String((e as Error).message).slice(0, 500));
+    const busy = new AssistantError(503, 'Gemini is busy right now — try again in a minute (the on-device assistant still works)');
     if (e instanceof GeminiApiError) {
-      if (e.status === 503 || e.status === 500) throw new AssistantError(503, 'Gemini is busy right now — try again in a minute (the on-device assistant still works)');
+      if ([500, 503, 504].includes(e.status)) throw busy;
       if (e.status === 429) throw new AssistantError(429, 'The free Gemini quota is used up for now — the on-device assistant still works');
       if (e.status === 400 || e.status === 401 || e.status === 403) throw new AssistantError(503, `Gemini rejected the request (${e.status}) — check GEMINI_API_KEY and GEMINI_MODEL`);
       throw new AssistantError(502, 'Gemini service error');
     }
+    if (tryNextModel(e)) throw busy; // timed out on every model
     throw new AssistantError(502, 'Could not reach Gemini');
   }
 }
